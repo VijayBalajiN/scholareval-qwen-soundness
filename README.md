@@ -64,9 +64,9 @@ the contribution rubrics and ScholarEval's contribution pipeline are not used.
 
 - **A review is only published if GROBID parsed at least 90% of the PDFs it downloaded.** A crashed parser leaves a thin review that
   looks like a success.
-- : the first attempt was invalid (the GROBID container was killed for lack of memory while parsing; 30 of 90 PDFs parsed, a
-  3,000-word review). It was briefly published (commit ), then removed; a re-run is pending.
-- : the first attempt failed (every Semantic Scholar search came back empty during a short outage and their code then divided by
+- `ai_8`: the first attempt was invalid (the GROBID container was killed for lack of memory while parsing; 30 of 90 PDFs parsed, a
+  3,000-word review). It was briefly published (commit `3d3b114`), then removed; a re-run is pending.
+- `ai_7`: the first attempt failed (every Semantic Scholar search came back empty during a short outage and their code then divided by
   zero); a re-run is pending.
 - Ideas that fail are re-run after the main pass finishes.
 
