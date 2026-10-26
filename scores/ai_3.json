@@ -1,0 +1,42 @@
+{
+ "idea": "ai_3",
+ "review_words": 11421,
+ "rubrics": [
+  {
+   "statement": "The metric defined as the ratio between the Frobenius norm of the current weight matrix and that of the initial one may not well capture the extent of change in the model, as applying weight regularization could significantly alter the weights yet the model's performance may change only marginally.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "Missing baselines including Lyle et al. 2024 which showed that L2 + Layer norm generally outperforms the majority of existing methods, and Lee et al. 2024 which showed superior generalization performance on these benchmarks.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "The claimed computational overhead cost of regularization methods like L2 is not significantly high unless higher-order computation is involved, and L2 is quite common even in large-scale models.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 1
+  },
+  {
+   "statement": "There are no experiments that consider the effect of the hyperparameter \u03b1 on the boundedness of the weight before and after scaling in the SWR method.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 3
+  },
+  {
+   "statement": "The set of competitor algorithms is limited, specifically missing well-cited re-initialization based methods like Continual Backprop (Dohare et al.) and ReDO (Sokar et al.) for plasticity loss evaluation, and regularization based methods like Elastic Weight Consolidation (Kirkpatrick et al.) for catastrophic forgetting evaluation.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 3
+  },
+  {
+   "statement": "To eventually establish that SWR mitigates catastrophic forgetting requires more evidence than a single experiment, and the limited experiments do not provide sufficient evidence that catastrophic forgetting is alleviated by SWR more efficiently than by other algorithms.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 3
+  }
+ ]
+}

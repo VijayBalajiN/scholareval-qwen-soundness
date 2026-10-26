@@ -1,0 +1,5 @@
+{"step": "extract_methods", "cost": 0, "input_tokens": 1096, "output_tokens": 7588}
+{"step": "make_queries", "cost": 0, "input_tokens": 11958, "output_tokens": 5781}
+{"step": "mr_synth_cond_pm", "cost": 0, "input_tokens": 359415, "output_tokens": 383082}
+{"step": "meta_review", "cost": 0, "input_tokens": 59195, "output_tokens": 120145}
+{"step": "tldr_soundness", "cost": 0, "input_tokens": 27653, "output_tokens": 7519}

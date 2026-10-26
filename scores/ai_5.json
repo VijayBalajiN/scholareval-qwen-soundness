@@ -1,0 +1,36 @@
+{
+ "idea": "ai_5",
+ "review_words": 12672,
+ "rubrics": [
+  {
+   "statement": "The method seems to rely heavily on the 'exact velocity' from (Ryzhakov et al., 2024); however, both the motivation and details of this need more development.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 3
+  },
+  {
+   "statement": "It is rather unclear what a prototype is, whether it is the point in Z one would converge to if there are no errors in ODE solver, or whether a prototype can be any point in Z that you happen to converge to.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "When prototypes are found in the source distribution, noise is first added to the position in the target distribution, but the motivation for this is hardly satisfactory despite almost a full page trying to argue why the added noise is necessary.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "It is unclear how tolerance and sigma interact and why sigma is needed - from the presented theory, sigma would not be needed, but without sigma, only very poor prototypes are learned.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "It is unclear how the single-step sampling actually works since the method still requires solving the ODE to find prototypes during training.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 4
+  }
+ ]
+}

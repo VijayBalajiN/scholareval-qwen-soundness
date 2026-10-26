@@ -1,0 +1,60 @@
+{
+ "idea": "ai_1",
+ "review_words": 6573,
+ "rubrics": [
+  {
+   "statement": "The choice of reward function feels underexplored as part of the experimental report.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "The nutritionist scenario is a bad choice because human subjects are presented with facts that are controversial in current public opinion (whether protein, restriction of carbohydrates or herbal teas boost energy), and human subjects' own beliefs would influence their perception of deceptiveness without prior information on their beliefs.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "Although the plan states that extending the single-step formulation to a sequential setting is straightforward, it is not clear how the current single-step communication POMDP model could be adapted to capture multi-step interactions, and the extension is not sufficiently demonstrated or explained.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "The plan overlooks the importance of the speaker's beliefs and intentions, such as whether the speaker believes their statement is false, which can lead to misclassifications like confusing incompetence with deception.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 1
+  },
+  {
+   "statement": "The plan's regret theory is purely consequentialist, focusing solely on the outcome or utility without considering the speaker's intent, which is crucial in legal and ethical definitions of deception.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "The experiments involving large language models don't explore the diversity of deceptive capabilities these models might show, such as strategic deception under specific conditions like when pressured.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "The Communication POMDP framework is overly complicated and poorly motivated, with no clear justification for why this is the correct framework to use.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "The regret notion seems quite simple, which does not justify the complexity in the proposed Communication POMDP framework.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "The definition has an important weakness where if a Speaker tries to deceive a Listener but the Listener does not trust the Speaker and is not influenced by its actions, the approach would classify the Speaker as not deceitful even though it is.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  }
+ ]
+}

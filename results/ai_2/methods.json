@@ -1,0 +1,17 @@
+{
+    "clean_methods": [
+        "Context: To create a complete ground-truth molecular testbed for recall evaluation. Method: 'We will develop a benchmark using the GDB-13 database, a complete set of small organic molecules with specific characteristics.'",
+        "Context: To stratify evaluation difficulty and provide known-complete test sets. Method: 'We will define four molecular subsets of varying complexity based on chemical similarity and synthetic accessibility criteria.'",
+        "Context: To make molecular equivalence classes computable and train generative models. Method: 'Our approach involves training language models on subsets of these molecular sets and representing molecules using SELFIES strings, which provide well-defined equivalence classes that can be computed algorithmically.'",
+        "Context: To instantiate the generative model experiments. Method: 'We will use the OPT 1.3B architecture as our base model, with pretraining on a large subset of GDB-13 molecules (excluding our test sets) followed by fine-tuning on the specific molecular subsets.'",
+        "Context: To predict recall without exhaustive generation. Method: 'We will develop a theoretical framework for predicting recall without generation by computing the probability that a model will generate molecules from a validation set in G attempts.'",
+        "Context: To establish baseline difficulty rankings. Method: 'We will train models on four molecular subsets (Sasp, Ssas, Sd>p, Sd=p) with varying complexity levels and evaluate their recall to establish baseline difficulty rankings.'",
+        "Context: To validate the recall prediction framework. Method: 'We will test our theoretical prediction framework by computing expected precision and recall using validation set probabilities, then compare predicted values against actual generation results across different sampling methods and temperatures.'",
+        "Context: To compare against simple and idealized baselines. Method: 'We will compare performance against unigram models and theoretical upper bounds.'",
+        "Context: To improve recall through decoding. Method: 'We will investigate how different sampling strategies affect recall, including temperature sampling and a novel beam search approach that maximizes recall by avoiding duplicates.'",
+        "Context: To improve recall through training objectives. Method: 'We will design experiments with modified loss functions during fine-tuning, using batches containing multiple SELFIES representations of the same molecules and testing three aggregation functions (mean, minimum, maximum) to determine if forcing models to focus on single representations improves recall.'",
+        "Context: To isolate factors affecting recall. Method: 'We will conduct ablation studies examining: (1) the impact of pretraining by comparing pretrained versus randomly initialized models, (2) molecular representation effects by comparing SELFIES versus SMILES, and (3) canonical versus randomized representation strategies during pretraining and fine-tuning phases.'",
+        "Context: To assess generation scale and evaluation coverage. Method: 'All experiments will generate between 1-10 million molecules using random sampling as the baseline, with systematic evaluation of precision and recall metrics.'",
+        "Context: To assess model capacity effects. Method: 'We will use models of different sizes (800K, 125M, 1.3B parameters) to investigate the relationship between model capacity and recall performance.'"
+    ]
+}

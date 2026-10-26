@@ -1,0 +1,54 @@
+{
+ "idea": "ai_2",
+ "review_words": 4625,
+ "rubrics": [
+  {
+   "statement": "It is unclear why beam search is used in the recall-oriented generation approach since there are many other search method options available.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "The recall prediction method has similarities with perplexity measures in language modeling, but the authors do not clarify how the proposed metric differs from perplexity-based measures.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "The choice of SELFIES as the main representation form is questionable, since SMILES might yield better results.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 1
+  },
+  {
+   "statement": "The experiments are limited to only the OPT-1.3B model, making the evaluation results and methods for enhancing recall potentially not generalizable.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "Using probability to estimate recall does not align with the standard definition of recall.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "The proposal of the sampling strategy and recall-oriented loss function are crucial for novelty but are not fully developed and lack sufficient explanation, particularly regarding the extreme approach of changing aggregation to min or max.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 4
+  },
+  {
+   "statement": "The motivation for using beam search in recall-oriented generation and the intuition behind why increasing beam size leads to improved recall need more thorough explanation.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "Most planned experiments would be validated using a single model and dataset, making it difficult to consider the proposed benchmark method and approaches to improve recall as thoroughly validated.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  }
+ ]
+}
