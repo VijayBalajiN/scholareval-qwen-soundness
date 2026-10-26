@@ -1,0 +1,15 @@
+{
+    "clean_methods": [
+        "To determine the optimal configuration for modified max coverage sampling, we will use binary search to find the optimal similarity threshold that achieves a desired coverage level.",
+        "To select representative synthetic samples, we will implement a greedy max-coverage approximation algorithm that selects k \"representative\" samples by pruning edges through our binary search procedure.",
+        "To represent synthetic data relationships, we will embed synthetic text data into a latent space using pre-trained embeddings and construct a similarity graph where nodes represent data points and edges are weighted by pairwise cosine similarity.",
+        "To improve sampling efficiency and diversity, we will impose two constraints to enhance efficiency and diversification: (1) a maximum nearest neighbors constraint to limit node outdegree and promote diversity, and (2) a minimum similarity threshold constraint (0.707 cosine similarity) to ensure meaningful representativeness.",
+        "To create balanced synthetic training data, we will utilize GPT-3.5 to generate synthetic training corpora for multiple downstream tasks, adopting prompt designs from prior work. We will ensure balanced generation with equal numbers of data points for each label in the classification task's label space.",
+        "To evaluate downstream performance, we will conduct experiments on two main tasks: 1. Sentiment Analysis: Using synthetic data mimicking the Stanford Sentiment Treebank v2 (SST2) dataset with 6,000 balanced positive/negative movie reviews 2. Relation Extraction: Using synthetic data for the FewRel dataset with 12,800 samples across 64 relation types (200 samples per relation).",
+        "To compare sampling strategies, we will compare ACS against three baselines: - Random sampling - k-Means clustering-based sampling - Full synthetic dataset training - Human-labeled data training (as upper bound).",
+        "To train classifiers, we will fine-tune BERT-base models on selected subsets using consistent hyperparameters: 3 epochs, batch size 16, learning rate 2\u00d710^-5, dropout rate 0.1. Each experiment will be repeated 25 times (N=5 random seeds) to ensure robust evaluation.",
+        "To identify optimal coverage levels, we will systematically vary target coverage parameters from 0.0 to 1.0 to identify optimal coverage levels, hypothesizing that coverage below 1.0 will yield superior performance by excluding noisy or less informative samples.",
+        "To assess performance, we will assess performance using accuracy and F1-scores for sentiment analysis, and precision, recall, and F1-scores for relation extraction, all measured on human-labeled test sets.",
+        "To validate the monotonicity assumption, we will conduct additional experiments on MNIST dataset to validate the monotonicity assumption underlying our binary search algorithm and demonstrate cross-modal applicability of our approach."
+    ]
+}
