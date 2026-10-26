@@ -63,12 +63,12 @@ ai_10,2,weakness,major,"The human baseline using computer science graduate stude
 ai_10,3,weakness,minor,"Some metrics for the Scientific Figure Captioning task are missing, such as BLEU, CIDEr, SPICE which are often used in figure captioning evaluations, and ROUGE alone is primarily a recall-based metric that is not sufficient for captioning evaluation.",3,2,2,2,2
 ai_10,4,weakness,major,"The MMSCICAP Scientific Figure Captioning task seems flawed by providing only the abstract rather than figure-specific sentences or the entire relevant section, which may undermine the task's grounding since abstracts alone should suffice only for captioning teaser figures.",2,2,2,1,1
 ai_10,5,weakness,minor,"Given the depth of scientific tasks in this graduate-level multimodal scientific understanding dataset, testing models like GPT-o1 or LMMs with enhanced reasoning abilities could yield crucial insights for LMM development.",2,2,2,1,2
-ai_11,0,weakness,major,"The experimental results are limited to 21 competitive programming problems, raising concerns about generalizability.",,5,5,2,2
-ai_11,1,weakness,major,"The comparison between CodeLLama (based on LLama2) and LLama3(.1) for SFT vs. PT may be problematic, as the use of distinct model versions could affect the observed diversity differences.",,5,3,5,1
-ai_11,2,weakness,minor,"CodeBERTScore is outdated for neural diversity evaluation, and more current options include UniXCoder or CodeExecutor should be considered.",,2,2,1,1
-ai_11,3,weakness,major,"There is no evaluation of correctness metrics, and representative benchmarks like HumanEval and BigCodeBench should be included.",,2,2,2,2
-ai_11,4,weakness,minor,"The open models included in the evaluation are not diverse enough, and other Code LLMs such as StarCoder2 and CodeQwen should be used.",,2,2,2,1
-ai_11,5,weakness,minor,The experiments are Python-only and evaluations should be conducted on more programming languages.,,1,1,1,1
+ai_11,0,weakness,major,"The experimental results are limited to 21 competitive programming problems, raising concerns about generalizability.",4,5,5,2,2
+ai_11,1,weakness,major,"The comparison between CodeLLama (based on LLama2) and LLama3(.1) for SFT vs. PT may be problematic, as the use of distinct model versions could affect the observed diversity differences.",3,5,3,5,1
+ai_11,2,weakness,minor,"CodeBERTScore is outdated for neural diversity evaluation, and more current options include UniXCoder or CodeExecutor should be considered.",2,2,2,1,1
+ai_11,3,weakness,major,"There is no evaluation of correctness metrics, and representative benchmarks like HumanEval and BigCodeBench should be included.",3,2,2,2,2
+ai_11,4,weakness,minor,"The open models included in the evaluation are not diverse enough, and other Code LLMs such as StarCoder2 and CodeQwen should be used.",2,2,2,2,1
+ai_11,5,weakness,minor,The experiments are Python-only and evaluations should be conducted on more programming languages.,2,1,1,1,1
 ai_12,0,strength,minor,"The choice of a real-time strategy game is particularly good, given the response latency of these systems.",,3,3,2,2
 ai_12,1,weakness,major,"The research plan lacks clear specification of the input-output system for the benchmark, including whether the LLM receives images or text as input, how the input is defined, time constraints for reasoning, and timeout handling.",,5,5,4,2
 ai_12,2,weakness,major,"The research plan would benefit from a deeper discussion of why LLMs are suitable for StarCraft II, including what unique capabilities LLMs bring compared to traditional RL approaches and how the decision-making process differs.",,2,2,1,1
