@@ -1,0 +1,18 @@
+{
+ "idea": "ai_9",
+ "review_words": 17588,
+ "rubrics": [
+  {
+   "statement": "As the authors have discussed, the sampled set of problems from the International Linguistic Olympiad is possibly biased towards phonographic languages, where the logographic languages, for which transliteration does lose some information, are not well represented.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "While IOL problems can indeed be called requiring 'linguistic reasoning' skills, these skills are essentially a form, or a combination of inductive, deductive, and abductive reasoning skills, and it would be interesting to ground each of the problems to the required skills and perform a more in-depth analysis.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  }
+ ]
+}
