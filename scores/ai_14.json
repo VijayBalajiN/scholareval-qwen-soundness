@@ -1,0 +1,36 @@
+{
+ "idea": "ai_14",
+ "review_words": 10414,
+ "rubrics": [
+  {
+   "statement": "The comparison with state-of-the-art membership inference attacks (MIA) and variants is not discussed in the research plan, which could help evaluate the potency of this method.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 5
+  },
+  {
+   "statement": "The research plan lacks sufficient information on the threat model for the membership inference attacks (MIA) and how they relate to the context of adversarial examples.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 3
+  },
+  {
+   "statement": "The research plan's use of membership inference accuracy as a privacy metric is inadequate, as a more suitable metric would be the true positive rate (TPR) at a low false positive rate (FPR), which would allow an adversary to determine training set membership with higher confidence.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "The lack of distinction between counterfactual explanations and adversarial examples is problematic, as existing literature demonstrates they can be equivalent and highlights the privacy risks that counterfactual explanations themselves can pose.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "Key details are missing regarding the generation of counterfactual explanations, with the lack of specifics regarding the generation process and unclear formalization making the methodology difficult to follow and replicate.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 3
+  }
+ ]
+}
