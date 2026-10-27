@@ -1,0 +1,48 @@
+{
+ "idea": "ai_25",
+ "review_words": 9117,
+ "rubrics": [
+  {
+   "statement": "The experimental evaluation should include a broader range of generative tasks if the research plan aims to explore whether BERT-style models can achieve generative capabilities comparable to those of autoregressive models.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "The path selection techniques introduce additional complexity, particularly in tuning hyperparameters for path selection, which could hinder the practical application and usability of these methods.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 3
+  },
+  {
+   "statement": "The experimental models are relatively small in scale (124M and 352M parameters), and larger models might provide a stronger case for BERT's use in generation tasks.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 3
+  },
+  {
+   "statement": "The proposed path selection method cannot guarantee to find the optimal decoding path despite claims of identifying optimal paths, as it is a form of beam search over the mask-predict algorithm and beam search cannot guarantee optimal solutions.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "The claim that path selection* incorporates path selection into the training process is misleading, as neither the sampling methods to generate pairs nor the computation of probability actually considers the path selection method.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "The research plan lacks details on path selection, especially about how to choose the position to predict if beam size > 2.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "The research plan does not address potential issues with Mask-Predict methods, such as potential mode collapse with many iterations, and needs more ablation studies about the designs and clear pseudo-codes.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 3
+  }
+ ]
+}
