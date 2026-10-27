@@ -1,0 +1,24 @@
+{
+ "idea": "ai_26",
+ "review_words": 24114,
+ "rubrics": [
+  {
+   "statement": "The comparison between the discrete eviction method and chunk-based method in the research plan may be true from a human behavior perspective, as some useful information may have been corrupted. However, in LLMs, the information of the corrupted tokens may still be retained in some other preserved tokens due to the attention mechanism, and the internal information of different tokens in LLMs is difficult to explain, making the explanation of the motivation seem somewhat arbitrary.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "The research plan lacks detailed attention score or L1 loss analysis between full cache and compressed cache of the proposed ChunkKV method compared to existing discrete methods, which should be explored to validate the approach.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 3
+  },
+  {
+   "statement": "The ChunkKV methodology introduces a significant inductive bias through its dependency on chunk size, making the model's performance highly sensitive to chunk size which varies across tasks, limiting its general applicability in open-ended evaluations where optimal chunk size determination becomes unfeasible.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 3
+  }
+ ]
+}
