@@ -1,0 +1,42 @@
+{
+ "idea": "ai_18",
+ "review_words": 26970,
+ "rubrics": [
+  {
+   "statement": "No experiments are conducted to quantify the sim-to-real benefits derived from using a real-world city layout based on Beijing's commercial district, leaving the practical advantages of this choice unclear.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 3
+  },
+  {
+   "statement": "Metrics like BLEU and ROUGE, which primarily measure text quality, may not fully capture the performance of embodied AI tasks, raising questions about the suitability of these metrics for this benchmark.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 5
+  },
+  {
+   "statement": "There appears to be no strong connection between the proposed tasks and the roles of pedestrians and vehicles, which raises questions about their necessity in the framework.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "The authors have not conducted experiments to explore the impact of different embodiments on task performance, which could provide valuable insights into the effectiveness of various embodiment strategies.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "Evaluating Embodied QA, Embodied Dialogue, and Embodied Task Planning with captioning and translation metrics like BLEU and CIDEr seems like a poor choice for measuring task success.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 5
+  },
+  {
+   "statement": "The research plan lacks clarity on how much navigation, if any, is required for the Embodied QA, Embodied Dialogue, and Embodied Task Planning tasks.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  }
+ ]
+}

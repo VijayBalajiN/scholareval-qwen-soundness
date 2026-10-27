@@ -4,31 +4,31 @@ This repo holds the outputs of running **ScholarEval's own soundness pipeline** 
 [code](https://github.com/skai-research/ScholarEval), MIT) with `qwen/qwen3.8-27b` through OpenRouter on the 40 AI ideas of
 **ScholarIdeas**, and scoring each review against the experts' soundness rubrics. The same rubrics and the same judge also score
 four systems of our own (a plain LLM reviewer and six "thought experiment" agents, each in two prompt setups), so the numbers are
-comparable. It is a **work in progress**: results are added here as each idea finishes (14 of 40 reviews done,
-14 scored).
+comparable. It is a **work in progress**: results are added here as each idea finishes (15 of 40 reviews done,
+15 scored).
 
 Not affiliated with the ScholarEval authors. Their pipeline, data and metric are theirs; see the licenses below.
 
 ## Results so far
 
-Ideas scored so far: **14** of 40 (92 soundness rubrics). Every system is compared on exactly these rubrics.
+Ideas scored so far: **15** of 40 (98 soundness rubrics). Every system is compared on exactly these rubrics.
 
 | System | Mean score (1-5) | Covered (score 4-5) | Score 1 |
 |---|---|---|---|
-| ScholarEval pipeline (theirs) | **2.49** | 13 / 92 | 8 / 92 |
-| plain reviewer, 2 briefs | **3.05** | 35 / 92 | 9 / 92 |
-| plain reviewer, 1 brief | **2.74** | 26 / 92 | 10 / 92 |
-| six agents, 2 briefs | **2.41** | 20 / 92 | 25 / 92 |
-| six agents, 1 brief | **2.13** | 15 / 92 | 34 / 92 |
+| ScholarEval pipeline (theirs) | **2.53** | 15 / 98 | 8 / 98 |
+| plain reviewer, 2 briefs | **3.08** | 38 / 98 | 9 / 98 |
+| plain reviewer, 1 brief | **2.78** | 29 / 98 | 10 / 98 |
+| six agents, 2 briefs | **2.46** | 23 / 98 | 26 / 98 |
+| six agents, 1 brief | **2.16** | 17 / 98 | 35 / 98 |
 
 Rubric by rubric, against ScholarEval's own pipeline (higher / lower / equal score):
 
 | System | Higher | Lower | Equal |
 |---|---|---|---|
-| plain reviewer, 2 briefs | 40 | 17 | 35 |
-| plain reviewer, 1 brief | 32 | 25 | 35 |
-| six agents, 2 briefs | 23 | 40 | 29 |
-| six agents, 1 brief | 21 | 47 | 24 |
+| plain reviewer, 2 briefs | 42 | 18 | 38 |
+| plain reviewer, 1 brief | 34 | 27 | 37 |
+| six agents, 2 briefs | 24 | 42 | 32 |
+| six agents, 1 brief | 23 | 50 | 25 |
 
 Mean score per idea:
 
@@ -48,6 +48,7 @@ Mean score per idea:
 | ai_14 | 5 | 3.00 | 3.80 | 3.60 | 1.80 | 1.60 |
 | ai_15 | 11 | 2.45 | 2.91 | 3.00 | 2.36 | 2.18 |
 | ai_16 | 4 | 2.00 | 3.25 | 2.75 | 2.25 | 3.00 |
+| ai_18 | 6 | 3.17 | 3.50 | 3.33 | 3.17 | 2.67 |
 
 
 **How to read the scores.** For each expert rubric statement (e.g. "the choice of X is unclear") a judge model reads the whole review
