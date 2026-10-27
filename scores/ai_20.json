@@ -1,0 +1,30 @@
+{
+ "idea": "ai_20",
+ "review_words": 11737,
+ "rubrics": [
+  {
+   "statement": "The utility function definition in the method section, where reward is scaled by the priority parameter, lacks a practical example to clarify this definition.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "The real challenge posed by stochastic capacity in the proposed model is unclear, as it is difficult to assess whether the stochastic realization actually makes the problem more challenging due to randomness or possibly easier given known observations.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "The bipartite graph formulation approach depends on locating the maximum weight matching, but the research plan lacks theoretical guarantee supporting the claim that this approach is theoretically optimal.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 3
+  },
+  {
+   "statement": "The planned experiments are overly simplistic and do not thoroughly describe how the baseline algorithms OnlinActPrf and OnlinActPrf-v will be adapted to make a fair comparison with the novel MSB-PRS approach.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 4
+  }
+ ]
+}
