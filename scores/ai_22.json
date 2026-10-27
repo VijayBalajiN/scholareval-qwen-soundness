@@ -1,0 +1,42 @@
+{
+ "idea": "ai_22",
+ "review_words": 14682,
+ "rubrics": [
+  {
+   "statement": "The construction part of the dataset requires manual labor, which is quite labor-intensive and could potentially be automated using LLM.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "The proposed SymPro-LM can work with different instances from the same first order combinatorial optimization problem without the need to re-evaluate using LLMs.",
+   "type": "strength",
+   "severity": "major",
+   "score": 4
+  },
+  {
+   "statement": "The experimentations proposed do not provide enough insight to LLM reasoning abilities, as the task becomes translating pseudo code to python rather than requiring the same level of reasoning as solving the problems.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "The research plan does not evaluate enough existing models for the new proposed benchmark dataset, as state-of-the-art GPT-4o and GPT-o1 are not included in the evaluation.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "The name 'first order' is confusing and it is not clear what the difference is between first-order problems and second-order ones, requiring more detailed definition.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 1
+  },
+  {
+   "statement": "The criteria for including specific problems in FCoReBench are not well-defined, and the rationale for problem selection needs clarification.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+
+=== Starting Soundness Pipeline ===
+
+1. Extracting methods from research plan...
+Running: python -m ScholarEval.soundness.extract_methods --input_file <project>/ScholarEval-results/ai_22/soundness/research_plan.txt --output_file <project>/ScholarEval-results/ai_22/soundness/methods.json --llm_engine_name qwen/qwen3.8-27b --cost_log_file <project>/ScholarEval-results/ai_22/soundness/soundness_costs.jsonl
+Command completed successfully
+
+2. Generating search queries...
+Running: python -m ScholarEval.soundness.make_queries --research_plan <project>/ScholarEval-results/ai_22/soundness/research_plan.txt --methods_file <project>/ScholarEval-results/ai_22/soundness/methods.json --output_file <project>/ScholarEval-results/ai_22/soundness/queries.json --llm_engine_name qwen/qwen3.8-27b --cost_log_file <project>/ScholarEval-results/ai_22/soundness/soundness_costs.jsonl
+Command completed successfully
+
+3. Searching for relevant literature...
+Running: python -m ScholarEval.soundness.snippet_search --queries_file <project>/ScholarEval-results/ai_22/soundness/queries.json --methods_file <project>/ScholarEval-results/ai_22/soundness/methods.json --output_file <project>/ScholarEval-results/ai_22/soundness/snippet --pdf_dir <project>/ScholarEval-results/ai_22/soundness/pdfs --progress_file <project>/ScholarEval-results/ai_22/soundness/snippet_progress.json --cutoff_date 2024-09-24
+Command completed successfully
+
+4. Analyzing existing methods in literature...
+Running: python -m ScholarEval.soundness.methods_and_results_synthesis --research_plan <project>/ScholarEval-results/ai_22/soundness/research_plan.txt --methods_and_ref_file <project>/ScholarEval-results/ai_22/soundness/snippet_references.json --ref_and_paper_file <project>/ScholarEval-results/ai_22/soundness/snippet_papers.json --output_file <project>/ScholarEval-results/ai_22/soundness/methods_analysis.json --llm_engine_name qwen/qwen3.8-27b --cost_log_file <project>/ScholarEval-results/ai_22/soundness/soundness_costs.jsonl
+Command completed successfully
+
+5. Synthesizing soundness review...
+Running: python -m ScholarEval.soundness.meta_review --research_plan <project>/ScholarEval-results/ai_22/soundness/research_plan.txt --mr_analysis_file <project>/ScholarEval-results/ai_22/soundness/methods_analysis.json --methods_and_ref_file <project>/ScholarEval-results/ai_22/soundness/snippet_references.json --output_file <project>/ScholarEval-results/ai_22/soundness/meta_review.json --markdown_output <project>/ScholarEval-results/ai_22/soundness/meta_review.md --llm_engine_name qwen/qwen3.8-27b --cost_log_file <project>/ScholarEval-results/ai_22/soundness/soundness_costs.jsonl
+Command completed successfully
+
+6. Generating TL;DR summary...
+Running: python -m ScholarEval.soundness.tldr_soundness --input_file <project>/ScholarEval-results/ai_22/soundness/research_plan.txt --meta_review_file <project>/ScholarEval-results/ai_22/soundness/meta_review.json --llm_engine_name qwen/qwen3.8-27b --output_file <project>/ScholarEval-results/ai_22/soundness/tldr_soundness.txt --markdown_file <project>/ScholarEval-results/ai_22/soundness/tldr_soundness.md --cost_log_file <project>/ScholarEval-results/ai_22/soundness/soundness_costs.jsonl
+Command completed successfully
+
+=== Soundness Pipeline Completed ===
