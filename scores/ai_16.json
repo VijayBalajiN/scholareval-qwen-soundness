@@ -1,0 +1,30 @@
+{
+ "idea": "ai_16",
+ "review_words": 15937,
+ "rubrics": [
+  {
+   "statement": "The multi-agent setting is defined using the MDP framework (i.e., single-agent setting), but using a joint action space, which raises questions about whether the MARL setting is approached using a centralised learning paradigm and whether a Dec-POMDP framework would be more appropriate given the motivation for learning enriched states using information exchange signals a partially observable setting.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "Lane level information is detailed information that is not always available, raising questions about whether this is a reasonable assumption in TSC settings.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 3
+  },
+  {
+   "statement": "It is not clear how exactly the communication is defined as a sequence modeling problem and how the transformer encodes topology information into the state.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "In a real traffic flow situation, the state of the entire system is not affected by the action alone, but also by various other external factors, and it is unclear how collision and accidents are handled or whether there are negative rewards for this.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 1
+  }
+ ]
+}
