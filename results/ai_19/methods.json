@@ -1,0 +1,21 @@
+{
+    "clean_methods": [
+        "To improve interpretability of transformer-based text classification, the plan proposes: 'Contrast-CAT, a novel activation contrast-based attribution method that improves upon existing activation-based approaches by filtering out class-irrelevant features through an activation contrasting framework.'",
+        "To approximate class-relevant activation contributions, the plan states that the approach: 'builds on the first-order Taylor expansion approximation where we contrast target activations with reference activations from sequences that produce low confidence scores for the target class.'",
+        "To filter class-irrelevant features, the plan uses: 'constructing contrastive references by selecting activation sequences from inputs where the model's confidence for the target class falls below a predefined threshold \u03b3.'",
+        "To generate token-level attribution maps, the plan uses: 'computing attribution maps using the difference between target and reference activations combined with gradient information and attention scores.'",
+        "To incorporate depth-specific signals, the plan uses: 'aggregating information across multiple transformer layers to capture layer-specific semantic meanings.'",
+        "To broaden class coverage in the contrastive signal, the plan uses: 'extend this to use multiple reference activations from various classes.'",
+        "To improve attribution quality, the plan uses: 'employ a refinement process that selectively filters attribution maps based on quality assessment using token-wise deletion tests.'",
+        "To test the proposed method on standard text classification tasks, the plan will: 'conduct comprehensive experiments using pre-trained BERT base models on four popular text classification datasets: Amazon Polarity, Yelp Polarity, SST2, and IMDB.'",
+        "To compare against existing attribution approaches, the plan will: 'evaluate our method against various baseline attribution methods categorized into attention-based (RawAtt, Rollout, Att-grads, Att\u00d7Att-grads, Grad-SAM), LRP-based (Full LRP, Partial LRP, TransAtt), and activation-based methods (CAT, AttCAT, TIS).'",
+        "To measure faithfulness of attributions, the plan will: 'use faithfulness metrics including Area Over the Perturbation Curve (AOPC) and log-odds (LOdds) under both Most Relevant First (MoRF) and Least Relevant First (LeRF) settings.'",
+        "To assess attribution quality, the plan will: 'assess attribution quality by measuring how model predictions change when tokens are removed based on their attribution scores.'",
+        "To ensure class-distinct attributions, the plan will: 'conduct confidence evaluation using Kendall-\u03c4 rank correlation to ensure our method generates class-distinct attributions.'",
+        "To isolate the contribution of activation contrasting, the plan will: 'analyze the effect of our activation contrasting approach by comparing with random references and same-class references.'",
+        "To determine the role of depth, the plan will: 'analyze the impact of using multiple layers versus single layers.'",
+        "To determine the role of reference count, the plan will: 'analyze the effect of varying the number of reference activations.'",
+        "To provide qualitative evidence, the plan will: 'qualitative evaluation through visualization of attribution maps.'",
+        "To validate generalizability, the plan will: 'conduct experiments across different transformer architectures to validate the generalizability of our approach.'"
+    ]
+}

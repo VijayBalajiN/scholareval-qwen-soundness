@@ -1,0 +1,36 @@
+{
+ "idea": "ai_19",
+ "review_words": 22577,
+ "rubrics": [
+  {
+   "statement": "The applicability of this method to decoder-based models is not fully addressed.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "The gradient-based methods are slow because they require many backward computations, and if the method requires too many computations, it is very hard to be applied in large language models.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 3
+  },
+  {
+   "statement": "This work lacks the comparison with causal-based methods, where an easier and faster method to identify important tokens is to replace each token with [MASK] and calculate the probability decrease of the predicted token.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "AOPC and LOdds results can be affected by many factors, including how to skip special tokens like [SEP] and [PAD] and how to 'remove' the important tokens, which could lead to different results.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 3
+  },
+  {
+   "statement": "For the contribution regarding filtering class-irrelevant features, it is unclear what the authors mean by 'class irrelevant' features.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  }
+ ]
+}
