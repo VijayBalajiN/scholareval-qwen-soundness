@@ -1,0 +1,66 @@
+{
+ "idea": "ai_32",
+ "review_words": 20525,
+ "rubrics": [
+  {
+   "statement": "The research plan appears to oversimplify the concept of causality and its role in prediction tasks, potentially conflating correlation with causation in some instances, such as the sporting event example which doesn't demonstrate direct cause-and-effect relationships but rather correlation due to viewer behavior.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 3
+  },
+  {
+   "statement": "The use of terms like 'dissimilar information' in the methodology is vague and doesn't clearly explain what causal information might be captured that similarity-based approaches miss.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "The research plan seems to underestimate the complexity of systems like weather, suggesting that simple causal relationships can capture their full complexity.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "The plan doesn't describe a sufficiently rigorous approach to establishing true causality, which would require consideration of potential mechanisms, controlled experiments, and careful examination of temporal sequences and potential confounding factors.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 4
+  },
+  {
+   "statement": "The way SPACE infers the causal structures through pseudo transfer entropy is not fully convincing, as it assumes that 'the time series follow the normal distribution' which is an extremely strong assumption and not acceptable for real-world time series.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 5
+  },
+  {
+   "statement": "The experimental design uses rather small toy datasets, and lacks evaluation on larger datasets such as NY taxi or climate datasets.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "Commonly used datasets, such as Traffic and Electricity, are missing from the experimental design, limiting the scope of comparison.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 1
+  },
+  {
+   "statement": "It is unclear how the learned adjacency matrix by Cross-TE will outperform traditional attention in identifying causal relationships, as the interpretability analysis doesn't convincingly demonstrate this advantage.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 4
+  },
+  {
+   "statement": "Since one of the main contributions is about causal GNN, some GNN related works should be mentioned and compared in the experimental design.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 5
+  },
+  {
+   "statement": "The method introduces the fast-pTE algorithm and emphasizes its efficiency advantage in contributions, but lacks detailed theoretical analysis, ablation studies about variants with TE, pTE, and fast-pTE, and efficiency comparisons with state-of-the-art works.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 4
+  }
+ ]
+}
