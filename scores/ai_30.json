@@ -1,0 +1,78 @@
+{
+ "idea": "ai_30",
+ "review_words": 7869,
+ "rubrics": [
+  {
+   "statement": "The experimental design should consider more realistic scenarios, such as partitioning datasets based on time periods for incremental learning with data from different years, and scenarios where data increases due to the emergence of new malicious families.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 4
+  },
+  {
+   "statement": "The experimental section needs to demonstrate the superiority of incremental learning by comparing BLS's incremental training advantages against retraining models in terms of time and accuracy.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 5
+  },
+  {
+   "statement": "The evaluation setup does not fully support the claim of detecting newly evolved malware, as the incremental dataset is sourced from the training set rather than including new malware families not represented in the training dataset.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "The focus on manually selected features such as permissions and API calls is questionable, as malware authors can potentially evade these features, while many existing studies have analyzed malware code logic as a more robust detection method.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "The claim of robustness is questionable because labeled data is still required for retraining, making comparisons to traditional deep learning approaches potentially unfair, as DL models can detect zero-day malware whereas the proposed approach would still require labels.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "The experimental design does not evaluate the system against catastrophic forgetting, which is a major drawback of incremental learning and a fundamental challenge that should be addressed.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 3
+  },
+  {
+   "statement": "The research plan fails to include comparisons with widely adopted state-of-the-art Android malware detection techniques, which limits the relevance and impact of the findings.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 4
+  },
+  {
+   "statement": "The experimental design does not include evaluation with the widely used Drebin dataset, which is the most widely adopted Android malware dataset in research.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "The datasets used (TUANDROMD, CIC-2019, and CIC-2020) are not widely adopted in the malware research space and are not considered benchmark datasets.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 1
+  },
+  {
+   "statement": "The experimental design uses only a fraction of the CIC-2020 dataset (162,181 benign and 195,624 malware samples compared to the full dataset), which may result in insufficient sample size for evaluation.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 1
+  },
+  {
+   "statement": "The datasets used are too small compared to standard practices in malware research, and the ratio of benign to malware apps does not follow the typical 90:10 ratio that reflects practical Android malware distributions.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 3
+  },
+  {
+   "statement": "The incremental dataset split using a 5:3:2 ratio is not well justified and does not seem to reflect the real-world dynamic evolution of malware.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 5
+  }
+ ]
+}
