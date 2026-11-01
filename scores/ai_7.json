@@ -1,0 +1,54 @@
+{
+ "idea": "ai_7",
+ "review_words": 14265,
+ "rubrics": [
+  {
+   "statement": "The approach of averaging word vectors from OpenAI embeddings and Word2Vec to form a vector representing the entire prompt seems like it removes a lot of information, and alternative methods for instance feature representation are not sufficiently explored or justified.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 3
+  },
+  {
+   "statement": "The model selection approach of picking the LLM with the highest predicted performance value rather than reporting each individual model performance is non-standard and lacks sufficient justification.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 1
+  },
+  {
+   "statement": "While the significant drop in predictive performance in out-of-distribution scenarios is acknowledged, the plan lacks a thorough analysis of the causes and potential solutions to mitigate this issue.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 3
+  },
+  {
+   "statement": "Some methodological details are not fully elaborated, such as the specific algorithms and parameters used for clustering and factor analysis in reference instance selection, and the criteria for choosing hyperparameters and classifiers are also not described in depth.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 4
+  },
+  {
+   "statement": "The use of OpenAI embeddings as instance-specific features may limit the generalizability and accessibility of the method, particularly for those without access to these embeddings.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "The experiments focus on tasks with binary correctness metrics, and the applicability of the method to tasks with more complex or continuous evaluation metrics is not explored, which limits the understanding of its generality.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "The plan lacks detailed quantitative comparisons with existing methods, making it difficult to assess the advantages or disadvantages of the proposed approach in terms of predictive accuracy and computational efficiency.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 3
+  },
+  {
+   "statement": "Despite having perhaps hundreds of potential strong baseline methods to compare against, the authors compare their work only to their own constructed assessor baselines, more akin to ablation studies, and do not compare their method to existing baseline methods for predicting model performance.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 3
+  }
+ ]
+}
