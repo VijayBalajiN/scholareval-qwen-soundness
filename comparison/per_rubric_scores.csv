@@ -256,13 +256,13 @@ ai_36,4,weakness,major,"Since the main idea of this work is UDA framework for DT
 ai_36,5,weakness,major,There is a disconnection between the introduction of non-commutative geometric framework and its application to deep learning models in the NCGAMI architecture.,,4,5,5,5
 ai_36,6,weakness,major,It is totally unclear how the proposed algorithms are incorporated into the NCGAMI deep learning architecture.,,4,5,4,4
 ai_36,7,weakness,major,"The baseline comparisons only include relatively simple models such as DeepDTA, while many important GNNs are not considered, for instance Graph transformer models and graph attention models.",,3,2,2,1
-ai_37,0,weakness,major,"The scale and diversity of the training dataset is very limited, consisting only of random 3-SAT problems with 100 variables each, which is insufficient for adequately training a foundational model that should handle diverse distributions.",,5,5,5,5
-ai_37,1,weakness,minor,"The motivation for selecting the sixteen prediction tasks spanning ten different categories is unclear, as it appears the authors collect tasks without a clear purpose.",,2,3,2,1
-ai_37,2,weakness,minor,The research plan does not include detailed analysis of scaling to larger problem instances beyond the basic size generalization tests on 150-600 variables.,,4,4,2,3
-ai_37,3,weakness,minor,"No experiments are planned to test performance on datasets from different generators, such as instances not at the phase transition.",,2,3,2,3
-ai_37,4,weakness,minor,No scaling experiments are planned to determine how important the size of the model is for performance.,,5,1,2,1
-ai_37,5,weakness,minor,The research plan does not specify the average number of clauses in the dataset.,,2,2,1,1
-ai_37,6,weakness,minor,"The description of the pre-GNN node and edge encoders is unclear, particularly regarding the implementation details of the two fully-connected layers mentioned.",,2,1,1,1
+ai_37,0,weakness,major,"The scale and diversity of the training dataset is very limited, consisting only of random 3-SAT problems with 100 variables each, which is insufficient for adequately training a foundational model that should handle diverse distributions.",5,5,5,5,5
+ai_37,1,weakness,minor,"The motivation for selecting the sixteen prediction tasks spanning ten different categories is unclear, as it appears the authors collect tasks without a clear purpose.",2,2,3,2,1
+ai_37,2,weakness,minor,The research plan does not include detailed analysis of scaling to larger problem instances beyond the basic size generalization tests on 150-600 variables.,2,4,4,2,3
+ai_37,3,weakness,minor,"No experiments are planned to test performance on datasets from different generators, such as instances not at the phase transition.",2,2,3,2,3
+ai_37,4,weakness,minor,No scaling experiments are planned to determine how important the size of the model is for performance.,3,5,1,2,1
+ai_37,5,weakness,minor,The research plan does not specify the average number of clauses in the dataset.,3,2,2,1,1
+ai_37,6,weakness,minor,"The description of the pre-GNN node and edge encoders is unclear, particularly regarding the implementation details of the two fully-connected layers mentioned.",2,2,1,1,1
 ai_38,0,weakness,major,"Assumptions like ignorability may limit the applications, as an empirical observation from many social/health sciences is that sensitive attributes are often causally entangled with many/most other relevant variables, so as long as there are any unobserved variables those variables are likely to be confounders.",,4,3,2,2
 ai_38,1,weakness,minor,The independence from the true label in Assumption 1 is strong - why should the true label be independent of the sensitive attribute?,,4,5,3,1
 ai_38,2,weakness,major,"A notable limitation is the partial identification of principal counterfactual fairness - since the fairness criterion is only partially identifiable, it is impossible to obtain fully unbiased point estimates, which raises concerns about the potential implications of estimation bias.",,4,2,4,3

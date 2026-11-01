@@ -1,0 +1,48 @@
+{
+ "idea": "ai_37",
+ "review_words": 21440,
+ "rubrics": [
+  {
+   "statement": "The scale and diversity of the training dataset is very limited, consisting only of random 3-SAT problems with 100 variables each, which is insufficient for adequately training a foundational model that should handle diverse distributions.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 5
+  },
+  {
+   "statement": "The motivation for selecting the sixteen prediction tasks spanning ten different categories is unclear, as it appears the authors collect tasks without a clear purpose.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "The research plan does not include detailed analysis of scaling to larger problem instances beyond the basic size generalization tests on 150-600 variables.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "No experiments are planned to test performance on datasets from different generators, such as instances not at the phase transition.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "No scaling experiments are planned to determine how important the size of the model is for performance.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 3
+  },
+  {
+   "statement": "The research plan does not specify the average number of clauses in the dataset.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 3
+  },
+  {
+   "statement": "The description of the pre-GNN node and edge encoders is unclear, particularly regarding the implementation details of the two fully-connected layers mentioned.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  }
+ ]
+}
