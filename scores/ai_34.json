@@ -1,0 +1,72 @@
+{
+ "idea": "ai_34",
+ "review_words": 18521,
+ "rubrics": [
+  {
+   "statement": "The experiment scope is too narrow, being limited to ImageNet dataset and lacking tests on additional datasets which would demonstrate the method's generalizability.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "The research plan should include comparison with transfer-based attacks using VGG as the source model, especially attribution-based adversarial attacks, to fully validate the effectiveness of the approach.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 3
+  },
+  {
+   "statement": "The victim models proposed (AlexNet, GoogleNet, Inception V3, MobileNet V3, ResNet-152) are outdated, and the evaluation should consider transformer-based models like ViT-B/L.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 1
+  },
+  {
+   "statement": "The research plan keeps the hyper-parameter settings of PROTES without searching for optimal settings under the adversarial attack scenario or providing ablation studies on those hyper-parameters.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 5
+  },
+  {
+   "statement": "TETRADAT shares characteristics with transfer-based methods due to its use of an auxiliary white-box model, so a fairer evaluation would involve comparing with transfer-based attack methods rather than only query-based methods.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 3
+  },
+  {
+   "statement": "TETRADAT relies on several hyperparameters including TT ranks, perturbation amplitude, learning rate for PROTES optimization, and number of discrete perturbation levels, making the method complex to tune and less practical for deployment.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 4
+  },
+  {
+   "statement": "The discretization of perturbation levels for each pixel simplifies the search space but potentially limits the granularity of perturbations, which could restrict the method's flexibility to find optimal perturbations.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 2
+  },
+  {
+   "statement": "The study focuses only on untargeted attacks and does not consider targeted attack scenarios, which are more challenging and could better showcase the method's capabilities.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 4
+  },
+  {
+   "statement": "The research plan does not address whether the approach is feasible for larger and deeper models or different domains like NLP.",
+   "type": "weakness",
+   "severity": "minor",
+   "score": 1
+  },
+  {
+   "statement": "The research plan lacks comparison with advanced query-based black-box attack methods, using only OnePixel, Square, and Pixle as baselines which focus on perturbing small numbers of pixels.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 5
+  },
+  {
+   "statement": "The research plan lacks ablation studies to demonstrate the effectiveness of incorporating attribution maps, which are crucial for understanding the incremental benefits of the proposed components.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 5
+  }
+ ]
+}
