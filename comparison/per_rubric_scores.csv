@@ -106,17 +106,17 @@ ai_16,0,weakness,major,"The multi-agent setting is defined using the MDP framewo
 ai_16,1,weakness,minor,"Lane level information is detailed information that is not always available, raising questions about whether this is a reasonable assumption in TSC settings.",3,2,2,1,2
 ai_16,2,weakness,major,It is not clear how exactly the communication is defined as a sequence modeling problem and how the transformer encodes topology information into the state.,2,5,5,5,4
 ai_16,3,weakness,major,"In a real traffic flow situation, the state of the entire system is not affected by the action alone, but also by various other external factors, and it is unclear how collision and accidents are handled or whether there are negative rewards for this.",1,2,2,1,3
-ai_17,0,strength,minor,The research plan examines the problem across several reasonable domains including incomplete and incorrect KB scenarios with multiple datasets.,,3,3,2,2
-ai_17,1,strength,minor,"The idea of using multiple agents in the multi-actor, centralized critic architecture to control knowledge updates and refinement is well-executed.",,2,2,2,1
-ai_17,2,strength,minor,"The definition of multiple metrics for knowledge base edits (completeness, generalization, and coherence) and evaluating along these axes represents reasonable choices for this task.",,2,2,2,2
-ai_17,3,weakness,major,The centralized feedback analysis approach should be compared with self-reflection/self-refine methodologies.,,2,1,1,1
-ai_17,4,weakness,major,Managing each document with an agent in the multi-actor framework seems quite computationally expensive and requires cost/benefit analysis.,,2,2,2,2
-ai_17,5,weakness,minor,The research plan does not consider using knowledge graphs instead of a collection of documents for knowledge representation.,,1,1,1,1
-ai_17,6,weakness,major,"The assumption that errors result only from incorrect documentation rather than from multiple sources including the generator's shortcomings is problematic, especially for lower-resource coding languages where the model might perform worse even with correct docs.",,2,2,1,1
-ai_17,7,weakness,major,"The research plan lacks ablations for design choices such as action space, state representation, and the necessity of splitting the task into a multi-actor setup.",,5,4,4,4
-ai_17,8,weakness,minor,The evaluation is limited to a single LLM (GPT-4-1106-PREVIEW) without testing generalizability across different models.,,2,3,2,1
-ai_17,9,weakness,major,"The baseline PROMPT AGENT-E is not clearly defined in terms of implementation details, selection rationale, and why it constitutes a fair/relevant comparison.",,5,4,3,3
-ai_17,10,weakness,minor,The completeness metric does not convincingly measure actual completeness of knowledge base edits.,,5,5,5,2
+ai_17,0,strength,minor,The research plan examines the problem across several reasonable domains including incomplete and incorrect KB scenarios with multiple datasets.,5,3,3,2,2
+ai_17,1,strength,minor,"The idea of using multiple agents in the multi-actor, centralized critic architecture to control knowledge updates and refinement is well-executed.",2,2,2,2,1
+ai_17,2,strength,minor,"The definition of multiple metrics for knowledge base edits (completeness, generalization, and coherence) and evaluating along these axes represents reasonable choices for this task.",3,2,2,2,2
+ai_17,3,weakness,major,The centralized feedback analysis approach should be compared with self-reflection/self-refine methodologies.,2,2,1,1,1
+ai_17,4,weakness,major,Managing each document with an agent in the multi-actor framework seems quite computationally expensive and requires cost/benefit analysis.,2,2,2,2,2
+ai_17,5,weakness,minor,The research plan does not consider using knowledge graphs instead of a collection of documents for knowledge representation.,1,1,1,1,1
+ai_17,6,weakness,major,"The assumption that errors result only from incorrect documentation rather than from multiple sources including the generator's shortcomings is problematic, especially for lower-resource coding languages where the model might perform worse even with correct docs.",2,2,2,1,1
+ai_17,7,weakness,major,"The research plan lacks ablations for design choices such as action space, state representation, and the necessity of splitting the task into a multi-actor setup.",4,5,4,4,4
+ai_17,8,weakness,minor,The evaluation is limited to a single LLM (GPT-4-1106-PREVIEW) without testing generalizability across different models.,2,2,3,2,1
+ai_17,9,weakness,major,"The baseline PROMPT AGENT-E is not clearly defined in terms of implementation details, selection rationale, and why it constitutes a fair/relevant comparison.",4,5,4,3,3
+ai_17,10,weakness,minor,The completeness metric does not convincingly measure actual completeness of knowledge base edits.,4,5,5,5,2
 ai_18,0,weakness,major,"No experiments are conducted to quantify the sim-to-real benefits derived from using a real-world city layout based on Beijing's commercial district, leaving the practical advantages of this choice unclear.",3,2,2,2,1
 ai_18,1,weakness,major,"Metrics like BLEU and ROUGE, which primarily measure text quality, may not fully capture the performance of embodied AI tasks, raising questions about the suitability of these metrics for this benchmark.",5,5,5,5,3
 ai_18,2,weakness,minor,"There appears to be no strong connection between the proposed tasks and the roles of pedestrians and vehicles, which raises questions about their necessity in the framework.",2,3,2,2,4
