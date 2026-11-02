@@ -1,0 +1,36 @@
+{
+ "idea": "ai_40",
+ "review_words": 9985,
+ "rubrics": [
+  {
+   "statement": "The connection between motivation and the proposed method is weak, with the rationale behind the hierarchical approach and augmentation choices lacking clarity, making the design appear arbitrary rather than well-motivated.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 3
+  },
+  {
+   "statement": "The research plan presents a systematic integration of multi-scale contrastive learning techniques for graphs.",
+   "type": "strength",
+   "severity": "minor",
+   "score": 4
+  },
+  {
+   "statement": "The hierarchical framework combining node, subgraph, and graph-level contrasts lacks rigorous theoretical analysis of why these three levels work well together.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "The three-level contrast in the composite loss function essentially stacks parallel objectives without exploring meaningful interactions between the hierarchical levels.",
+   "type": "weakness",
+   "severity": "major",
+   "score": 2
+  },
+  {
+   "statement": "The use of multi-granularity contrastive learning in the field of graph self-supervised learning is common and has been proven effective, indicating the approach builds on established foundations.",
+   "type": "strength",
+   "severity": "minor",
+   "score": 3
+  }
+ ]
+}
