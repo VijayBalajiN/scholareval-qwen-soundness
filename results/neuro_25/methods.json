@@ -1,0 +1,15 @@
+{
+    "clean_methods": [
+        "To test the central hypothesis about complementary temporal reference frames: We will use functional magnetic resonance imaging (fMRI) to investigate neural correlates of temporal sequence and duration processing from different perspectives.",
+        "To map neural sensitivity to temporal sequence and duration: We will employ parametric modulation analysis to identify brain regions where activation correlates with temporal variables (sequential distance and event duration).",
+        "To test whether parietal and hippocampal regions show complementary temporal representations: We will examine interaction effects between task type and temporal variables to identify regions showing perspective-dependent representations (predicted in parietal cortex), and main effects to identify regions showing perspective-independent representations (predicted in hippocampus).",
+        "To induce an internal, egocentric temporal perspective: Internal-perspective task (Mental Time Travel): Participants will imagine themselves at the reference event and judge whether target events occurred in the past or future relative to their projected position.",
+        "To induce an external, allocentric temporal perspective: External-perspective task (Mental Time Watching): Participants will judge whether target events occurred in the same or different part of the day as reference events.",
+        "To confirm that the perspective manipulation worked: We will use behavioral measures (reaction time and accuracy) to validate our experimental manipulation and confirm that participants are indeed adopting different temporal perspectives as intended.",
+        "To provide a learned temporal sequence for the fMRI tasks: Participants will learn the temporal structure through reading and imagination phases.",
+        "To verify that participants learned the fictional ritual: We will assess learning through three tests: event-sequence judgment, self-paced duration reproduction, and parts-of-day categorization.",
+        "To reduce confounds in the fMRI analysis: We will control for potential confounds including reaction time, syllable length of event phrases, and head motion.",
+        "To make statistical inferences for the fMRI results: Statistical inference will use permutation testing with cluster-level family-wise error correction.",
+        "To define the eligible participant pool: We will recruit native Italian speakers with no neurobiological or psychiatric disorders."
+    ]
+}

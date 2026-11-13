@@ -1,0 +1,20 @@
+{
+    "clean_methods": [
+        "Context: Core platform design for proteome-wide mechanism-of-action characterization; Method: We will implement PISA-based thermal shift assays in both living cells and native lysates to create a comprehensive platform for drug mechanism characterization.",
+        "Context: Cell-based thermal profiling of compound effects; Method: For cell-based experiments, we will treat K562 cells with compounds, subject them to thermal gradients (48\u00b0C-58\u00b0C), and measure soluble protein abundance after thermal denaturation and centrifugation.",
+        "Context: Lysate-based profiling of direct compound-protein engagement; Method: For lysate-based experiments, we will prepare crude extracts through dounce homogenization and apply the same thermal treatment protocol.",
+        "Context: Quantitative measurement of proteome-wide thermal stability changes; Method: We will use TMT-based quantitative proteomics coupled with mass spectrometry for protein quantification.",
+        "Context: Interpretation strategy for distinguishing direct binding from indirect cellular effects; Method: Our methodology will leverage the complementary nature of cell-based and lysate-based approaches: lysate experiments will primarily detect direct ligand binding events, while cell-based experiments will capture both direct engagement and secondary effects resulting from cellular signaling, protein-protein interactions, and post-translational modifications.",
+        "Context: Assay parameter optimization for thermal shift detection; Method: The thermal window of 48\u00b0C-58\u00b0C will be optimized to maximize fold-change measurements while encompassing the back half of most protein melting curves in K562 cells.",
+        "Context: Chemical library construction for mechanism-of-action screening; Method: We will curate a chemical library of 96 compounds with well-annotated targets and known mechanisms of action, focusing primarily on cancer drugs and tool compounds.",
+        "Context: Chemical library composition across target classes; Method: The library will include 70 protein kinase inhibitors and 26 compounds targeting other protein classes including HDACs, lysine demethylases, and PARPs.",
+        "Context: Primary cell-based screening conditions; Method: For the primary screen, we will treat K562 cells with each compound at 10 \u03bcM for 30 minutes in biological duplicate.",
+        "Context: Multiplexed proteomics execution plan; Method: We will arrange samples into TMTPro 16-plex experiments, requiring approximately 384 hours of instrument time across 16 multiplexes.",
+        "Context: Lysate-based screening of selected compounds; Method: We will also screen 70 selected compounds in K562 lysates using the same concentration and treatment duration.",
+        "Context: Statistical filtering of thermal stability changes; Method: We will establish empirically-derived criteria for identifying high-confidence thermal stability changes, requiring log2 fold changes >0.2 in absolute value and >3.5 standard deviations from the mean protein-specific variance across all treatments.",
+        "Context: Validation of thermal stability changes against compound potency; Method: We will perform dose-response experiments with selected compounds to assess the relationship between thermal stability changes and compound potency.",
+        "Context: Orthogonal validation of predicted target engagement and signaling effects; Method: We will use biochemical assays and western blotting to validate predicted target engagement and measure downstream signaling effects.",
+        "Context: Systems-level analysis of related proteins and complexes; Method: We will implement network-based correlation analysis to identify consistent thermal stability responses among structurally related proteins and protein complexes.",
+        "Context: Specificity and off-target analysis across compounds; Method: We will compare thermal stability profiles between compounds with shared targets to assess specificity and identify potential off-target interactions."
+    ]
+}

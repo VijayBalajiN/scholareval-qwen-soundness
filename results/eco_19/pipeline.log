@@ -1,0 +1,1300 @@
+=== ScholarEval soundness pipeline, local vLLM Qwen3.8-27B; GROBID parse gate: pdfs=26 xml=26 ratio=1.0 ===
+
+=== step 1 (attempt 1) ===
+Extract methods tokens: (Input: 1334, Output: 10741)
+
+=== step 2 (attempt 1) ===
+
+Writing Queries:   0%|          | 0/10 [00:00<?, ?it/s]
+Writing Queries:  10%|█         | 1/10 [00:26<03:57, 26.42s/it]
+Writing Queries:  20%|██        | 2/10 [00:38<02:24, 18.11s/it]
+Writing Queries:  30%|███       | 3/10 [00:56<02:05, 17.88s/it]
+Writing Queries:  40%|████      | 4/10 [01:15<01:51, 18.54s/it]
+Writing Queries:  50%|█████     | 5/10 [01:49<01:59, 23.89s/it]
+Writing Queries:  60%|██████    | 6/10 [02:02<01:20, 20.23s/it]
+Writing Queries:  70%|███████   | 7/10 [02:39<01:17, 25.91s/it]
+Writing Queries:  80%|████████  | 8/10 [02:56<00:45, 22.77s/it]
+Writing Queries:  90%|█████████ | 9/10 [03:09<00:19, 19.93s/it]
+Writing Queries: 100%|██████████| 10/10 [03:33<00:00, 21.10s/it]
+Writing Queries: 100%|██████████| 10/10 [03:33<00:00, 21.34s/it]
+Make queries tokens: (Input: 14310, Output: 5959)
+
+=== step 3 (attempt 1) ===
+Using PDF directory: <project>/ScholarEval-results/eco_19/soundness/pdfs
+GROBID container is already running.
+Starting snippet search for 10 methods...
+
+Finding Snippets for Each Method:   0%|          | 0/10 [00:00<?, ?it/s]Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Feeding first instar Cacopsylla chinensis nymphs dsRNAs targeting Bursicon alpha, Bursicon beta, or Bursicon receptor to assess seasonal polyphenism by qRT-PCR knockdown, cuticle pigment extraction, chitin content, transmission electron microscopy cuticle thickness, and summer to winter form transition percentage.', 'limit': 8, 'publicationDateOrYear': ':2024-06-12'}
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 1/11 in 2.0s
+
+Finding Snippets for Each Method:  10%|█         | 1/10 [00:07<01:07,  7.47s/it]Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'To test the central hypothesis...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Identification and characterization of Bursicon subunits and receptor in Cacopsylla chinensis using bioinformatics, sequence alignment, phylogenetic analysis, and protein structure prediction for seasonal polyphenism cuticle tanning', 'limit': 8, 'publicationDateOrYear': ':2024-06-12'}
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 1/11 in 2.2s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 2/11 in 4.7s
+
+Finding Snippets for Each Method:  20%|██        | 2/10 [00:19<01:20, 10.09s/it]Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'To establish the candidate Bur...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Temperature-responsive expression of Bursicon genes in newly hatched first instar summer-form Cacopsylla chinensis nymphs exposed to 25°C and 10°C, measured at 3, 6, and 10 days post-treatment to link low-temperature cues to seasonal polyphenism and cuticle regulation.', 'limit': 8, 'publicationDateOrYear': ':2024-06-12'}
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 1/11 in 2.2s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 2/11 in 5.3s
+
+Finding Snippets for Each Method:  30%|███       | 3/10 [00:32<01:19, 11.34s/it]
+Finding Snippets for Each Method:  40%|████      | 4/10 [00:35<00:50,  8.34s/it]Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'To link the known low-temperat...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'qRT-PCR analysis of temporal and spatial expression of Bursicon subunits CcBurs-alpha, CcBurs-beta, and receptor CcBurs-R across developmental stages and tissues in summer-form and winter-form Cacopsylla chinensis to establish baseline seasonal polyphenism expression differences', 'limit': 8, 'publicationDateOrYear': ':2024-06-12'}
+Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'To define baseline seasonal ex...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'MicroRNA post-transcriptional regulation of CcBurs-R Bursicon receptor signaling in Cacopsylla chinensis seasonal polyphenism, target prediction with miRanda TargetScan, validation by dual-luciferase reporter, RNA immunoprecipitation, fluorescence in situ hybridization, agomir antagomir functional assays', 'limit': 8, 'publicationDateOrYear': ':2024-06-12'}
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 1/11 in 2.1s
+
+Finding Snippets for Each Method:  50%|█████     | 5/10 [00:42<00:38,  7.65s/it]
+Finding Snippets for Each Method:  60%|██████    | 6/10 [00:46<00:25,  6.31s/it]Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'To test the proposed post-tran...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Rescue experiments in insect nymphs where heterodimeric Bursicon proteins are fed to RNAi-treated individuals to restore cuticle pigmentation, chitin content, cuticle thickness, and seasonal polyphenism transition, confirming functional interaction between Bursicon subunits and their receptor.', 'limit': 8, 'publicationDateOrYear': ':2024-06-12'}
+Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'To confirm that the Bursicon s...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Bursicon alpha beta subunit co-expression in HEK293T cells and SDS-PAGE under reduced and non-reduced conditions to detect disulfide-linked homodimer and heterodimer formation in insect cuticle tanning hormone signaling', 'limit': 8, 'publicationDateOrYear': ':2024-06-12'}
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 1/11 in 2.6s
+
+Finding Snippets for Each Method:  70%|███████   | 7/10 [00:52<00:19,  6.37s/it]Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'To demonstrate the structural ...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Bursicon signaling manipulation affects expression of chitin biosynthesis pathway genes Tre1 and CHS1 in insect cuticle remodeling', 'limit': 8, 'publicationDateOrYear': ':2024-06-12'}
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 1/11 in 2.7s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 2/11 in 5.1s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 3/11 in 8.8s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 4/11 in 18.5s
+
+Finding Snippets for Each Method:  80%|████████  | 8/10 [01:33<00:34, 17.23s/it]Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'To connect Bursicon signaling ...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': "Statistical analysis using Student's t-test for pairwise comparisons and ANOVA with Tukey's HSD for multiple comparisons of cuticle pigmentation, chitin content, cuticle thickness, and seasonal polyphenism transition in Bursicon RNAi and temperature treatments in Cacopsylla chinensis.", 'limit': 8, 'publicationDateOrYear': ':2024-06-12'}
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 1/11 in 2.3s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 2/11 in 4.7s
+
+Finding Snippets for Each Method:  90%|█████████ | 9/10 [01:45<00:15, 15.76s/it]Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'To support quantitative compar...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Experimental design with biological replicates, control groups, sample size, and statistical power in Cacopsylla chinensis seasonal polyphenism and Bursicon RNAi studies', 'limit': 8, 'publicationDateOrYear': ':2024-06-12'}
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 1/11 in 2.4s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 2/11 in 5.2s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 3/11 in 8.1s
+
+Finding Snippets for Each Method: 100%|██████████| 10/10 [02:07<00:00, 17.71s/it]
+Finding Snippets for Each Method: 100%|██████████| 10/10 [02:07<00:00, 12.77s/it]
+Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'To ensure reproducibility and ...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+ Snippet search took: 127.68 seconds
+Collecting metadata for 102 unique papers...
+   Processing batch 1/1 (102 papers)...
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch; retry 1/11 in 2.8s
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+INFO - Loading configuration file from ./GROBID_config.json
+WARNING - Config key 'batch_size' is deprecated, use 'queue_size' instead
+INFO - Configuration file loaded successfully
+   ⏱️  Batch took: 7.67 seconds
+ Paper metadata collection took: 7.67 seconds
+should be 102 pdfs to download
+Could not find url for 86182456 -- 
+ PDF URL preparation took: 0.00 seconds
+Found 101 PDFs with valid URLs to attempt download
+Starting 101 downloads without Unpaywall...
+✗ Failed: 237936939
+✗ Failed: 5014845
+✗ Failed: 212665619
+✗ Failed: 245229094
+✗ Failed: 209166470
+✗ Failed: 234486377
+✗ Failed: 199662271
+✗ Failed: 13379798
+✗ Failed: 207157526
+✗ Failed: 9760492
+✗ Failed: 18896891
+✗ Failed: 46545554
+✓ requests: 3949011
+✗ Failed: 81829304
+✓ requests: 251862052
+✓ requests: 257986327
+✗ Failed: 229487927
+✗ Failed: 19699570
+✗ Failed: 23063552
+✗ Failed: 269658371
+✗ Failed: 14503150
+✗ Failed: 267766943
+✗ Failed: 38818823
+✗ Failed: 85176419
+✗ Failed: 9587703
+✗ Failed: 205783088
+✗ Failed: 22997481
+✗ Failed: 27173242
+✗ Failed: 259234421
+✗ Failed: 1432007
+✗ Failed: 19853270
+✗ Failed: 3245616
+✗ Failed: 23531996
+✗ Failed: 38586006
+✗ Failed: 234682767
+✗ Failed: 37162494
+✗ Failed: 1471162
+✗ Failed: 56178484
+✓ requests: 53008741
+✗ Failed: 28334052
+✓ requests: 256361665
+✓ requests: 2175155
+✓ requests: 18767877
+✓ requests: 255972290
+✓ requests: 211138581
+✓ requests: 46937255
+✓ requests: 2302874
+✓ requests: 2785208
+✓ requests: 269408226
+✓ requests: 245278634
+✗ Failed: 195067742
+✗ Failed: 12539877
+✗ Failed: 1237747
+✗ Failed: 24373102
+✗ Failed: 27291096
+✗ Failed: 5044267
+✗ Failed: 21816309
+✗ Failed: 27063787
+✗ Failed: 4429830
+✗ Failed: 15158341
+✗ Failed: 9554101
+✗ Failed: 6984137
+✗ Failed: 26450575
+✗ Failed: 25361400
+✓ requests: 15117047
+✗ Failed: 4061497
+✗ Failed: 269502931
+✗ Failed: 16720623
+✓ requests: 9926142
+✓ requests: 36196365
+✗ Failed: 8617725
+✗ Failed: 103858172
+✗ Failed: 46596969
+✗ Failed: 123860326
+✗ Failed: 39062433
+✗ Failed: 5578107
+✗ Failed: 25789321
+✗ Failed: 84626471
+✗ Failed: 25731064
+✗ Failed: 1671094
+✗ Failed: 32245460
+✗ Failed: 39353898
+✗ Failed: 30629565
+✗ Failed: 30270033
+✗ Failed: 7226879
+✗ Failed: 41014442
+✗ Failed: 34879825
+✗ Failed: 38317242
+✗ Failed: 253021281
+✗ Failed: 245936442
+✓ requests: 225171320
+✗ Failed: 19009398
+✓ requests: 52941739
+✓ requests: 3621862
+✓ requests: 240153212
+✓ requests: 52890792
+✓ requests: 253803063
+✓ requests: 2029030
+✓ requests: 214809416
+✓ requests: 16626531
+✗ Failed: 52014538
+Completed: 26/101 successful downloads
+ PDF downloads took: 94.91 seconds for 101 PDFs
+Download 1: FAILED - None
+Download 2: FAILED - None
+Download 3: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/2785208.pdf
+Download 4: FAILED - None
+Download 5: FAILED - None
+Download 6: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/2302874.pdf
+Download 7: FAILED - None
+Download 8: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/257986327.pdf
+Download 9: FAILED - None
+Download 10: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/53008741.pdf
+Download 11: FAILED - None
+Download 12: FAILED - None
+Download 13: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/3949011.pdf
+Download 14: FAILED - None
+Download 15: FAILED - None
+Download 16: FAILED - None
+Download 17: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/245278634.pdf
+Download 18: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/251862052.pdf
+Download 19: FAILED - None
+Download 20: FAILED - None
+Download 21: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/2175155.pdf
+Download 22: FAILED - None
+Download 23: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/18767877.pdf
+Download 24: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/269408226.pdf
+Download 25: FAILED - None
+Download 26: FAILED - None
+Download 27: FAILED - None
+Download 28: FAILED - None
+Download 29: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/211138581.pdf
+Download 30: FAILED - None
+Download 31: FAILED - None
+Download 32: FAILED - None
+Download 33: FAILED - None
+Download 34: FAILED - None
+Download 35: FAILED - None
+Download 36: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/256361665.pdf
+Download 37: FAILED - None
+Download 38: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/255972290.pdf
+Download 39: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/46937255.pdf
+Download 40: FAILED - None
+Download 41: FAILED - None
+Download 42: FAILED - None
+Download 43: FAILED - None
+Download 44: FAILED - None
+Download 45: FAILED - None
+Download 46: FAILED - None
+Download 47: FAILED - None
+Download 48: FAILED - None
+Download 49: FAILED - None
+Download 50: FAILED - None
+Download 51: FAILED - None
+Download 52: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/2029030.pdf
+Download 53: FAILED - None
+Download 54: FAILED - None
+Download 55: FAILED - None
+Download 56: FAILED - None
+Download 57: FAILED - None
+Download 58: FAILED - None
+Download 59: FAILED - None
+Download 60: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/52941739.pdf
+Download 61: FAILED - None
+Download 62: FAILED - None
+Download 63: FAILED - None
+Download 64: FAILED - None
+Download 65: FAILED - None
+Download 66: FAILED - None
+Download 67: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/3621862.pdf
+Download 68: FAILED - None
+Download 69: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/9926142.pdf
+Download 70: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/52890792.pdf
+Download 71: FAILED - None
+Download 72: FAILED - None
+Download 73: FAILED - None
+Download 74: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/253803063.pdf
+Download 75: FAILED - None
+Download 76: FAILED - None
+Download 77: FAILED - None
+Download 78: FAILED - None
+Download 79: FAILED - None
+Download 80: FAILED - None
+Download 81: FAILED - None
+Download 82: FAILED - None
+Download 83: FAILED - None
+Download 84: FAILED - None
+Download 85: FAILED - None
+Download 86: FAILED - None
+Download 87: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/36196365.pdf
+Download 88: FAILED - None
+Download 89: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/214809416.pdf
+Download 90: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/240153212.pdf
+Download 91: FAILED - None
+Download 92: FAILED - None
+Download 93: FAILED - None
+Download 94: FAILED - None
+Download 95: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/16626531.pdf
+Download 96: FAILED - None
+Download 97: FAILED - None
+Download 98: FAILED - None
+Download 99: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/225171320.pdf
+Download 100: SUCCESS - <project>/ScholarEval-results/eco_19/soundness/pdfs/15117047.pdf
+Download 101: FAILED - None
+ Download Summary: 26 successful, 75 failed
+Found 26 local file(s) to process
+Processing completed: 26 out of 26 files processed
+Errors: 0 out of 26 files processed
+⏱️  Total runtime: 30.08 seconds
+🚀 Speed: 0.86 documents/second
+ Throughput: 1.16 seconds/document
+ Found 26 XML files to parse...
+Processing XML 1/26: 2175155
+  XML file 2175155 took: 0.00 seconds
+Processing XML 2/26: 245278634
+  XML file 245278634 took: 0.00 seconds
+Processing XML 3/26: 257986327
+  XML file 257986327 took: 0.00 seconds
+Processing XML 4/26: 255972290
+  XML file 255972290 took: 0.00 seconds
+Processing XML 5/26: 46937255
+  XML file 46937255 took: 0.01 seconds
+Processing XML 6/26: 52890792
+  XML file 52890792 took: 0.00 seconds
+Processing XML 7/26: 9926142
+  XML file 9926142 took: 0.00 seconds
+Processing XML 8/26: 2029030
+  XML file 2029030 took: 0.00 seconds
+Processing XML 9/26: 2302874
+  XML file 2302874 took: 0.00 seconds
+Processing XML 10/26: 214809416
+  XML file 214809416 took: 0.00 seconds
+Processing XML 11/26: 16626531
+  XML file 16626531 took: 0.00 seconds
+Processing XML 12/26: 18767877
+  XML file 18767877 took: 0.00 seconds
+Processing XML 13/26: 36196365
+  XML file 36196365 took: 0.00 seconds
+Processing XML 14/26: 2785208
+  XML file 2785208 took: 0.00 seconds
+Processing XML 15/26: 253803063
+  XML file 253803063 took: 0.00 seconds
+Processing XML 16/26: 211138581
+  XML file 211138581 took: 0.00 seconds
+Processing XML 17/26: 15117047
+  XML file 15117047 took: 0.00 seconds
+Processing XML 18/26: 251862052
+  XML file 251862052 took: 0.00 seconds
+Processing XML 19/26: 240153212
+  XML file 240153212 took: 0.00 seconds
+Processing XML 20/26: 269408226
+  XML file 269408226 took: 0.00 seconds
+Processing XML 21/26: 3621862
+  XML file 3621862 took: 0.00 seconds
+Processing XML 22/26: 225171320
+  XML file 225171320 took: 0.00 seconds
+Processing XML 23/26: 256361665
+  XML file 256361665 took: 0.00 seconds
+Processing XML 24/26: 3949011
+  XML file 3949011 took: 0.00 seconds
+Processing XML 25/26: 53008741
+  XML file 53008741 took: 0.00 seconds
+Processing XML 26/26: 52941739
+  XML file 52941739 took: 0.00 seconds
+ XML parsing took: 0.08 seconds total (0.00s per file average)
+ Final JSON save took: 0.00 seconds
+
+=== step 4 (attempt 1) ===
+
+Analyzing Sources: 100%|██████████| 10/10 [29:45<00:00, 178.59s/it]
+Reference not found in paper text: 18896891
+Reference not found in paper text: 38586006
+Reference not found in paper text: 21816309
+Reference not found in paper text: 6984137
+Reference not found in paper text: 12539877
+Reference not found in paper text: 28334052
+Reference not found in paper text: 259234421
+Reference not found in paper text: 25789321
+Reference not found in paper text: 8617725
+Reference not found in paper text: 22997481
+Reference not found in paper text: 38317242
+Reference not found in paper text: 205783088
+Reference not found in paper text: 37162494
+Reference not found in paper text: 81829304
+Reference not found in paper text: 9760492
+Reference not found in paper text: 21816309
+Reference not found in paper text: 28334052
+Reference not found in paper text: 38586006
+Reference not found in paper text: 34879825
+Reference not found in paper text: 4429830
+Reference not found in paper text: 23531996
+Reference not found in paper text: 207157526
+Reference not found in paper text: 26450575
+Reference not found in paper text: 86182456
+Reference not found in paper text: 23063552
+Reference not found in paper text: 38818823
+Reference not found in paper text: 14503150
+Reference not found in paper text: 16720623
+Reference not found in paper text: 8617725
+Reference not found in paper text: 9587703
+Reference not found in paper text: 39062433
+Reference not found in paper text: 6984137
+Reference not found in paper text: 13379798
+Reference not found in paper text: 259234421
+Reference not found in paper text: 253021281
+Reference not found in paper text: 24373102
+Reference not found in paper text: 195067742
+Reference not found in paper text: 6984137
+Reference not found in paper text: 28334052
+Reference not found in paper text: 259234421
+Reference not found in paper text: 18896891
+Reference not found in paper text: 38586006
+Reference not found in paper text: 26450575
+Reference not found in paper text: 27063787
+Reference not found in paper text: 1237747
+Reference not found in paper text: 46596969
+Reference not found in paper text: 234682767
+Reference not found in paper text: 245229094
+Reference not found in paper text: 5044267
+Reference not found in paper text: 41014442
+Reference not found in paper text: 22997481
+Reference not found in paper text: 18896891
+Reference not found in paper text: 9760492
+Reference not found in paper text: 21816309
+Reference not found in paper text: 5014845
+Reference not found in paper text: 28334052
+Reference not found in paper text: 38586006
+Reference not found in paper text: 207157526
+Reference not found in paper text: 26450575
+Reference not found in paper text: 23063552
+Reference not found in paper text: 38818823
+Reference not found in paper text: 8617725
+Reference not found in paper text: 13379798
+Reference not found in paper text: 6984137
+Reference not found in paper text: 19853270
+Reference not found in paper text: 81829304
+Reference not found in paper text: 86182456
+Reference not found in paper text: 9587703
+Reference not found in paper text: 22997481
+Reference not found in paper text: 19853270
+Reference not found in paper text: 9760492
+Reference not found in paper text: 18896891
+Reference not found in paper text: 21816309
+Reference not found in paper text: 5014845
+Reference not found in paper text: 7226879
+Reference not found in paper text: 28334052
+Reference not found in paper text: 38586006
+Reference not found in paper text: 27173242
+Reference not found in paper text: 207157526
+Reference not found in paper text: 26450575
+Reference not found in paper text: 23063552
+Reference not found in paper text: 38818823
+Reference not found in paper text: 9587703
+Reference not found in paper text: 19699570
+Reference not found in paper text: 8617725
+Reference not found in paper text: 86182456
+Reference not found in paper text: 6984137
+Reference not found in paper text: 32245460
+Reference not found in paper text: 13379798
+Reference not found in paper text: 5578107
+Reference not found in paper text: 9760492
+Reference not found in paper text: 28334052
+Reference not found in paper text: 39353898
+Reference not found in paper text: 1432007
+Reference not found in paper text: 38586006
+Reference not found in paper text: 30270033
+Reference not found in paper text: 84626471
+Reference not found in paper text: 1471162
+Reference not found in paper text: 27291096
+Reference not found in paper text: 46545554
+Reference not found in paper text: 15158341
+Reference not found in paper text: 38818823
+Reference not found in paper text: 22997481
+Reference not found in paper text: 3245616
+Reference not found in paper text: 85176419
+Reference not found in paper text: 39062433
+Reference not found in paper text: 25731064
+Reference not found in paper text: 81829304
+Reference not found in paper text: 86182456
+Reference not found in paper text: 25361400
+Reference not found in paper text: 30629565
+Reference not found in paper text: 4061497
+Reference not found in paper text: 209166470
+Reference not found in paper text: 212665619
+Reference not found in paper text: 269502931
+Reference not found in paper text: 56178484
+Reference not found in paper text: 1671094
+Reference not found in paper text: 267766943
+Reference not found in paper text: 19009398
+Reference not found in paper text: 9554101
+Reference not found in paper text: 52014538
+Reference not found in paper text: 229487927
+Reference not found in paper text: 123860326
+Reference not found in paper text: 237936939
+Reference not found in paper text: 269658371
+Reference not found in paper text: 103858172
+Reference not found in paper text: 245936442
+Reference not found in paper text: 199662271
+Reference not found in paper text: 234486377
+Method analysis cost: $0.0000 (Input: 87057, Output: 99046)
+
+=== step 5 (attempt 1) ===
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch; retry 1/11 in 2.3s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch; retry 2/11 in 5.5s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch; retry 3/11 in 10.4s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch; retry 4/11 in 19.3s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch; retry 5/11 in 32.8s
+[start related work 1]
+[metadata]
+- in_text_citation: [(Loveall, and Deitcher, 2010-08)](https://www.semanticscholar.org/paper/c24d7e6bc15939026333be976ca99b64a6b60bfa)
+- venue: BMC Developmental Biology
+- citation count: 77
+[method]
+The paper used a transgenic RNAi approach in Drosophila, specifically ubiquitous expression of UAS-burs RNAi, to reduce bursicon expression, and used reverse-transcription PCR to assay rickets transcript levels. The inputs were Drosophila genetic material carrying UAS-burs RNAi, with developmental phenotype and transcript-level readouts. This is related to the proposed C. chinensis method because both use RNAi to perturb Bursicon pathway components and transcript quantification to assess knockdown, but the paper's system is Drosophila developmental RNAi rather than dsRNA feeding in 1st instar nymphs and does not include cuticle pigment extraction, chitin quantification, TEM, or seasonal morph transition assays.
+[results]
+The excerpt reports that ubiquitous UAS-burs RNAi obstructed advancement beyond the pharate adult stage, indicating that bursicon knockdown disrupts late larval or pupal ecdysial development. No quantitative values, knockdown efficiency percentages, statistical tests, or comparisons to control RNAi are provided in the available excerpt. The RT-PCR assay for rickets transcript levels is listed, but no quantitative transcript outcomes are reported in the excerpt.
+[context]
+The relevant context is Drosophila development at the pharate adult or ecdysis stage, with ubiquitous UAS-burs RNAi expression and RT-PCR-based transcript assessment. The excerpt does not specify driver line, RNAi line genotype, sample size, PCR primers, cycle numbers, instrument settings, or phenotyping metrics. Therefore, it cannot be directly mapped to the proposed C. chinensis experimental conditions of newly hatched 1st instar nymphs, 25°C versus 10°C, qRT-PCR for CcBurs-α, CcBurs-β, CcBurs-R, cuticle pigment extraction, chitin content, TEM cuticle thickness, or morphological transition percentage.
+[end related work 1]
+
+[start related work 2]
+[metadata]
+- in_text_citation: [(An et al., 2012-03)](https://www.semanticscholar.org/paper/d13d2385da6e3e694e90b6909bb4e7bf070c18c4)
+- venue: PLoS ONE
+- citation count: 98
+[method]
+The paper tested Bursicon signaling by expressing recombinant Bursicon subunits, applying them either by injection into Drosophila larvae or by incubation with isolated larval fat body, and then measuring downstream signaling by qPCR of antimicrobial peptide genes and by Western blot for Relish activation. An in vitro antibacterial assay was also used to confirm functional antimicrobial peptide activity. This relates to the proposed RNAi method because both approaches manipulate Bursicon components and use molecular readouts to infer pathway effects, but the paper is a gain-of-function recombinant protein assay in Drosophila rather than dsRNA-mediated knockdown of CcBurs-α, CcBurs-β, or CcBurs-R in C. chinensis. It also parallels the broader research plan’s protein expression, homodimer/heterodimer, and downstream pathway analyses.
+[results]
+The supplied excerpt reports qualitative outcomes rather than numerical fold-changes or p-values. Bursicon formed both classical heterodimers and homodimers. Burs a2a and Burs b2b homodimers induced expression of immunity-conferring antimicrobial peptide genes, and the induced transcripts were translated into antimicrobial peptides. The homodimer-induced expression occurred in isolated larval fat body, did not require the heterodimer receptor DLGR2, and activated the Imd pathway by activating Relish. No quantitative qPCR fold-change, Western blot band intensity, or antibacterial assay values are provided in the available text.
+[context]
+Experiments were performed in Drosophila using recombinant Bursicon protein expression, r-Bursicon injections, isolated larval fat body incubation, qPCR analysis of antimicrobial peptide genes, Western blot analysis of Relish activation, and an in vitro antibacterial assay. The excerpt does not specify larval instar, injection dose, incubation time, qPCR reference gene, antibody details, or statistical sample sizes. The conditions are not seasonal temperature treatments and do not include C. chinensis, dsRNA feeding, cuticle pigment extraction, chitin quantification, transmission electron microscopy, or morphological transition scoring.
+[end related work 2]
+
+[start related work 3]
+[metadata]
+- in_text_citation: [(Costa et al., 2016-12)](https://www.semanticscholar.org/paper/6825b2c91813dac9f2a92fe49b9d9515730311a1)
+- venue: PLoS ONE
+- citation count: 30
+[method]
+The paper used dsRNA-mediated knockdown of honeybee bursicon subunits, specifically AmBurs α and AmBurs β, to test their role in adult cuticle formation. The workflow included identification of bursicon, its receptor, and putative target genes, followed by cDNA synthesis and amplification, cloning, sequencing, alignment, phylogenetic analysis, RNA-seq library preparation, and treatment with 20-hydroxyecdysone to examine ecdysteroid-dependent expression. This is directly analogous to the proposed C. chinensis RNAi feeding of CcBurs-α, CcBurs-β, and CcBurs-R, because both approaches use loss-of-function of bursicon signaling to assess cuticle-related phenotypes, although the paper focused on honeybee pharate-adult cuticle formation rather than seasonal summer-to-winter polyphenism transition.
+[results]
+No numerical values, sample sizes, or statistical significance values are provided in the available text. Qualitatively, knockdown of AmBurs α and AmBurs β transcripts disturbed adult cuticle formation, and bursicon dsRNAs interfered with expression of genes encoding structural cuticle proteins and enzymes of the melanization/sclerotization pathway. The expression of bursicon and its receptor was reported to be conditioned by ecdysteroid levels, with 20-hydroxyecdysone treatment used to test this relationship.
+[context]
+The experiments were performed in honeybees during the pharate-adult stage, with emphasis on cuticle formation and tanning. The available text lists method sections for honeybees, gene identification, cDNA synthesis, cloning/sequencing/alignment/phylogenetic analysis, RNA-seq library preparation, 20-hydroxyecdysone treatment, and AmBurs α/β knockdown, but does not specify dsRNA dose, delivery route, temperature, replicate number, qRT-PCR primers, pigment extraction protocol, chitin assay, TEM parameters, or statistical tests. These missing details limit direct transfer to the proposed C. chinensis 1st-instar feeding RNAi design.
+[end related work 3]
+
+[start related work 1]
+[metadata]
+- in_text_citation: [(Loy et al., 2007-08)](https://www.semanticscholar.org/paper/588203316420b7498cd2fcff77e466689f9d95cc)
+- venue: General and Comparative Endocrinology
+- citation count: 43
+[method]
+The paper used an in silico prediction followed by RT-PCR and sequencing validation to identify honeybee bursicon cystine knot proteins. After an earlier model proposing a single fusion open reading frame for bursicon and its subunit was not supported by RT-PCR, the authors reanalysed the honeybee genomic locus using FGENESH and predicted two separate cystine knot protein ORFs. Bursicon-specific primers were then designed, and the corresponding ORFs were amplified from cDNA synthesized from honeybee larval total RNA. The cDNA was generated from total RNA isolated with a lipid-tissue RNA purification kit, treated on-column with DNase to remove genomic DNA, reverse transcribed with M-MLV reverse transcriptase using random hexamer priming at 37°C, and then treated with RNase H to remove RNA. PCR products were cloned into pCR2.1 TOPO and verified by DNA sequencing. This approach is relevant to the proposed C. chinensis research plan because it demonstrates how bioinformatically predicted Bursicon subunit candidates, such as CcBurs-α and CcBurs-β, can be experimentally validated by cDNA amplification and sequencing, and it supports the broader hypothesis that Bursicon functions as a heterodimer rather than a single multidomain protein. Although the paper does not address the receptor, the same validation logic can be applied to CcBurs-R.
+[results]
+The RT-PCR and sequencing workflow recovered two distinct ORFs corresponding to bursicon and its subunit cystine knot protein. Both cloned ORFs contained a predicted secretory signal sequence and were in full agreement with the in silico predicted ORFs. The result rejected the earlier single-ORF fusion-protein model and supported a heterodimeric Bursicon organization in honeybee. No quantitative expression values, statistical comparisons, or functional assays were reported in the provided sections.
+[context]
+The experiments were performed on honeybee larvae stored in RNAlater to limit RNA degradation. Total RNA was isolated from larval tissues, and the number of larvae or biological replicates was not specified. cDNA synthesis used a 20 µl first-strand reaction with M-MLV reverse transcriptase, random hexamer priming, and incubation at 37°C, followed by a 20-minute RNase H treatment at 37°C using 1 µl of 2 U RNase H. The key validation steps were FGENESH-based genomic reannotation, bursicon-specific RT-PCR, TOPO cloning, and DNA sequencing. The paper did not include qRT-PCR quantification, RNAi, receptor binding assays, or statistical analysis, so its main contribution is gene identification and ORF validation rather than functional characterization.
+[end related work 1]
+
+[start related work 2]
+[metadata]
+- in_text_citation: [(Chung et al., 2012-09)](https://www.semanticscholar.org/paper/1de3b7fa921646bff68bf0f5d3fff66127d30460)
+- venue: PLoS ONE
+- citation count: 48
+[method]
+The paper used a protein- and expression-based characterization of bursicon-like CasBurs subunits in a crab, including identification and expression of CasBurs α and β, production of recombinant bursicon subunits, chemical refolding and purification of a recombinant bursicon heterodimer, and detection/quantification of CasBurs in tissues and hemolymph using radioimmunoassay, Western blotting, and RP-HPLC. This relates to the proposed method because it addresses identification and validation of bursicon α/β subunits, but it does not report C. chinensis, CcBurs-R, or the proposed bioinformatic sequence alignment, phylogenetic, or protein structure prediction workflow.
+[results]
+No quantitative outcomes, specific values, baseline comparisons, or statistical significance values are available from the supplied excerpt. Qualitatively, the section headings indicate that CasBurs α and β were identified and expressed, recombinant subunits and a heterodimer were produced, CasBurs expression/protein/release changed during the molt cycle, and recombinant CasBurs was associated with cuticle thickening/hardening and hemocyte recruitment/granulation.
+[context]
+The paper context is crab biology rather than C. chinensis seasonal polyphenism. Reported experimental settings include TGC and PO tissues from megalopae, juvenile, and adult crabs, tissue and hemolymph sample preparation, molt-cycle timing, RIA for CasBurs and CCAP, Western blotting, RP-HPLC, recombinant protein expression and purification, and statistical analysis. The excerpt does not provide details on C. chinensis, temperature treatments, RNAi, miRNA regulation, receptor assays, or computational gene prediction.
+[end related work 2]
+
+[start related work 3]
+[metadata]
+- in_text_citation: [(Costa et al., 2016-12)](https://www.semanticscholar.org/paper/6825b2c91813dac9f2a92fe49b9d9515730311a1)
+- venue: PLoS ONE
+- citation count: 30
+[method]
+Based on the provided section headings, the paper used a wet-lab plus bioinformatic gene-identification workflow for honeybee bursicon components: cDNA synthesis and amplification, cloning and sequencing of candidate transcripts, multiple sequence alignment, and phylogenetic analysis to compare honeybee bursicon α, bursicon β, and receptor sequences with putative orthologues in other arthropods. RNA-seq library preparation was also used to support expression analysis. These steps are directly relevant to the proposed C. chinensis method of identifying CcBurs-α, CcBurs-β, and CcBurs-R by sequence alignment, phylogenetics, and bioinformatic validation, although the paper headings do not explicitly mention protein structure prediction. The paper also included functional and hormonal assays relevant to the broader research plan: treatment with 20-hydroxyecdysone (20E) and dsRNA knockdown of AmBurs α and AmBurs β to test effects on adult cuticle formation.
+[results]
+The paper reported that honeybee genes encoding bursicon and its receptor were identified and that their gene structures and sequence similarity to putative orthologues in other arthropod species supported their annotation. Expression results indicated that expression of bursicon and its receptor was conditioned by ecdysteroid levels, and knockdown of AmBurs α and AmBurs β disturbed adult cuticle formation. The supplied text does not provide numerical expression values, alignment or phylogenetic support values, cuticle measurements, or statistical significance.
+[context]
+The experiments were conducted in honeybees, with focus on the pharate-adult stage and adult cuticle formation. Contextual conditions included 20E treatment to manipulate ecdysteroid levels and dsRNA-mediated knockdown of AmBurs α and AmBurs β. The provided excerpt does not specify tissue sources, developmental timing, cDNA library composition, sequencing platform, alignment or phylogenetic software, dsRNA dose, or sample sizes.
+[end related work 3]
+
+[start related work 1]
+[metadata]
+- in_text_citation: [(Keena et al., 2023-01)](https://www.semanticscholar.org/paper/6994432cc817231326f1be8ba3909721852ceb01)
+- venue: Frontiers in Insect Science
+- citation count: 10
+[method]
+The paper used a temperature-exposure rearing method for newly hatched first instar spotted lanternfly nymphs. Egg masses were held at constant 15°C or a fluctuating Napa-like regime, hatched nymphs were placed in mesh cages with grape and tree-of-heaven plants, and first instars were exposed to constant 15°C or an alternating 20/5°C regime consisting of 16 hours at 20°C and 8 hours at 5°C. Instar duration was measured from hatch to second instar molt, with molts treated as censored observations and unnatural deaths excluded. Survival and duration were analyzed using Kaplan-Meier product-limit estimates and gamma-distribution mixed models, with population included as a random effect. This method relates to the proposed research plan because it tests temperature responsiveness in newly hatched first instar nymphs, but it measures developmental duration rather than Bursicon gene expression, CcTRPM activity, miRNA regulation, or seasonal polyphenism.
+[results]
+First instar duration was significantly longer by 6 days under the 20/5°C alternating low-temperature treatment than under constant 15°C (F = 21.08, df = 1, 15, p < 0.0001). This indicates that low-temperature exposure can prolong early nymphal development in this system, providing a phenotypic analogue for the proposed 25°C versus 10°C Bursicon expression time course, although no gene-expression or cuticle-pigmentation outcomes were reported.
+[context]
+The study used egg masses from New Jersey, Pennsylvania, and Virginia populations; Pennsylvania populations were combined for most nymphal data. Forty-five egg masses each from New Jersey and Pennsylvania were placed in the fluctuating regime, while the remainder were held at 15°C. Rearing cages were maintained mostly at 25°C, 65% relative humidity, and a 14:10 light:dark cycle, with some cages at 20-22°C due to space limitations. First instars were reared in groups of 50-100 in small cages or 300-500 in large cages, with fresh host plants added weekly and daily removal of molts and dead individuals. The experimental design included population-level replication and statistical adjustment for population variation, but it did not include molecular assays, RNAi, qRT-PCR, or seasonal-form classification, so its direct applicability to the proposed Bursicon mechanism is limited to temperature-exposure and early-instar developmental context.
+[end related work 1]
+
+[start related work 1]
+[metadata]
+- in_text_citation: [(Loy et al., 2007-08)](https://www.semanticscholar.org/paper/588203316420b7498cd2fcff77e466689f9d95cc)
+- venue: General and Comparative Endocrinology
+- citation count: 43
+[method]
+The paper used total RNA isolation, first-strand cDNA synthesis, RT-PCR amplification, cloning, and DNA sequencing to detect and validate honeybee bursicon subunit transcripts. Total RNA was extracted from honeybee larvae preserved in RNAlater using a lipid-tissue RNA purification kit, followed by on-column DNase treatment to remove genomic DNA. Purified total RNA was reverse transcribed into cDNA in a 20 microliter first-strand synthesis reaction using M-MLV reverse transcriptase and random hexamer priming at 37 degrees Celsius. The RNA strand was then removed with RNase H. Bursicon-specific primers were designed from revised in silico gene predictions and used in RT-PCR on larval cDNA. The amplified bursicon and bursicon-beta open reading frames were cloned into pCR2.1 TOPO and verified by DNA sequencing. This method is related to the proposed qRT-PCR expression analysis of CcBurs-alpha, CcBurs-beta, and CcBurs-R because it demonstrates RNA-to-cDNA conversion and RT-PCR-based detection of distinct bursicon subunit transcripts, but it is a qualitative validation approach rather than a quantitative temporal, spatial, or seasonal expression profiling method.
+[results]
+RT-PCR successfully amplified the predicted bursicon and bursicon-beta open reading frames from honeybee larval cDNA. Both cloned open reading frames contained signal sequences for protein secretion and matched the in silico predicted open reading frames. The outcome supported the presence of two separate bursicon subunit transcripts in honeybee larvae and led to the conclusion that honeybee bursicon likely functions as a heterodimer rather than as a single multidomain fusion protein. No quantitative expression levels, fold changes, tissue-specific expression rankings, developmental-stage comparisons, or seasonal-form comparisons were reported.
+[context]
+The experimental system was honeybee larvae, not summer-form or winter-form Cacopsylla chinensis, and the tissue source was larval tissue without a stated panel of developmental stages or tissues. The method used total RNA, first-strand cDNA, RT-PCR, cloning, and DNA sequencing; it did not use qRT-PCR, reference genes, biological replicate quantification, or statistical comparison between phenotypes. Key conditions included RNA preservation in RNAlater, DNase treatment, random-primed cDNA synthesis, and primer design based on revised in silico gene predictions. The paper therefore provides a relevant precedent for detecting bursicon subunit transcripts, but it does not directly establish baseline seasonal expression differences for CcBurs-alpha, CcBurs-beta, or CcBurs-R.
+[end related work 1]
+
+[start related work 1]
+[metadata]
+- in_text_citation: [(Hommers et al., 2018-10)](https://www.semanticscholar.org/paper/ba3e81168885ef189505b9f44ddccccc6b10d58c)
+- venue: Translational Psychiatry
+- citation count: 18
+[method]
+The paper used a luciferase reporter and promoter activity assay to test functional consequences of the MIR579 SNP rs2910931 and of hsa-miR-579-3p on gene regulation. Reporter constructs containing MIR579 promoter allele variants were assayed for transcriptional activity, and the effect of hsa-miR-579-3p on expression of anxiety-related candidate genes, including SLC6A2, was examined. This is methodologically related to the proposed plan because both use reporter-based assays to test miRNA-mediated post-transcriptional regulation of a candidate target; however, the paper focused on human MIR579/SLC6A2 and did not report RIP, FISH, agomir, or antagomir experiments for CcBurs-R.
+[results]
+The reported functional outcome was that rs2910931 regulated MIR579 promoter activity and that hsa-miR-579-3p regulated expression of anxiety candidate genes, supporting a functional link between the miRNA, SLC6A2-related pathways, and fear/anxiety phenotypes. The provided excerpt does not include numeric luciferase fold-changes, p-values, or effect sizes, so quantitative outcomes cannot be specified.
+[context]
+The assay was embedded in a human genetics study of panic disorder and trait anxiety, with genotyped human samples and cell-based reporter assays. The molecular context was the MIR579 locus, the rs2910931 variant, hsa-miR-579-3p, and SLC6A2 expression. Specific experimental parameters such as cell line, construct boundaries, transfection conditions, replicate number, and statistical thresholds are not provided in the supplied excerpt.
+[end related work 1]
+
+[start related work 2]
+[metadata]
+- in_text_citation: [(Peng et al., 2020-02)](https://www.semanticscholar.org/paper/d61d7b2be0ba16fb1783e84155efe477fea41b45)
+- venue: Nature Communications
+- citation count: 50
+[method]
+The paper includes a target gene prediction method for miR-1-3p, used to identify candidate targets such as Bdtra and to assess whether miR-1-3p controls Bdtra transcript accumulation. The supplied excerpt does not specify the prediction algorithm, input sequences, scoring thresholds, computational resources, or validation assays such as dual-luciferase reporter assays, RIP, FISH, agomir, or antagomir. This method is related to the proposed research plan because both use bioinformatic miRNA target prediction to test post-transcriptional regulation of a signaling pathway, but the paper focuses on miR-1-3p and Bdtra in embryonic sex determination rather than miRNAs targeting CcBurs-R in Cacopsylla chinensis seasonal polyphenism.
+[results]
+The reported outcome is that miR-1-3p regulates Bdtra transcript accumulation and is required for male sex determination in embryos, with Bddsx discussed as part of the sex-determination context. The supplied excerpt does not provide quantitative fold changes, p-values, sample sizes, control comparisons, or statistical significance, so the magnitude and statistical support of the effect cannot be specified.
+[context]
+The work is situated in an embryonic sex-determination context, with methods sections for sample preparation, target gene prediction, and statistical analysis. No species, developmental stage timing, temperature, cell line, instrument, replicate number, or statistical test details are provided in the supplied excerpt, limiting reproducibility assessment.
+[end related work 2]
+
+[start related work 3]
+[metadata]
+- in_text_citation: [(Zhu et al., 2021-10)](https://www.semanticscholar.org/paper/1d838fa4ab9dc44f57f2098e731689f3b2e00387)
+- venue: PLoS Genetics
+- citation count: 80
+[method]
+The paper used a miRNA target-validation workflow closely analogous to the proposed CcBurs-R experiment. Candidate miRNAs targeting GSTu1 in P. xylostella were identified through bioinformatic prediction, then tested experimentally using dual-luciferase reporter assays, RNA immunoprecipitation, and FISH/RPA. miRNA expression was compared among susceptible and chlorantraniliprole-resistant populations, and miRNA levels were manipulated by injection to assess effects on GSTu1 expression and stability. This corresponds to the proposed plan of predicting miRNAs targeting CcBurs-R with miRanda and Targetscan, validating target interactions by dual-luciferase, RIP, and FISH, and testing functional consequences with agomir/antagomir treatments.
+[results]
+The supplied section headings report that miR-8525-5p and miR-8530-5p were examined as GSTu1-targeting miRNAs. Their expression levels were compared among SS, NIL, BL, and HK populations, but no numerical fold changes, p-values, or statistical significance values are provided in the excerpt. Upregulation or downregulation of miR-8525-5p or miR-8530-5p alone did not affect GSTu1 expression. Lnc-GSTu1-AS enhanced GSTu1 stability by preventing miR-8525-5p-induced degradation, whereas miR-8530-5p was not involved in the lnc-GSTu1-AS-mediated regulation of GSTu1.
+[context]
+The work was performed in P. xylostella populations designated SS, NIL, BL, and HK, representing susceptible and chlorantraniliprole-resistant backgrounds. The relevant methods included miRNA target prediction, dual-luciferase reporter assays, RIP, FISH and RPA, miRNA injection, and Western blotting. The provided excerpt does not specify reporter constructs, RIP antibodies, probe sequences, injection doses, cell lines, replicate numbers, or statistical tests, so quantitative reproducibility details are limited. This context is relevant to the proposed research plan because it demonstrates the same miRNA target-validation and functional miRNA manipulation strategy, while also indicating that miRNA up- or down-regulation alone may not change target expression when additional regulatory layers, such as a competing lncRNA, are present.
+[end related work 3]
+
+
+[start related work 1]
+[metadata]
+- in_text_citation: [(Loy et al., 2007-08)](https://www.semanticscholar.org/paper/588203316420b7498cd2fcff77e466689f9d95cc)
+- venue: General and Comparative Endocrinology
+- citation count: 43
+[method]
+The paper used reverse transcription PCR and DNA sequencing to determine whether honeybee bursicon and its subunit cystine knot proteins are encoded by separate open reading frames or by a single fusion open reading frame. Total RNA was isolated from A. mellifera larvae stored in RNAlater using an RNeasy Lipid Tissue Mini kit, with on-column RNase-free DNase treatment to remove genomic DNA. Approximately 4 µg of total RNA (reported as 4 g, likely a unit typo) was converted to first-strand cDNA in a 20 µl reaction (reported as 20 l, likely a unit typo) using M-MLV reverse transcriptase and random hexamers at 37 °C; the RNA strand was then removed with 1 µl of 2 U E. coli RNase H for 20 min at 37 °C. After an earlier RT-PCR approach failed to support a fusion protein, the genomic locus was reanalyzed with FGENESH, producing an alternative gene model with two distinct cystine knot protein ORFs. Bursicon-specific primers were designed from this model, RT-PCR was performed on larval total RNA/cDNA, and the amplified ORFs were cloned into pCR2.1 TOPO and verified by DNA sequencing. This method is related to the proposed HEK293T co-expression and SDS-PAGE dimer assay because it establishes the transcript-level basis for treating Bursicon as two separate subunits, analogous to CcBurs-α and CcBurs-β in the research plan, but it does not itself test protein dimerization.
+[results]
+RT-PCR amplified both bursicon and bursicon subunit ORFs from honeybee larval cDNA. The cloned ORFs were sequenced and matched the in silico predicted ORFs. Both ORFs contained a signal sequence for protein secretion. The results contradicted the earlier hypothesis of a single multidomain fusion protein and supported the conclusion that honeybee Bursicon likely functions as a heterodimer composed of two secreted cystine knot proteins. No quantitative dimerization measurements, band intensities, or statistical comparisons were reported.
+[context]
+The experiments were performed on honeybee larvae, not on C. chinensis or HEK293T cells. Key conditions included RNAlater preservation, RNeasy Lipid Tissue Mini kit RNA isolation, on-column DNase digestion, M-MLV reverse transcription with random hexamers at 37 °C, RNase H treatment at 37 °C for 20 min, bursicon-specific RT-PCR, pCR2.1 TOPO cloning, and DNA sequencing verification. The paper did not use cell-based expression, co-immunoprecipitation, SDS-PAGE under reduced or non-reduced conditions, or direct structural assays of homodimer or heterodimer formation. Its relevance to the proposed method is that it provides molecular evidence for two distinct Bursicon subunit transcripts, supporting the rationale for expressing individual subunits and testing their dimerization in the proposed research plan.
+[end related work 1]
+
+[start related work 2]
+[metadata]
+- in_text_citation: [(An et al., 2012-03)](https://www.semanticscholar.org/paper/d13d2385da6e3e694e90b6909bb4e7bf070c18c4)
+- venue: PLoS ONE
+- citation count: 98
+[method]
+The paper used recombinant Bursicon subunit expression and dimerization analysis to test whether Bursicon forms homodimers in addition to the canonical heterodimer. Drosophila Burs a2a and Burs b2b subunits were produced as r-Bursicon proteins, and the products were separated by SDS-PAGE under reducing and non-reducing conditions to assess disulfide-linked dimer formation. This is directly analogous to the proposed method of expressing CcBurs-α and CcBurs-β in HEK293T cells and using reduced/non-reduced SDS-PAGE to demonstrate homodimer and heterodimer formation in the research plan's Protein Interaction Studies.
+[results]
+The paper reported that Bursicon formed homodimers as well as the classical heterodimer. Non-reducing SDS-PAGE showed bands consistent with Burs a2a/Burs a2a and Burs b2b/Burs b2b homodimers in addition to the Burs a2a/Burs b2b heterodimer, while reducing conditions resolved the subunits as monomers. The supplied excerpt does not provide quantitative band intensities, exact molecular-weight values, or statistical significance tests for the dimerization assay.
+[context]
+The experiment was performed in Drosophila melanogaster using recombinant Bursicon subunits from the paper's r-Bursicon protein expression workflow. The key experimental condition was the comparison of reducing versus non-reducing SDS-PAGE, which distinguishes disulfide-linked dimers from monomeric subunits. The provided excerpt does not specify the expression host, purification method, gel concentration, or detection reagent, so those parameters are not reported here. This context supports the proposed HEK293T-based plan by showing that Bursicon subunit dimerization can be assessed by recombinant protein expression and SDS-PAGE, providing a methodological precedent for CcBurs-α/CcBurs-β.
+[end related work 2]
+
+[start related work 3]
+[metadata]
+- in_text_citation: [(Chung et al., 2012-09)](https://www.semanticscholar.org/paper/1de3b7fa921646bff68bf0f5d3fff66127d30460)
+- venue: PLoS ONE
+- citation count: 48
+[method]
+The paper used recombinant expression of Bursicon/CasBurs subunits and chemical refolding to generate a purified heterodimer, followed by RP-HPLC, CasBurs RIA, Western blotting, and a recombinant CasBurs bioassay. This is related to the proposed HEK293T co-expression and reduced/non-reduced SDS-PAGE dimer assay because both aim to establish Bursicon subunit pairing, but the paper’s approach centered on recombinant subunit production, refolding/purification, and functional bioassay rather than HEK293T co-expression and SDS-PAGE band-shift analysis.
+[results]
+No quantitative outcomes are available in the supplied excerpt. Qualitatively, the recombinant CasBurs heterodimer was produced and detected by RIA and Western blotting, and the bioassay showed that rCasBurs stimulated cuticle thickening/hardening and hemocyte recruitment/granulation. The provided section headings do not report numerical values such as purified yield, molecular mass, RIA concentrations, fold changes, or statistical p-values.
+[context]
+The experiments were conducted in crabs across megalopae, juvenile, and adult stages, with measurements of molt-associated somatic increment and exoskeleton hardness, tissue and hemolymph sample preparation, and localization of CasBurs in thoracic ganglia and posterior organs. The provided excerpt does not specify expression host, construct tags, refolding buffer, HPLC column, antibody clones, cell lines, or replicate sizes, so those conditions cannot be reported.
+[end related work 3]
+
+[start related work 4]
+[metadata]
+- in_text_citation: [(Zhang et al., 2017-02)](https://www.semanticscholar.org/paper/eedba163fc5a0de6b3b4a6cb49abb5f870ba4736)
+- venue: Scientific Reports
+- citation count: 43
+[method]
+The paper describes recombinant bursicon expression and purification, followed by bursicon homodimer or heterodimer treatment and bioassay in Aedes aegypti. This is related to the proposed method because both approaches involve generating bursicon subunit dimers for functional or structural assessment, although the paper focuses on recombinant protein treatment and biological readouts rather than HEK293T co-expression and reduced/non-reduced SDS-PAGE visualization of homodimer or heterodimer formation.
+[results]
+The reported outcomes are qualitative: bursicon homodimers induced AMP gene expression in adult mosquitoes and in larval fat body, and this induction was reported to occur via Relish2. The paper also reports that AMP expression correlates with bursicon expression during selected life stages of Ae. aegypti. No specific quantitative values, fold changes, p-values, or statistical comparisons are provided in the supplied section headings.
+[context]
+The experiments were conducted in Ae. aegypti across selected life stages and used recombinant bursicon protein, adult mosquito and larval fat body incubation or bioassay conditions, and molecular readouts consistent with gene expression analysis. The provided excerpt does not specify protein concentrations, incubation times, cell lines, SDS-PAGE conditions, or statistical parameters. This context is relevant to the research plan’s protein expression and validation and rescue experiments, as it supports the use of bursicon dimers in functional assays, but it does not directly demonstrate dimer formation by SDS-PAGE in HEK293T cells.
+[end related work 4]
+
+[start related work 1]
+[metadata]
+- in_text_citation: [(An et al., 2008-09)](https://www.semanticscholar.org/paper/f24d785effb322183724deecf7469809923b6ddc)
+- venue: BMC Genomics
+- citation count: 30
+[method]
+The paper manipulated Bursicon signaling by injecting recombinant bursicon (r-bursicon) into neck-ligated flies and then identified downstream bursicon-regulated genes by DNA microarray. RNA from flies sampled at 1 h and 3 h after r-bursicon injection was prepared for microarray hybridization, and candidate genes were selected for validation by qPCR. The supplied primer list contains 14 genes selected from 1 h post r-bursicon injection and 13 genes selected from 3 h post r-bursicon injection, including CG10369 and CG10844, which are chitin/trehalose biosynthesis-related genes. This is directly analogous to the proposed downstream pathway analysis in C. chinensis, where CcCHS1 and CcTre1 expression would be measured after Bursicon signaling manipulation to connect Bursicon signaling to cuticle remodeling.
+[results]
+The available excerpt reports the gene-selection outcome: 14 candidate genes were selected from 1 h post r-bursicon injection and 13 candidate genes were selected from 3 h post r-bursicon injection for qPCR validation. Among the 3 h candidates are CG10369 and CG10844, linking the paper to the proposed chitin biosynthesis pathway analysis. The excerpt does not provide microarray fold changes, qPCR fold changes, p-values, or other quantitative validation outcomes, so the direction and statistical significance of expression change for CG10369, CG10844, or the other genes cannot be reported from the provided text.
+[context]
+Experimental conditions: neck-ligated flies treated with recombinant bursicon; sampling time points: 1 h and 3 h post-injection; assays: DNA microarray chip for global expression profiling and qPCR for validation; inputs: gene-specific forward and reverse primer sequences for the selected 1 h and 3 h genes. The CG gene nomenclature indicates a Drosophila-based system. The excerpt does not specify fly species, sample sizes, control treatment, microarray platform, normalization method, statistical thresholds, or qPCR efficiency, limiting reproducibility details.
+[end related work 1]
+
+Processing method: To test the central hypothesis that Bursicon signaling mediates seasonal polyphenism in C. chinensis: We will conduct RNAi experiments by feeding newly hatched 1st instar nymphs with dsRNAs targeting CcBurs-α, CcBurs-β, CcBurs-R, or control dsEGFP. We will assess RNAi efficiency through qRT-PCR and evaluate functional outcomes through cuticle pigment extraction, chitin content determination, transmission electron microscopy for cuticle thickness measurement, and morphological transition percentage analysis.
+Processing method: To test the proposed post-transcriptional regulation of Bursicon signaling by miRNAs: We will predict miRNAs targeting CcBurs-R using bioinformatics tools (miRanda and Targetscan), then validate target relationships through dual-luciferase reporter assays, RNA immunoprecipitation (RIP) assays, and fluorescence in situ hybridization (FISH). We will also conduct functional studies using agomir and antagomir treatments.
+Processing method: To link the known low-temperature cue to Bursicon regulation: We will expose newly hatched 1st instar nymphs of summer-form to different temperature treatments (25°C vs 10°C) and measure the expression of Bursicon genes at 3, 6, and 10 days post-treatment to determine temperature responsiveness.
+Processing method: To demonstrate the structural basis of Bursicon signaling: We will express individual Bursicon subunits and co-express them in HEK293T cells, then use SDS-PAGE under reduced and non-reduced conditions to demonstrate homodimer and heterodimer formation.
+Processing method: To connect Bursicon signaling to cuticle remodeling: We will examine the expression of chitin biosynthesis pathway genes (CcTre1 and CcCHS1) following Bursicon signaling manipulation to establish the downstream molecular cascade.
+Processing method: To define baseline seasonal expression differences: We will analyze temporal and spatial expression patterns of CcBurs-α, CcBurs-β, and CcBurs-R across different developmental stages and tissues using qRT-PCR. We will compare expression levels between summer-form and winter-form individuals to establish baseline differences.
+[start related work 1]
+[metadata]
+- in_text_citation: [(Lupo et al., 2023-04)](https://www.semanticscholar.org/paper/70880cfac4fe9481b6f58c3e86bbce22754aa7d5)
+- venue: bioRxiv
+- citation count: 1
+[method]
+The paper used inferential statistics to compare gas exchange, ion, osmolality, and carbon-to-nitrogen data across leaf age, rootstock variety, salinity treatment, and diurnal time. One-way ANOVA tested leaf-age effects within each variety-treatment combination; two-way ANOVA tested leaf-age by treatment effects within each time point or variety and variety-treatment effects within each leaf age; Tukey HSD was used for post hoc pairwise comparisons; Student's t-test was used for specific pairwise comparisons between treatments within a variety-leaf age combination or between varieties. Analyses were performed in R 4.2.1. This directly relates to the proposed Bursicon research plan, which also specifies Student's t-test for pairwise comparisons and ANOVA followed by Tukey's HSD for multiple comparisons, but the paper applies the same logic to a plant physiology factorial design rather than insect molecular treatments.
+[results]
+Using these tests, photosynthesis was significantly correlated with leaf age in both grapevine rootstocks (P < 0.01), with maximum photosynthesis at 28-35 days followed by decline. Between 28 and 42 days, photosynthesis declined by an average of 16.7% and PSII efficiency declined by 13.85%. Under control conditions, SO4 had 28% higher daily intrinsic water-use efficiency than 1103P. Two-way ANOVA was used for midday osmolality; the authors concluded there were no significant variety differences, although the text also states P < 0.05, making that specific statistical statement internally inconsistent. From a 6 am baseline, age-associated decline in stomatal conductance was 57% in 1103P and 65% in SO4, equivalent to about 1.5% lower conductance potential per day of leaf age. In 1103P, old leaves had 32% lower stomatal conductance and 37% lower photosynthesis than young leaves, while 49-day-old leaves still retained about 60% of maximum photosynthesis. For ion content, comparing only 21-day-old leaves suggested SO4 excluded sodium better than 1103P, but leaves 14 days older showed no variety difference.
+[context]
+The statistical comparisons were made on data from a net-house pot experiment with two grapevine rootstocks, 1103P and SO4, using 4-week-old cuttings planted in 20-L sand-filled pots in 3 blocks with 9 replicates per rootstock-treatment combination. Plants received drip irrigation with a 33% leaching fraction and 16.7% Hoagland solution supplying 40 ppm nitrogen; salinity treatments were 0.7 dS m-1 control and 4 dS m-1 with 30 mM NaCl, applied from June 3 to August 10, 2020. Gas exchange was measured with an LI-6800 system; midday weekly measurements used 400 ppm CO2, 1000 umol m-2 s-1 PFD, 35 C, and 50% RH, while diurnal measurements on 21- and 63-day-old leaves were taken at 6, 8, 10, 12, 14, 16, and 18 h with chamber settings matched to hourly conditions. Ion, elemental, and osmolality measurements were made from marked leaves, including chloride by silver ion titration, sodium by ICP-OES after 0.5 M nitric acid extraction, carbon and nitrogen by elemental analysis, and osmolality by vapor pressure osmometry from frozen leaf sap. For the proposed insect research plan, the relevant transferable element is the statistical framework for comparing treatment, control, and multi-factor groups, not the plant physiological measurements themselves.
+[end related work 1]
+
+Processing method: To support quantitative comparisons across treatments: Statistical analysis will be performed using Student's t-test for pairwise comparisons and ANOVA followed by Tukey's HSD for multiple comparisons.
+Processing method: To establish the candidate Bursicon genes in C. chinensis: We will identify and characterize CcBurs-α and CcBurs-β as the two subunits of Bursicon in C. chinensis, along with their receptor CcBurs-R. We will use bioinformatics analysis, sequence alignment, phylogenetic analysis, and protein structure prediction to validate these genes.
+Response received 
+
+{
+  "support": "The strongest support for the proposed baseline seasonal qRT-PCR method is that [(Loy et al., 2007-08)](https://www.semanticscholar.org/paper/588203316420b7498cd2fcff77e466689f9d95cc) demonstrated, in honeybee larvae, that bursicon and bursicon-beta can be recovered as distinct RNA-to-cDNA products using total RNA isolation, first-strand cDNA synthesis with M-MLV reverse transcriptase and random hexamer priming at 37 C, RT-PCR, cloning into pCR2.1 TOPO, and DNA sequencing. As an earlier qualitative milestone in the iterative study of bursicon transcripts, this directly supports the premise that bursicon subunit transcripts are detectable in insect larval tissue and that a heterodimeric bursicon model is biologically plausible, which is relevant to the plan’s characterization of CcBurs-α, CcBurs-β, and CcBurs-R. A weaker but still useful support is the methodological precedent for designing bursicon-specific primers from revised in silico gene predictions and validating amplified open reading frames by sequencing; this can be adapted to the proposed qRT-PCR workflow for CcBurs-α, CcBurs-β, and CcBurs-R, especially for primer validation and transcript confirmation before quantitative seasonal profiling.",
+  "contradictions": "The strongest contradiction is that [(Loy et al., 2007-08)](https://www.semanticscholar.org/paper/588203316420b7498cd2fcff77e466689f9d95cc) did not perform qRT-PCR, reference-gene normalization, biological replicate quantification, or statistical comparison, so it cannot support the proposed method’s core claim of establishing baseline seasonal expression differences between summer-form and winter-form Cacopsylla chinensis. The next major limitation is population and experimental design: the study used honeybee larvae preserved in RNAlater, not summer-form or winter-form C. chinensis, and did not sample a defined panel of developmental stages or tissues, whereas the proposed method requires temporal and spatial expression profiling across developmental stages and tissues. A further limitation is that the reported outcome was qualitative amplification and sequencing of bursicon and bursicon-beta open reading frames, with no fold changes, expression rankings, seasonal-form comparisons, or metrics such as Cq, ΔCq, or ΔΔCq; therefore it does not provide evidence that the proposed qRT-PCR comparisons will be quantitatively informative or statistically robust.",
+  "suggested_action": "The most important improvement is to convert the qualitative RT-PCR precedent from [(Loy et al., 2007-08)](https://www.semanticscholar.org/paper/588203316420b7498cd2fcff77e466689f9d95cc) into a fully quantitative qRT-PCR design for CcBurs-α, CcBurs-β, and CcBurs-R, using validated reference genes, no-RT and no-template controls, technical replicates, and the plan’s biological replicate structure (n=3 with at least 50 individuals per replicate), followed by Student’s t-test for pairwise summer/winter comparisons and ANOVA with Tukey’s HSD for multiple developmental-stage or tissue comparisons. The next priority is to define the sampling matrix explicitly: collect summer-form and winter-form individuals at matched developmental stages and relevant tissues, preserve RNA in RNAlater, perform on-column DNase treatment, and use random-primed cDNA synthesis as in the related work to reduce 3′ bias. Finally, before seasonal profiling, validate CcBurs-specific primers by melting-curve analysis and sequencing, and if transcript identity is uncertain, use the cloning/sequencing approach from [(Loy et al., 2007-08)](https://www.semanticscholar.org/paper/588203316420b7498cd2fcff77e466689f9d95cc) as a preliminary confirmation step for CcBurs-α, CcBurs-β, and CcBurs-R.",
+  "soundness_score": 4
+}
+
+Response received 
+
+{
+  "support": "Although only one related work is provided, so it cannot be evaluated as a sequence of newer versus older studies, it functions as prior evidence for the proposed downstream pathway analysis. The strongest support is that [(An et al., 2008-09)](https://www.semanticscholar.org/paper/f24d785effb322183724deecf7469809923b6ddc) directly linked recombinant bursicon treatment to candidate chitin and trehalose biosynthesis genes in Drosophila, selecting CG10369 and CG10844 from the 3 h post-injection microarray for qPCR validation. This is conceptually analogous to the plan's measurement of CcTre1 and CcCHS1 after Bursicon signaling manipulation, because both studies use bursicon exposure as the perturbation and chitin/trehalose pathway genes as downstream readouts. A second, weaker but still relevant support is the use of a short time course, 1 h and 3 h after r-bursicon injection, which supports the general feasibility of detecting rapid transcriptional responses to bursicon and suggests that expression assays should include early time points in addition to the plan's 3, 6, and 10 day seasonal treatments. The weakest support is the validation workflow itself, DNA microarray followed by qPCR, which mirrors the plan's qRT-PCR approach for CcTre1 and CcCHS1 but does not by itself establish that the same genes are regulated in C. chinensis or that the response is tied to seasonal polyphenism.",
+  "contradictions": "The strongest contradiction is that the provided excerpt does not report fold changes, p-values, qPCR validation outcomes, or statistical significance for CG10369, CG10844, or the other selected genes, so it cannot confirm that bursicon actually up- or down-regulates chitin/trehalose biosynthesis genes in a reproducible quantitative manner. A second contradiction is taxonomic and phenotypic mismatch: the study used Drosophila CG nomenclature and neck-ligated flies, not C. chinensis summer-form or winter-form nymphs, and did not test CcTre1, CcCHS1, CcBurs-α, CcBurs-β, CcBurs-R, CcTRPM, low temperature, or seasonal transition percentage. A third contradiction is mechanistic: recombinant bursicon injection bypasses endogenous subunit production, receptor binding, and RNAi-sensitive signaling, whereas the proposed plan manipulates CcBurs-α, CcBurs-β, and CcBurs-R by dsRNA feeding and then measures downstream genes; therefore the related work does not demonstrate that receptor-mediated bursicon signaling, rather than exogenous hormone exposure, controls CcTre1 and CcCHS1. A fourth limitation is reproducibility: the excerpt lacks species, sample sizes, control treatment, microarray platform, normalization method, statistical thresholds, qPCR efficiency, and biological replicate details, so it cannot be used to justify the plan's n=3 with 50 individuals per replicate, Student's t-test, or ANOVA with Tukey's HSD for this specific downstream assay.",
+  "suggested_action": "The most important improvement is to make the downstream pathway analysis explicitly C. chinensis-specific and quantitatively validated: first confirm that CcTre1 and CcCHS1 are orthologous or functionally analogous to the Drosophila chitin/trehalose-related genes CG10369 and CG10844 reported by [(An et al., 2008-09)](https://www.semanticscholar.org/paper/f24d785effb322183724deecf7469809923b6ddc), then measure them by qRT-PCR with validated primers, reference genes, qPCR efficiency, and the plan's biological replicates and statistical tests. The second priority is to align the time course with both the related work and the seasonal plan: include early acute time points, for example 1 h and 3 h after bursicon manipulation or rescue, alongside the planned 3, 6, and 10 day post-treatment samples, because the related work detected candidate genes at 3 h and the seasonal transition may require longer integration. The third priority is to test receptor-mediated signaling rather than only exogenous hormone effects: measure CcTre1 and CcCHS1 after RNAi of CcBurs-α, CcBurs-β, and CcBurs-R, after dsEGFP control, and after heterodimer rescue, so that expression changes can be attributed to Bursicon signaling rather than nonspecific feeding or stress. The fourth priority is to broaden the downstream screen, because the related work selected 14 genes at 1 h and 13 genes at 3 h, indicating that a two-gene assay may miss additional chitin, trehalose, cuticle remodeling, or melanization genes; RNA-seq or microarray of RNAi- and rescue-treated nymphs would strengthen the cascade. Finally, integrate the molecular readouts with the plan's phenotypic assays, chitin content, cuticle thickness, pigmentation, and transition percentage, and report effect sizes and significance for each gene and phenotype to avoid overinterpreting expression changes as proof of seasonal polyphenism.",
+  "soundness_score": 6
+}
+Response received 
+
+```json
+{
+  "support": "The strongest support from the related work is that newly hatched first instar nymphs are experimentally tractable and phenotypically responsive to low-temperature exposure, which is the same life-stage and general temperature-manipulation logic used in the proposed Bursicon time course. [(Keena et al., 2023-01)](https://www.semanticscholar.org/paper/6994432cc817231326f1be8ba3909721852ceb01) reported that first instar duration was significantly longer by 6 days under an alternating 20/5°C low-temperature treatment than under constant 15°C (F = 21.08, df = 1, 15, p < 0.0001), demonstrating that low temperature can measurably alter early nymphal development within a short post-hatch window. This supports the proposed plan’s assumption that 10°C exposure of newly hatched summer-form first instars will produce a biologically meaningful developmental state that could be reflected in Bursicon expression. A secondary but still relevant support is the experimental infrastructure: the study used 45 egg masses each from New Jersey and Pennsylvania, reared first instars in groups of 50–100 or 300–500, maintained 14:10 light:dark, 65% relative humidity, and mostly 25°C with some cages at 20–22°C, and included population as a random effect in gamma-distribution mixed models. These details support the feasibility of controlled first-instar rearing and the importance of replication, environmental standardization, and statistical adjustment for biological variation, all of which are relevant to the proposed qRT-PCR comparison of 25°C versus 10°C. The weakest support is conceptual rather than mechanistic: the related work provides a phenotypic analogue for temperature responsiveness in early instars, but it did not measure Bursicon, CcTRPM, miRNAs, cuticle pigmentation, or seasonal-form transition, so it cannot directly validate the proposed molecular endpoint.",
+  "contradictions": "No related work directly contradicts the proposed method, but the strongest limitation is that the only available evidence does not test the proposed molecular mechanism. [(Keena et al., 2023-01)](https://www.semanticscholar.org/paper/6994432cc817231326f1be8ba3909721852ceb01) measured instar duration, survival, and molt timing in spotted lanternfly, not Bursicon gene expression, receptor expression, RNAi, qRT-PCR, or seasonal polyphenism in C. chinensis, so it cannot support the specific hypothesis that low temperature regulates CcBurs-α, CcBurs-β, or CcBurs-R. A second, more methodologically important contradiction to the proposed sampling design is that low temperature prolonged first instar duration by 6 days, which means that fixed calendar time points at 3, 6, and 10 days post-treatment may not represent equivalent developmental stages between 25°C and 10°C. If 10°C slows development, Bursicon expression may be delayed rather than absent, and a fixed-day time course could misinterpret a stage-shifted response as a temperature effect. A third limitation is that the related work used constant 15°C and an alternating 20/5°C regime rather than the proposed constant 25°C versus 10°C treatments, so the magnitude, timing, and survival consequences of the proposed treatments remain unvalidated. Finally, the related work used Kaplan-Meier product-limit estimates and gamma-distribution mixed models with population as a random effect, whereas the proposed plan relies primarily on Student's t-test and ANOVA with Tukey's HSD; if low temperature increases mortality or developmental asynchrony, those simpler tests may be less appropriate than survival-aware or mixed-effects analyses.",
+  "suggested_action": "The most important improvement is to add a pilot temperature-exposure phase before the Bursicon expression time course to confirm that 25°C and 10°C are viable, to quantify first-instar duration and survival at each temperature, and to adjust the 3, 6, and 10-day sampling schedule to stage-matched developmental windows or to extend the time course if 10°C delays development. Based on the 6-day prolongation reported in [(Keena et al., 2023-01)](https://www.semanticscholar.org/paper/6994432cc817231326f1be8ba3909721852ceb01), the proposed design should not assume that day 10 at 10°C is developmentally equivalent to day 10 at 25°C; instead, it should include additional time points, developmental staging, or a second cohort sampled at matched instar progression. The next priority is to strengthen replication and statistical analysis by treating egg mass, population, or cage as a random effect and by using survival analysis or mixed models if mortality or censored molts occur, rather than relying only on t-tests and ANOVA. The plan should also increase biological replication beyond n=3 with 50 individuals per replicate where feasible, because the related work used 45 egg masses per population and large group sizes, indicating that population-level variation can be substantial. Additional improvements include adding a fluctuating low-temperature treatment such as 20/5°C as a biologically relevant comparator, standardizing humidity and photoperiod, monitoring RNA integrity and reference-gene stability, and measuring CcTRPM expression alongside Bursicon to directly link the temperature receptor to the proposed Bursicon response.",
+  "soundness_score": 4
+}
+```
+Response received 
+
+```json
+{
+  "support": "The strongest support for the proposed RNAi method comes from [(Costa et al., 2016-12)](https://www.semanticscholar.org/paper/6825b2c91813dac9f2a92fe49b9d9515730311a1), which used dsRNA-mediated knockdown of honeybee AmBurs α and AmBurs β and reported disturbed adult cuticle formation plus interference with structural cuticle protein and melanization/sclerotization enzyme expression. This is the closest methodological analogue to feeding C. chinensis 1st-instar nymphs with CcBurs-α, CcBurs-β, or CcBurs-R dsRNAs and measuring cuticle pigment, chitin, and morph transition, because it directly links bursicon loss-of-function to cuticle structural and tanning-related outcomes. A second, less direct support is [(Loveall, and Deitcher, 2010-08)](https://www.semanticscholar.org/paper/c24d7e6bc15939026333be976ca99b64a6b60bfa), where ubiquitous UAS-burs RNAi in Drosophila obstructed advancement beyond the pharate adult stage and was paired with RT-PCR for rickets transcript levels, indicating that bursicon knockdown can perturb ecdysial/cuticle development and that transcript-level readouts are appropriate, although the study did not provide quantitative knockdown efficiency, sample sizes, or seasonal morph metrics. The weakest but still relevant support is [(An et al., 2012-03)](https://www.semanticscholar.org/paper/d13d2385da6e3e694e90b6909bb4e7bf070c18c4), which showed Bursicon subunits form heterodimers and homodimers and can activate downstream signaling, supporting the planned protein dimerization and downstream pathway analyses, but it used recombinant protein gain-of-function in Drosophila fat body rather than dsRNA feeding, cuticle pigment extraction, chitin quantification, TEM, or seasonal transition scoring.",
+  "contradictions": "The strongest contradiction or feasibility concern is from [(Loveall, and Deitcher, 2010-08)](https://www.semanticscholar.org/paper/c24d7e6bc15939026333be976ca99b64a6b60bfa), because ubiquitous UAS-burs RNAi blocked development beyond the pharate adult stage, implying that strong bursicon knockdown can cause ecdysial arrest or lethality. If C. chinensis CcBurs-α, CcBurs-β, or CcBurs-R dsRNA feeding produces comparable systemic knockdown in newly hatched 1st instar nymphs, the planned morphological transition percentage could be confounded by failure to molt, reduced survival, or abnormal cuticle formation rather than a specific summer-to-winter polyphenism shift. A second, more conceptual contradiction is from [(An et al., 2012-03)](https://www.semanticscholar.org/paper/d13d2385da6e3e694e90b6909bb4e7bf070c18c4), which found that Burs a2a and Burs b2b homodimers induced antimicrobial peptide genes and activated Relish in isolated larval fat body without requiring the heterodimer receptor DLGR2. This challenges the assumption that CcBurs-R knockdown will fully recapitulate CcBurs-α or CcBurs-β knockdown, or that the receptor is the sole mediator of Bursicon signaling, although the evidence is from Drosophila immunity rather than cuticle tanning or seasonal polyphenism. The weakest contradiction is the absence of direct quantitative or seasonal evidence in all three studies: none reports C. chinensis, 1st-instar dsRNA feeding, 25°C versus 10°C, qRT-PCR fold-changes for CcBurs-α, CcBurs-β, or CcBurs-R, pigment extraction values, chitin assay values, TEM thickness measurements, or statistical significance for morph transition percentage.",
+  "suggested_action": "The most important improvement is to add a pilot RNAi feasibility and dose-response experiment before the main seasonal assay, because [(Loveall, and Deitcher, 2010-08)](https://www.semanticscholar.org/paper/c24d7e6bc15939026333be976ca99b64a6b60bfa) shows bursicon RNAi can obstruct ecdysis and [(Costa et al., 2016-12)](https://www.semanticscholar.org/paper/6825b2c91813dac9f2a92fe49b9d9515730311a1) does not specify dsRNA dose, delivery route, replicate number, or statistical tests. The pilot should test multiple dsRNA doses and feeding intervals in newly hatched 1st instar C. chinensis nymphs, include dsEGFP and non-targeting controls, measure survival, molting success, body size, and qRT-PCR knockdown at 3, 6, and 10 days post-treatment with validated reference genes, and select a dose that reduces CcBurs-α, CcBurs-β, or CcBurs-R transcripts without preventing nymphal development. Second, the main experiment should explicitly combine RNAi with the planned 25°C versus 10°C treatments and use the planned n=3 biological replicates with at least 50 individuals per replicate, Student's t-test for pairwise comparisons, and ANOVA with Tukey's HSD for multiple comparisons, reporting qRT-PCR fold-changes, cuticle pigment absorbance or concentration, chitin content, TEM cuticle thickness from defined sections, and morph transition percentage with confidence intervals. Third, because [(Costa et al., 2016-12)](https://www.semanticscholar.org/paper/6825b2c91813dac9f2a92fe49b9d9515730311a1) linked bursicon knockdown to structural cuticle proteins and melanization/sclerotization enzymes, the method should add qRT-PCR or RNA-seq validation of downstream cuticle and melanization genes, including CcTre1 and CcCHS1 from the research plan, to connect pigment, chitin, and thickness changes to a molecular cascade. Fourth, because [(An et al., 2012-03)](https://www.semanticscholar.org/paper/d13d2385da6e3e694e90b6909bb4e7bf070c18c4) demonstrated both heterodimer and homodimer signaling and receptor-independent activity, the rescue and protein interaction experiments should test CcBurs-α/CcBurs-β heterodimers and relevant homodimers, validate CcBurs-R expression and localization in the relevant tissue, and include receptor rescue or overexpression controls to distinguish receptor-dependent from receptor-independent effects. Finally, the method should specify technical details for reproducibility: dsRNA length and concentration, feeding protocol, qRT-PCR primers and reference genes, pigment extraction solvent and spectrophotometric wavelengths, chitin assay method, TEM sectioning and thickness measurement region, and statistical handling of missing or non-molting individuals.",
+  "soundness_score": 6
+}
+```
+Response received 
+
+{
+  "support": "The strongest support for the proposed C. chinensis gene-identification method comes from [(Costa et al., 2016-12)](https://www.semanticscholar.org/paper/6825b2c91813dac9f2a92fe49b9d9515730311a1), which used cDNA synthesis, cloning, sequencing, multiple sequence alignment, phylogenetic analysis, and RNA-seq to identify honeybee bursicon α, bursicon β, and receptor sequences and compare them with putative arthropod orthologues; this directly mirrors the proposed use of sequence alignment, phylogenetics, and bioinformatic validation for CcBurs-α, CcBurs-β, and CcBurs-R, and its 20E-conditioned expression plus dsRNA knockdown of AmBurs α/β affecting adult cuticle formation supports the plan's later RNAi and cuticle endpoints, although the supplied summary does not specify sequencing platform, alignment or phylogenetic software, dsRNA dose, or sample sizes. This newer work also extends and supports the older honeybee result of [(Loy et al., 2007-08)](https://www.semanticscholar.org/paper/588203316420b7498cd2fcff77e466689f9d95cc), which used FGENESH reannotation, bursicon-specific RT-PCR from larval total RNA, M-MLV reverse transcription with random hexamers at 37°C, RNase H treatment, pCR2.1 TOPO cloning, and DNA sequencing to recover two separate ORFs with secretory signals, rejecting a single fusion ORF and supporting a heterodimeric Bursicon organization; that evidence directly supports the proposed assumption that C. chinensis Bursicon should be characterized as two subunits rather than one multidomain protein, although it does not validate CcBurs-R and reports no qRT-PCR values, biological replicate counts, statistical tests, or functional assays. The third line of support is [(Chung et al., 2012-09)](https://www.semanticscholar.org/paper/1de3b7fa921646bff68bf0f5d3fff66127d30460), which identified CasBurs α and β in a crab, produced recombinant subunits and a heterodimer, and used RIA, Western blotting, and RP-HPLC to track expression in TGC/PO and hemolymph across the molt cycle, with qualitative associations to cuticle thickening/hardening and hemocyte recruitment/granulation; this supports the proposed heterodimer model and the plan's HEK293T protein-expression/rescue logic, but it is less directly relevant to the current method because it is crustacean, does not report C. chinensis, CcBurs-R, or the proposed alignment/phylogenetic/structure-prediction workflow, and the supplied excerpt lacks quantitative outcomes, baseline comparisons, or statistical significance values.",
+  "contradictions": "The most important contradiction is that none of the related work provides direct C. chinensis evidence: [(Costa et al., 2016-12)](https://www.semanticscholar.org/paper/6825b2c91813dac9f2a92fe49b9d9515730311a1) is honeybee, [(Loy et al., 2007-08)](https://www.semanticscholar.org/paper/588203316420b7498cd2fcff77e466689f9d95cc) is honeybee, and [(Chung et al., 2012-09)](https://www.semanticscholar.org/paper/1de3b7fa921646bff68bf0f5d3fff66127d30460) is crab, so the proposed CcBurs-α, CcBurs-β, and CcBurs-R candidates, their seasonal summer/winter expression, and their role in CcTRPM/low-temperature polyphenism remain unvalidated. A second limitation is that the older validation evidence is qualitative and under-quantified: [(Loy et al., 2007-08)](https://www.semanticscholar.org/paper/588203316420b7498cd2fcff77e466689f9d95cc) reported no qRT-PCR values, biological replicate counts, statistical tests, or functional assays, and [(Chung et al., 2012-09)](https://www.semanticscholar.org/paper/1de3b7fa921646bff68bf0f5d3fff66127d30460) supplied no quantitative outcomes, baseline comparisons, or significance values in the excerpt, so they cannot by themselves justify the plan's statistical framework of n=3, 50 individuals, Student's t-test, ANOVA, and Tukey HSD. A third gap is receptor-specific evidence: [(Costa et al., 2016-12)](https://www.semanticscholar.org/paper/6825b2c91813dac9f2a92fe49b9d9515730311a1) identified a receptor and ecdysteroid-conditioned expression but the supplied summary does not show receptor knockdown, ligand-binding, or receptor-rescue data, while [(Loy et al., 2007-08)](https://www.semanticscholar.org/paper/588203316420b7498cd2fcff77e466689f9d95cc) and [(Chung et al., 2012-09)](https://www.semanticscholar.org/paper/1de3b7fa921646bff68bf0f5d3fff66127d30460) do not address the receptor, so CcBurs-R validation is weaker than subunit validation. Finally, the related work does not support the proposed protein-structure-prediction or miRNA-targeting components: none of the three papers reports structure prediction, miRanda/Targetscan, dual-luciferase, RIP, FISH, agomir/antagomir, or temperature-specific Bursicon regulation, so those parts of the plan are extrapolations rather than evidence-backed steps.",
+  "suggested_action": "The most important improvement is to make the C. chinensis validation direct and quantitative before interpreting seasonal function: use the C. chinensis genome/transcriptome to predict CcBurs-α, CcBurs-β, and CcBurs-R with explicit domain criteria such as cystine knot, secretory signal, and receptor leucine-rich or ligand-binding domains, then validate by RT-PCR/qRT-PCR across tissues, developmental stages, summer-form and winter-form, and 25°C vs 10°C time points, using the plan's n=3 and 50-individual replicates and t-test/ANOVA/Tukey HSD, because the related work shows the need for stronger quantification beyond the qualitative validation in [(Loy et al., 2007-08)](https://www.semanticscholar.org/paper/588203316420b7498cd2fcff77e466689f9d95cc) and [(Chung et al., 2012-09)](https://www.semanticscholar.org/paper/1de3b7fa921646bff68bf0f5d3fff66127d30460). Next, strengthen the bioinformatic validation by reporting alignment scores, orthology evidence, phylogenetic bootstrap or ULS support, outgroups, and structure-prediction confidence metrics, following the alignment/phylogenetic logic of [(Costa et al., 2016-12)](https://www.semanticscholar.org/paper/6825b2c91813dac9f2a92fe49b9d9515730311a1) but adding the structure-prediction step that the related work lacks. Third, validate CcBurs-R functionally rather than only by sequence: include receptor RNAi, expression profiling, and, if feasible, cell-based ligand-binding or co-immunoprecipitation/rescue with recombinant heterodimer, extending the receptor identification in [(Costa et al., 2016-12)](https://www.semanticscholar.org/paper/6825b2c91813dac9f2a92fe49b9d9515730311a1) and the recombinant heterodimer/cuticle evidence in [(Chung et al., 2012-09)](https://www.semanticscholar.org/paper/1de3b7fa921646bff68bf0f5d3fff66127d30460). Fourth, connect Bursicon manipulation to the plan's phenotypic endpoints by measuring cuticle pigment, chitin, TEM thickness, transition percentage, and CcTre1/CcCHS1 expression after RNAi, using the honeybee knockdown/cuticle evidence of [(Costa et al., 2016-12)](https://www.semanticscholar.org/paper/6825b2c91813dac9f2a92fe49b9d9515730311a1) and the crab cuticle-hardening evidence of [(Chung et al., 2012-09)](https://www.semanticscholar.org/paper/1de3b7fa921646bff68bf0f5d3fff66127d30460) as baselines. Finally, treat the miRNA and CcTRPM/temperature components as exploratory: add target-site conservation, multiple prediction tools, negative controls, and CcTRPM knockdown/rescue or temperature time-course controls, because none of the related work directly supports miRNA targeting of Bursicon or low-temperature regulation of Bursicon in C. chinensis.",
+  "soundness_score": 6
+}
+Response received 
+
+```json
+{
+  "support": "The strongest and most current support comes from [(Zhu et al., 2021-10)](https://www.semanticscholar.org/paper/1d838fa4ab9dc44f57f2098e731689f3b2e00387), which used a nearly identical insect miRNA target-validation workflow: bioinformatic prediction of miRNAs targeting GSTu1 in P. xylostella, dual-luciferase reporter assays, RNA immunoprecipitation, FISH/RPA, miRNA injection, and Western blotting across susceptible and resistant populations designated SS, NIL, BL, and HK. This directly supports the proposed plan's use of miRanda and Targetscan predictions followed by dual-luciferase, RIP, FISH, and agomir/antagomir-like manipulation for CcBurs-R, because it demonstrates that the same assay chain can be applied to an insect target and can test whether a miRNA controls transcript accumulation or stability. The second strongest support is [(Peng et al., 2020-02)](https://www.semanticscholar.org/paper/d61d7b2be0ba16fb1783e84155efe477fea41b45), which used miRNA target prediction for miR-1-3p to nominate Bdtra and then assessed whether miR-1-3p controls Bdtra transcript accumulation in embryonic sex determination; although the excerpt does not specify prediction thresholds, reporter constructs, RIP, FISH, or agomir/antagomir details, it supports the general logic that computational target nomination should be followed by measurement of target transcript levels. The weakest but still relevant support is [(Hommers et al., 2018-10)](https://www.semanticscholar.org/paper/ba3e81168885ef189505b9f44ddccccc6b10d58c), which used luciferase reporter and promoter activity assays to show that hsa-miR-579-3p can regulate expression of anxiety-related candidate genes including SLC6A2 in a human panic disorder and trait anxiety context; this supports the utility of reporter-based assays for miRNA-mediated post-transcriptional regulation, but it is human, focuses on the MIR579 promoter SNP rs2910931 and candidate gene expression rather than direct 3'UTR target validation, and does not report RIP, FISH, agomir, or antagomir experiments for CcBurs-R. Chronologically, the related work forms an iterative progression: Hommers et al. 2018 provides older reporter-based evidence for miRNA regulation, Peng et al. 2020 extends the logic to target prediction and transcript accumulation, and Zhu et al. 2021 provides the newest and most methodologically complete support for the proposed integrated validation pipeline.",
+  "contradictions": "The strongest evidence that contradicts or qualifies the proposed method comes from [(Zhu et al., 2021-10)](https://www.semanticscholar.org/paper/1d838fa4ab9dc44f57f2098e731689f3b2e00387): although the workflow is analogous, upregulation or downregulation of miR-8525-5p or miR-8530-5p alone did not affect GSTu1 expression, and lnc-GSTu1-AS enhanced GSTu1 stability by preventing miR-8525-5p-induced degradation, while miR-8530-5p was not involved in that lncRNA-mediated regulation. This directly challenges the proposed method's implicit assumption that agomir or antagomir treatment of predicted CcBurs-R-targeting miRNAs will produce a clear change in CcBurs-R mRNA or Bursicon signaling; if CcBurs-R is buffered by competing endogenous RNAs, lncRNAs, alternative target sites, or compensatory transcription, miRNA manipulation may yield null or weak phenotypes even when the miRNA-target interaction is real. The next caveat is that [(Peng et al., 2020-02)](https://www.semanticscholar.org/paper/d61d7b2be0ba16fb1783e84155efe477fea41b45) does not provide the prediction algorithm, input sequences, scoring thresholds, computational resources, or validation assays such as dual-luciferase, RIP, FISH, agomir, or antagomir, so it cannot support the proposed method's reliance on miRanda and Targetscan alone or on the full validation battery; it only shows that prediction can nominate a target whose transcript accumulation is then assessed, and as an older work it is qualified by the newer, more complex regulatory architecture revealed by Zhu et al. 2021. The weakest contradiction is that [(Hommers et al., 2018-10)](https://www.semanticscholar.org/paper/ba3e81168885ef189505b9f44ddccccc6b10d58c) is a human genetics and reporter study of MIR579/SLC6A2 and does not provide evidence that miRNAs target the Bursicon receptor in Cacopsylla chinensis, nor does it report the insect-specific functional manipulations, RIP, FISH, or agomir/antagomir controls needed to confirm CcBurs-R regulation. Additionally, all three excerpts lack quantitative outcomes such as fold changes, p-values, sample sizes, effect sizes, replicate numbers, and statistical tests, so none provides direct statistical evidence that the proposed miRNA-CcBurs-R axis will be detectable with the planned n=3 and at least 50 individuals per replicate.",
+  "suggested_action": "Most important, based on [(Zhu et al., 2021-10)](https://www.semanticscholar.org/paper/1d838fa4ab9dc44f57f2098e731689f3b2e00387), the method should not treat agomir or antagomir effects on CcBurs-R as the sole functional readout; it should add target-site mutation controls and a ceRNA/lncRNA screen for CcBurs-R, including dual-luciferase assays with wild-type and seed-mutant CcBurs-R 3'UTR, co-transfection of miR mimics or inhibitors, and tests for endogenous lncRNAs or transcripts that sequester the predicted miRNAs. Second, because [(Zhu et al., 2021-10)](https://www.semanticscholar.org/paper/1d838fa4ab9dc44f57f2098e731689f3b2e00387) and [(Peng et al., 2020-02)](https://www.semanticscholar.org/paper/d61d7b2be0ba16fb1783e84155efe477fea41b45) show that prediction and transcript accumulation are necessary but not sufficient, the bioinformatics step should be made transparent and insect-appropriate: report miRanda and Targetscan parameters, seed-match criteria, binding energy, 3'UTR conservation, expression correlation, software versions, and computational resources, and add at least one additional predictor or small RNA-seq/RNA-seq correlation for Cacopsylla chinensis, then rank candidates by multiple criteria rather than a single tool. Third, the validation assays should specify controls and quantitative outputs: dual-luciferase with Renilla normalization, negative miRNA controls, mutant target sites, biological and technical replicates; RIP with anti-Ago2 and input controls; FISH or RPA with probe specificity and negative tissue controls; and agomir/antagomir with scrambled controls, dose and time optimization, qRT-PCR for miRNA and CcBurs-R, Western blot or another protein-level assay, and phenotype readouts such as cuticle pigmentation, chitin content, cuticle thickness, and summer-to-winter transition percentage at 25°C and 10°C at 3, 6, and 10 days post-treatment. Fourth, the statistical plan should be strengthened beyond Student's t-test and ANOVA followed by Tukey's HSD by adding power analysis, multiple-testing correction for multiple miRNA candidates, mixed models for repeated measures or nested individuals, and reporting fold changes, p-values, effect sizes, and confidence intervals, because none of the related works provides quantitative benchmarks. Finally, the method should include rescue or epistasis tests linking miRNA manipulation to Bursicon signaling, such as co-treatment with CcBurs-α, CcBurs-β, or CcBurs-R RNAi, heterodimer protein feeding, target-site mutant CcBurs-R rescue, and downstream measurement of CcTre1 and CcCHS1, so that a miRNA effect is interpreted as part of the seasonal polyphenism pathway rather than as an isolated post-transcriptional interaction.",
+  "soundness_score": 6
+}
+```
+Response received 
+
+{
+  "support": "The strongest support comes from [(An et al., 2012-03)](https://www.semanticscholar.org/paper/d13d2385da6e3e694e90b6909bb4e7bf070c18c4), which used Drosophila Burs a2a and Burs b2b recombinant subunits and compared reducing versus non-reducing SDS-PAGE, reporting bands consistent with Burs a2a/Burs a2a and Burs b2b/Burs b2b homodimers plus the Burs a2a/Burs b2b heterodimer; this is directly analogous to the proposed HEK293T co-expression of CcBurs-α and CcBurs-β and supports the feasibility of detecting disulfide-linked Bursicon dimers by SDS-PAGE. This newer protein-level result builds on the older transcript-level model of [(Loy et al., 2007-08)](https://www.semanticscholar.org/paper/588203316420b7498cd2fcff77e466689f9d95cc), which used RT-PCR, FGENESH gene modeling, pCR2.1 TOPO cloning, and DNA sequencing of honeybee larval cDNA to show separate bursicon and bursicon subunit ORFs with signal sequences, supporting the research plan's premise that CcBurs-α and CcBurs-β should be treated as two secreted subunits rather than a single fusion protein, although it did not test protein dimerization. Weaker but relevant support comes from [(Chung et al., 2012-09)](https://www.semanticscholar.org/paper/1de3b7fa921646bff68bf0f5d3fff66127d30460), which produced a recombinant crab CasBurs heterodimer and validated it by RP-HPLC, RIA, Western blotting, and a bioassay showing cuticle thickening/hardening and hemocyte recruitment, supporting the idea that a purified heterodimer can be functionally meaningful for the plan's rescue experiments. The weakest direct support is [(Zhang et al., 2017-02)](https://www.semanticscholar.org/paper/eedba163fc5a0de6b3b4a6cb49abb5f870ba4736), which used recombinant bursicon homodimers in Aedes aegypti to induce AMP gene expression via Relish2, supporting the biological relevance of homodimeric Bursicon but not providing structural SDS-PAGE evidence for the proposed assay.",
+  "contradictions": "The strongest challenge is that the proposed method relies on reduced and non-reduced SDS-PAGE alone to demonstrate homodimer and heterodimer formation, but the closest precedent, [(An et al., 2012-03)](https://www.semanticscholar.org/paper/d13d2385da6e3e694e90b6909bb4e7bf070c18c4), reported only qualitative non-reducing bands and did not provide quantitative band intensities, exact molecular weights, subunit-specific detection, or statistical significance, so SDS-PAGE alone may not unambiguously distinguish CcBurs-α/CcBurs-α, CcBurs-β/CcBurs-β, and CcBurs-α/CcBurs-β if the subunits have similar sizes. The next strongest limitation is that none of the cited studies used HEK293T co-expression; [(An et al., 2012-03)](https://www.semanticscholar.org/paper/d13d2385da6e3e694e90b6909bb4e7bf070c18c4) used recombinant Drosophila subunits, [(Chung et al., 2012-09)](https://www.semanticscholar.org/paper/1de3b7fa921646bff68bf0f5d3fff66127d30460) used recombinant crab CasBurs, and [(Zhang et al., 2017-02)](https://www.semanticscholar.org/paper/eedba163fc5a0de6b3b4a6cb49abb5f870ba4736) used recombinant Aedes bursicon, so the assumption that HEK293T cells will produce correctly disulfide-bonded, secreted, and detectable CcBurs dimers is an extrapolation that may be affected by host-specific folding, glycosylation, secretion, and tag placement. A further contradiction to the sufficiency of the method is that [(Loy et al., 2007-08)](https://www.semanticscholar.org/paper/588203316420b7498cd2fcff77e466689f9d95cc) provides only transcript-level evidence from honeybee larvae, with RT-PCR and sequencing of two ORFs, and no protein-level dimerization data, so it cannot support the structural claim that the CcBurs subunits form homodimers or heterodimers. Finally, [(Chung et al., 2012-09)](https://www.semanticscholar.org/paper/1de3b7fa921646bff68bf0f5d3fff66127d30460) and [(Zhang et al., 2017-02)](https://www.semanticscholar.org/paper/eedba163fc5a0de6b3b4a6cb49abb5f870ba4736) provide functional evidence for heterodimeric or homodimeric Bursicon activity but do not report reduced/non-reduced SDS-PAGE dimer quantification, so they do not validate the proposed structural assay.",
+  "suggested_action": "The most important improvement is to add subunit-specific detection to the SDS-PAGE plan, such as Western blotting with anti-CcBurs-α and anti-CcBurs-β antibodies or distinct epitope tags, under both reducing and non-reducing conditions, so that CcBurs-α/CcBurs-α, CcBurs-β/CcBurs-β, and CcBurs-α/CcBurs-β bands can be assigned rather than inferred from band position alone; this should include molecular-weight markers, gel image quantification, biological and technical replicates, and statistical comparison of dimer/monomer ratios. The next most important action is to optimize and control the HEK293T expression system by expressing each subunit alone and co-expressing them, collecting both cell lysate and conditioned medium, using disulfide-stabilizing or reducing/non-reducing sample preparation, and including negative controls such as empty vector, single subunit, scrambled co-expression, or unrelated secreted protein; if HEK293T yield or disulfide pairing is poor, the plan should include an alternative recombinant expression and refolding route analogous to [(An et al., 2012-03)](https://www.semanticscholar.org/paper/d13d2385da6e3e694e90b6909bb4e7bf070c18c4), [(Chung et al., 2012-09)](https://www.semanticscholar.org/paper/1de3b7fa921646bff68bf0f5d3fff66127d30460), or [(Zhang et al., 2017-02)](https://www.semanticscholar.org/paper/eedba163fc5a0de6b3b4a6cb49abb5f870ba4736). The plan should also validate the CcBurs-α and CcBurs-β ORFs, signal peptides, and predicted cystine knot domains before expression, following the transcript-level logic of [(Loy et al., 2007-08)](https://www.semanticscholar.org/paper/588203316420b7498cd2fcff77e466689f9d95cc), and should complement SDS-PAGE with orthogonal dimerization assays such as co-immunoprecipitation, size-exclusion chromatography with multi-angle light scattering, or mass spectrometry if available. Finally, because the research plan includes rescue experiments by feeding heterodimer proteins to RNAi-treated nymphs, the protein interaction study should be linked to purification and functional validation, using the purified CcBurs heterodimer to test cuticle pigmentation, chitin content, cuticle thickness, transition percentage, and downstream CcTre1/CcCHS1 expression, with quantitative outcomes, the planned n=3 replicates and at least 50 individuals per replicate, and appropriate statistical analysis.",
+  "soundness_score": 6
+}
+Response received 
+
+{
+  "support": "The strongest support is that [(Lupo et al., 2023-04)](https://www.semanticscholar.org/paper/70880cfac4fe9481b6f58c3e86bbce22754aa7d5) used the same inferential-statistics logic proposed for the Bursicon plan: Student's t-test for specific pairwise comparisons and ANOVA followed by Tukey HSD for multiple comparisons. In that study, one-way ANOVA tested leaf-age effects within each variety-treatment combination, two-way ANOVA tested leaf-age by treatment and variety-treatment effects, and Tukey HSD was used for post hoc pairwise comparisons in R 4.2.1. The experiment had two grapevine rootstocks, 1103P and SO4, 9 replicates per rootstock-treatment combination, 3 blocks, 20-L sand-filled pots, 33% leaching fraction, 16.7% Hoagland solution with 40 ppm nitrogen, and salinity treatments of 0.7 dS m-1 control and 4 dS m-1 with 30 mM NaCl. Using this framework, the authors detected meaningful quantitative differences, including photosynthesis significantly correlated with leaf age in both rootstocks (P < 0.01), a 16.7% photosynthesis decline and 13.85% PSII efficiency decline between 28 and 42 days, 28% higher daily intrinsic water-use efficiency in SO4 under control, 57% and 65% age-associated stomatal conductance declines in 1103P and SO4, and 32% lower stomatal conductance and 37% lower photosynthesis in old versus young 1103P leaves. This directly supports the proposed use of t-tests and ANOVA/Tukey for comparing treatment, control, and multi-factor groups in the Bursicon research plan. A second, slightly weaker support is that the related work's factorial structure—variety, treatment, leaf age, and diurnal time—maps onto the proposed insect design, which also has multiple fixed factors such as 25 C vs 10 C, 3/6/10 days post-treatment, RNAi targets CcBurs-alpha, CcBurs-beta, CcBurs-R, and dsEGFP, and summer-form versus winter-form comparisons. A third, weaker support is implementation detail: the related work specified R 4.2.1 and standard post hoc testing, which supports the proposed plan's need to specify software and statistical procedures, although the plant gas-exchange, ion, and osmolality measurements themselves are not directly transferable to insect molecular assays.",
+  "contradictions": "The strongest contradiction is that [(Lupo et al., 2023-04)](https://www.semanticscholar.org/paper/70880cfac4fe9481b6f58c3e86bbce22754aa7d5) contains an internally inconsistent statistical statement: two-way ANOVA for midday osmolality was reported as showing no significant variety differences while the text also states P < 0.05. This warns that the proposed method's generic phrase, Student's t-test for pairwise comparisons and ANOVA followed by Tukey's HSD for multiple comparisons, is insufficient unless the Bursicon plan pre-specifies hypotheses, comparison families, exact P values, and consistency checks; otherwise conclusions may contradict reported statistics. A second contradiction is replication and power: the related work used 9 replicates per rootstock-treatment combination and 3 blocks, whereas the proposed plan states n=3 with at least 50 individuals per replicate. For the proposed multi-factor insect experiments—temperature by time, RNAi target by form, rescue, miRNA agomir/antagomir, and downstream CcTre1/CcCHS1 expression—n=3 biological replicates is likely underpowered for interaction effects and multiple endpoints, especially if the 50 individuals are pooled or treated as technical replicates rather than independent biological units. A third contradiction is endpoint mismatch: the proposed plan implies t-test/ANOVA for all quantitative comparisons, but transition percentage from summer-form to winter-form is a proportion/binomial outcome, qRT-PCR expression often requires log2 fold-change and reference-gene validation, TEM cuticle thickness may involve repeated measurements per specimen, and dual-luciferase, RIP, FISH, agomir, and antagomir assays may require different models. The related work used t-tests only for specific pairwise comparisons within a defined variety-leaf age combination or between varieties, not as a default for all outcomes. A fourth, weaker contradiction is that the related work's plant physiological context—LI-6800 gas exchange at 400 ppm CO2, 1000 umol m-2 s-1 PFD, 35 C, and 50% RH, ICP-OES sodium after 0.5 M nitric acid extraction, elemental analysis, and vapor pressure osmometry—does not directly validate the insect molecular assay setup, so its support is limited to the statistical framework rather than the biological measurements.",
+  "suggested_action": "Most important, replace the generic statistical statement with endpoint-specific, pre-registered models: define the biological unit (individual nymph, replicate pool, TEM section, or assay well), randomization/blocking, fixed effects (temperature, time, RNAi target, form, treatment), interactions, and random/repeated effects; use two-way or mixed ANOVA/linear mixed models for continuous endpoints, binomial/logistic regression or chi-square/Fisher exact tests for transition percentage, and appropriate models for qRT-PCR (delta-delta Ct, log2 fold change, reference gene validation), TEM (nested/repeated measures), and miRNA assays. Second, increase or justify replication and conduct a power analysis: the related work's 9 replicates per treatment combination and 3 blocks is a useful benchmark, and the proposed n=3 should be expanded or the 50 individuals per replicate analyzed as independent biological units if justified; report expected effect sizes based on comparable biological differences, such as the 16.7% photosynthesis decline, 28% water-use efficiency difference, and 32-37% leaf-age differences reported in [(Lupo et al., 2023-04)](https://www.semanticscholar.org/paper/70880cfac4fe9481b6f58c3e86bbce22754aa7d5), and set alpha, power, and minimum detectable effect. Third, specify multiple-comparison control: use Tukey HSD only for planned all-pairwise comparisons within a factor, use Bonferroni/FDR for multiple endpoints or genes, and reserve Student's t-test for a small number of pre-specified pairwise control-versus-treatment comparisons with correction. Fourth, add assumption and reporting safeguards: test normality/homoscedasticity, apply transformations where needed, report exact P values, effect sizes, confidence intervals, software (e.g., R version and packages), and ensure conclusions match P values to avoid the inconsistency observed in [(Lupo et al., 2023-04)](https://www.semanticscholar.org/paper/70880cfac4fe9481b6f58c3e86bbce22754aa7d5). Fifth, include baseline and control details: compare against dsEGFP and untreated summer/winter forms, report RNAi efficiency before functional endpoints, and for rescue and miRNA studies include specificity and dose controls.",
+  "soundness_score": 5
+}
+Meta review cost: $0.0000 (Input: 23797, Output: 52275)
+
+=== step 6 (attempt 1) ===
+LLM cost for tldr_soundness: $0.000000

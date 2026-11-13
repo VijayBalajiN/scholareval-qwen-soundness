@@ -1,0 +1,1304 @@
+=== ScholarEval soundness pipeline, local vLLM Qwen3.8-27B; GROBID parse gate: pdfs=36 xml=36 ratio=1.0 ===
+
+=== step 1 (attempt 1) ===
+Extract methods tokens: (Input: 1318, Output: 4916)
+
+=== step 2 (attempt 1) ===
+
+Writing Queries:   0%|          | 0/8 [00:00<?, ?it/s]
+Writing Queries:  12%|█▎        | 1/8 [00:21<02:31, 21.65s/it]
+Writing Queries:  25%|██▌       | 2/8 [00:35<01:42, 17.10s/it]
+Writing Queries:  38%|███▊      | 3/8 [00:53<01:26, 17.31s/it]
+Writing Queries:  50%|█████     | 4/8 [01:09<01:07, 16.99s/it]
+Writing Queries:  62%|██████▎   | 5/8 [01:32<00:57, 19.17s/it]
+Writing Queries:  75%|███████▌  | 6/8 [01:49<00:36, 18.43s/it]
+Writing Queries:  88%|████████▊ | 7/8 [02:08<00:18, 18.44s/it]
+Writing Queries: 100%|██████████| 8/8 [02:36<00:00, 21.73s/it]
+Writing Queries: 100%|██████████| 8/8 [02:36<00:00, 19.61s/it]
+Make queries tokens: (Input: 11453, Output: 4356)
+
+=== step 3 (attempt 1) ===
+Using PDF directory: <project>/ScholarEval-results/biochem_4/soundness/pdfs
+GROBID container is already running.
+Starting snippet search for 8 methods...
+
+Finding Snippets for Each Method:   0%|          | 0/8 [00:00<?, ?it/s]
+Finding Snippets for Each Method:  12%|█▎        | 1/8 [00:03<00:24,  3.52s/it]
+Finding Snippets for Each Method:  25%|██▌       | 2/8 [00:06<00:18,  3.15s/it]
+Finding Snippets for Each Method:  38%|███▊      | 3/8 [00:09<00:15,  3.10s/it]
+Finding Snippets for Each Method:  50%|█████     | 4/8 [00:12<00:13,  3.26s/it]
+Finding Snippets for Each Method:  62%|██████▎   | 5/8 [00:16<00:09,  3.24s/it]
+Finding Snippets for Each Method:  75%|███████▌  | 6/8 [00:20<00:07,  3.51s/it]Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Transcriptomic RNA-seq analysis of Fusarium graminearum treated with quinofumelin to identify differentially expressed genes, Gene Ontology and KEGG pathway enrichment, and candidate molecular targets for the mode of action of a novel quinoline fungicide', 'limit': 8, 'publicationDateOrYear': ':2025-02-28'}
+Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'To identify affected biologica...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Widely targeted LC-MS metabolomics of quinofumelin-treated Fusarium graminearum, differential metabolite accumulation using PLS-DA, KEGG pathway enrichment, and integration with transcriptomics to identify affected fungal metabolic pathways and candidate metabolites for fungicide mechanism of action.', 'limit': 8, 'publicationDateOrYear': ':2025-02-28'}
+Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'To identify affected metabolic...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Conjoint transcriptome and metabolome pathway enrichment analysis identifying co-enriched pathways and candidate target genes for quinofumelin antifungal mechanism in Fusarium graminearum', 'limit': 8, 'publicationDateOrYear': ':2025-02-28'}
+Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'To integrate transcriptomic an...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Rescue of quinofumelin-induced growth inhibition in Fusarium graminearum by exogenous supplementation of pathway metabolites on CZA plates, with colony diameter measurements across Fusarium species and strains.', 'limit': 8, 'publicationDateOrYear': ':2025-02-28'}
+Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'To functionally validate pathw...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Genetic validation of quinofumelin target genes in the fungal pathogen Fusarium graminearum using protoplast transformation, homologous recombination deletion mutants, selection markers, PCR verification, and phenotypic characterization on media with metabolite supplementation to assess gene essentiality and pathway involvement.', 'limit': 8, 'publicationDateOrYear': ':2025-02-28'}
+Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'To genetically validate candid...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Biochemical validation of direct quinofumelin binding to candidate fungal target proteins using E. coli purified proteins, AutoDockTools molecular docking, Biacore T200 surface plasmon resonance binding kinetics, and microscale thermophoresis with fluorescently labeled proteins to identify mechanism of action in Fusarium graminearum', 'limit': 8, 'publicationDateOrYear': ':2025-02-28'}
+Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'To demonstrate direct binding ...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'BLAST identification of homologous fungal proteins and phylogenetic tree construction to assess target conservation, structural domains, and broad-spectrum potential of quinofumelin against phytopathogenic fungi', 'limit': 8, 'publicationDateOrYear': ':2025-02-28'}
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 1/11 in 2.4s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 2/11 in 6.0s
+
+Finding Snippets for Each Method:  88%|████████▊ | 7/8 [00:33<00:06,  6.57s/it]
+Finding Snippets for Each Method: 100%|██████████| 8/8 [00:36<00:00,  5.45s/it]
+Finding Snippets for Each Method: 100%|██████████| 8/8 [00:36<00:00,  4.51s/it]
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+INFO - Loading configuration file from ./GROBID_config.json
+WARNING - Config key 'batch_size' is deprecated, use 'queue_size' instead
+INFO - Configuration file loaded successfully
+Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'To assess target conservation ...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': "Statistical analysis of biological replicates in quinofumelin treatment experiments using ANOVA, Fisher's PLSD for mean comparisons in Fusarium graminearum growth assays", 'limit': 8, 'publicationDateOrYear': ':2025-02-28'}
+Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'To ensure robust quantitative ...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+ Snippet search took: 36.12 seconds
+Collecting metadata for 125 unique papers...
+   Processing batch 1/1 (125 papers)...
+   ⏱️  Batch took: 5.11 seconds
+ Paper metadata collection took: 5.11 seconds
+should be 125 pdfs to download
+ PDF URL preparation took: 0.00 seconds
+Found 125 PDFs with valid URLs to attempt download
+Starting 125 downloads without Unpaywall...
+✗ Failed: 55741963
+✗ Failed: 249300060
+✗ Failed: 255736100
+✗ Failed: 254308663
+✗ Failed: 157059142
+✗ Failed: 11387628
+✗ Failed: 10785873
+✗ Failed: 233428551
+✗ Failed: 18476587
+✗ Failed: 6695416
+✗ Failed: 54092
+✗ Failed: 31020285
+✗ Failed: 981626
+✗ Failed: 240198695
+✗ Failed: 2854174
+✗ Failed: 195830117
+✗ Failed: 205158039
+✗ Failed: 270018598
+✗ Failed: 86824543
+✗ Failed: 7863233
+✗ Failed: 276114656
+✗ Failed: 19479814
+✗ Failed: 128350965
+✗ Failed: 33319367
+✗ Failed: 26433465
+✗ Failed: 11604119
+✗ Failed: 271571777
+✗ Failed: 247398032
+✗ Failed: 11826176
+✓ requests: 249313944
+✗ Failed: 85268748
+✓ requests: 30837196
+✗ Failed: 73515171
+✗ Failed: 4092217
+✓ requests: 204772451
+✗ Failed: 276446709
+✓ requests: 6907128
+✓ requests: 202029456
+✓ requests: 2628146
+✗ Failed: 30342394
+✓ requests: 10463998
+✗ Failed: 35701838
+✓ requests: 33861029
+✓ requests: 15651501
+✓ requests: 11213616
+✓ requests: 7830601
+✓ requests: 268465735
+✓ requests: 267546815
+✓ requests: 215696
+✗ Failed: 269881100
+✗ Failed: 17633843
+✗ Failed: 11215325
+✗ Failed: 44271218
+✗ Failed: 257468315
+✗ Failed: 267652274
+✗ Failed: 202406859
+✗ Failed: 58554483
+✗ Failed: 247051415
+✗ Failed: 201631996
+✗ Failed: 14590473
+✗ Failed: 273322233
+✗ Failed: 221614324
+✗ Failed: 45299733
+✗ Failed: 58634174
+✗ Failed: 51804807
+✗ Failed: 5902562
+✗ Failed: 3753229
+✓ requests: 263878981
+✓ requests: 17392559
+✓ requests: 7606221
+✗ Failed: 10036153
+✓ requests: 63357130
+✓ requests: 46944583
+✓ requests: 252533627
+✓ requests: 220651077
+✓ requests: 266741151
+✓ requests: 276046766
+✗ Failed: 49689513
+✗ Failed: 85195940
+✗ Failed: 41195325
+✗ Failed: 276359248
+✗ Failed: 7334209
+✗ Failed: 1217110
+✗ Failed: 23956989
+✗ Failed: 17162815
+✗ Failed: 206745763
+✗ Failed: 1121614
+✗ Failed: 101979947
+✗ Failed: 82131739
+✗ Failed: 85027849
+✗ Failed: 40928242
+✗ Failed: 42113182
+✗ Failed: 85279781
+✗ Failed: 214173427
+✓ requests: 212732254
+✓ requests: 10675296
+✓ requests: 264931952
+✓ requests: 276237445
+✗ Failed: 268525186
+✓ requests: 257915587
+✗ Failed: 235214126
+✗ Failed: 266256967
+✗ Failed: 275197957
+✗ Failed: 10960997
+✗ Failed: 713632
+✗ Failed: 81983817
+✗ Failed: 275120053
+✗ Failed: 9872468
+✗ Failed: 221657079
+✗ Failed: 41476030
+✗ Failed: 237945359
+✗ Failed: 55392807
+✓ requests: 9185158
+✓ requests: 8434211
+✓ requests: 2286100
+✓ requests: 13501196
+✓ requests: 226308149
+✓ requests: 45447627
+✗ Failed: 1674696
+✗ Failed: 13836477
+✗ Failed: 217755293
+✗ Failed: 73435965
+✓ requests: 18845940
+✓ requests: 3367206
+✗ Failed: 211128485
+Completed: 36/125 successful downloads
+ PDF downloads took: 79.61 seconds for 125 PDFs
+Download 1: FAILED - None
+Download 2: FAILED - None
+Download 3: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/215696.pdf
+Download 4: FAILED - None
+Download 5: FAILED - None
+Download 6: FAILED - None
+Download 7: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/10463998.pdf
+Download 8: FAILED - None
+Download 9: FAILED - None
+Download 10: FAILED - None
+Download 11: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/7830601.pdf
+Download 12: FAILED - None
+Download 13: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/268465735.pdf
+Download 14: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/202029456.pdf
+Download 15: FAILED - None
+Download 16: FAILED - None
+Download 17: FAILED - None
+Download 18: FAILED - None
+Download 19: FAILED - None
+Download 20: FAILED - None
+Download 21: FAILED - None
+Download 22: FAILED - None
+Download 23: FAILED - None
+Download 24: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/30837196.pdf
+Download 25: FAILED - None
+Download 26: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/2628146.pdf
+Download 27: FAILED - None
+Download 28: FAILED - None
+Download 29: FAILED - None
+Download 30: FAILED - None
+Download 31: FAILED - None
+Download 32: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/33861029.pdf
+Download 33: FAILED - None
+Download 34: FAILED - None
+Download 35: FAILED - None
+Download 36: FAILED - None
+Download 37: FAILED - None
+Download 38: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/11213616.pdf
+Download 39: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/6907128.pdf
+Download 40: FAILED - None
+Download 41: FAILED - None
+Download 42: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/267546815.pdf
+Download 43: FAILED - None
+Download 44: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/204772451.pdf
+Download 45: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/15651501.pdf
+Download 46: FAILED - None
+Download 47: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/249313944.pdf
+Download 48: FAILED - None
+Download 49: FAILED - None
+Download 50: FAILED - None
+Download 51: FAILED - None
+Download 52: FAILED - None
+Download 53: FAILED - None
+Download 54: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/266741151.pdf
+Download 55: FAILED - None
+Download 56: FAILED - None
+Download 57: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/46944583.pdf
+Download 58: FAILED - None
+Download 59: FAILED - None
+Download 60: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/7606221.pdf
+Download 61: FAILED - None
+Download 62: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/252533627.pdf
+Download 63: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/17392559.pdf
+Download 64: FAILED - None
+Download 65: FAILED - None
+Download 66: FAILED - None
+Download 67: FAILED - None
+Download 68: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/10675296.pdf
+Download 69: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/212732254.pdf
+Download 70: FAILED - None
+Download 71: FAILED - None
+Download 72: FAILED - None
+Download 73: FAILED - None
+Download 74: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/257915587.pdf
+Download 75: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/220651077.pdf
+Download 76: FAILED - None
+Download 77: FAILED - None
+Download 78: FAILED - None
+Download 79: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/63357130.pdf
+Download 80: FAILED - None
+Download 81: FAILED - None
+Download 82: FAILED - None
+Download 83: FAILED - None
+Download 84: FAILED - None
+Download 85: FAILED - None
+Download 86: FAILED - None
+Download 87: FAILED - None
+Download 88: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/276046766.pdf
+Download 89: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/276237445.pdf
+Download 90: FAILED - None
+Download 91: FAILED - None
+Download 92: FAILED - None
+Download 93: FAILED - None
+Download 94: FAILED - None
+Download 95: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/264931952.pdf
+Download 96: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/263878981.pdf
+Download 97: FAILED - None
+Download 98: FAILED - None
+Download 99: FAILED - None
+Download 100: FAILED - None
+Download 101: FAILED - None
+Download 102: FAILED - None
+Download 103: FAILED - None
+Download 104: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/3367206.pdf
+Download 105: FAILED - None
+Download 106: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/18845940.pdf
+Download 107: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/226308149.pdf
+Download 108: FAILED - None
+Download 109: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/8434211.pdf
+Download 110: FAILED - None
+Download 111: FAILED - None
+Download 112: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/13501196.pdf
+Download 113: FAILED - None
+Download 114: FAILED - None
+Download 115: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/2286100.pdf
+Download 116: FAILED - None
+Download 117: FAILED - None
+Download 118: FAILED - None
+Download 119: FAILED - None
+Download 120: FAILED - None
+Download 121: FAILED - None
+Download 122: FAILED - None
+Download 123: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/9185158.pdf
+Download 124: SUCCESS - <project>/ScholarEval-results/biochem_4/soundness/pdfs/45447627.pdf
+Download 125: FAILED - None
+ Download Summary: 36 successful, 89 failed
+Found 36 local file(s) to process
+Processing completed: 36 out of 36 files processed
+Errors: 0 out of 36 files processed
+⏱️  Total runtime: 29.43 seconds
+🚀 Speed: 1.22 documents/second
+ Throughput: 0.82 seconds/document
+ Found 36 XML files to parse...
+Processing XML 1/36: 63357130
+  XML file 63357130 took: 0.32 seconds
+Processing XML 2/36: 33861029
+  XML file 33861029 took: 0.01 seconds
+Processing XML 3/36: 18845940
+  XML file 18845940 took: 0.00 seconds
+Processing XML 4/36: 17392559
+  XML file 17392559 took: 0.00 seconds
+Processing XML 5/36: 264931952
+  XML file 264931952 took: 0.00 seconds
+Processing XML 6/36: 202029456
+  XML file 202029456 took: 0.03 seconds
+Processing XML 7/36: 220651077
+  XML file 220651077 took: 0.00 seconds
+Processing XML 8/36: 268465735
+  XML file 268465735 took: 0.00 seconds
+Processing XML 9/36: 266741151
+  XML file 266741151 took: 0.00 seconds
+Processing XML 10/36: 8434211
+  XML file 8434211 took: 0.00 seconds
+Processing XML 11/36: 9185158
+  XML file 9185158 took: 0.00 seconds
+Processing XML 12/36: 7606221
+  XML file 7606221 took: 0.00 seconds
+Processing XML 13/36: 204772451
+  XML file 204772451 took: 0.00 seconds
+Processing XML 14/36: 249313944
+  XML file 249313944 took: 0.00 seconds
+Processing XML 15/36: 276046766
+  XML file 276046766 took: 0.00 seconds
+Processing XML 16/36: 3367206
+  XML file 3367206 took: 0.00 seconds
+Processing XML 17/36: 13501196
+  XML file 13501196 took: 0.00 seconds
+Processing XML 18/36: 45447627
+  XML file 45447627 took: 0.00 seconds
+Processing XML 19/36: 276237445
+  XML file 276237445 took: 0.00 seconds
+Processing XML 20/36: 226308149
+  XML file 226308149 took: 0.01 seconds
+Processing XML 21/36: 257915587
+  XML file 257915587 took: 0.00 seconds
+Processing XML 22/36: 267546815
+  XML file 267546815 took: 0.00 seconds
+Processing XML 23/36: 10675296
+  XML file 10675296 took: 0.00 seconds
+Processing XML 24/36: 263878981
+  XML file 263878981 took: 0.00 seconds
+Processing XML 25/36: 252533627
+  XML file 252533627 took: 0.00 seconds
+Processing XML 26/36: 15651501
+  XML file 15651501 took: 0.00 seconds
+Processing XML 27/36: 46944583
+  XML file 46944583 took: 0.00 seconds
+Processing XML 28/36: 10463998
+  XML file 10463998 took: 0.00 seconds
+Processing XML 29/36: 215696
+  XML file 215696 took: 0.01 seconds
+Processing XML 30/36: 6907128
+  XML file 6907128 took: 0.00 seconds
+Processing XML 31/36: 11213616
+  XML file 11213616 took: 0.00 seconds
+Processing XML 32/36: 2286100
+  XML file 2286100 took: 0.00 seconds
+Processing XML 33/36: 30837196
+  XML file 30837196 took: 0.03 seconds
+Processing XML 34/36: 7830601
+  XML file 7830601 took: 0.00 seconds
+Processing XML 35/36: 212732254
+  XML file 212732254 took: 0.00 seconds
+Processing XML 36/36: 2628146
+  XML file 2628146 took: 0.00 seconds
+ XML parsing took: 0.50 seconds total (0.01s per file average)
+ Final JSON save took: 0.02 seconds
+
+=== step 4 (attempt 1) ===
+
+Analyzing Sources:  50%|█████     | 4/8 [13:14<11:50, 177.60s/it]Reference not found in paper text: 1217110
+Reference not found in paper text: 257468315
+Reference not found in paper text: 235214126
+Reference not found in paper text: 247051415
+Reference not found in paper text: 270018598
+Reference not found in paper text: 10785873
+Reference not found in paper text: 40928242
+Reference not found in paper text: 276359248
+Reference not found in paper text: 268525186
+Reference not found in paper text: 266256967
+Reference not found in paper text: 201631996
+Reference not found in paper text: 82131739
+Reference not found in paper text: 11387628
+Reference not found in paper text: 31020285
+Reference not found in paper text: 86824543
+Reference not found in paper text: 73515171
+Reference not found in paper text: 85195940
+Reference not found in paper text: 13836477
+Reference not found in paper text: 7334209
+Reference not found in paper text: 73435965
+Reference not found in paper text: 33319367
+Reference not found in paper text: 270018598
+Reference not found in paper text: 128350965
+Reference not found in paper text: 7863233
+Reference not found in paper text: 58634174
+Reference not found in paper text: 255736100
+Reference not found in paper text: 235214126
+Reference not found in paper text: 157059142
+Reference not found in paper text: 249300060
+Reference not found in paper text: 275197957
+Reference not found in paper text: 270018598
+Reference not found in paper text: 30342394
+Reference not found in paper text: 211128485
+Reference not found in paper text: 58554483
+Reference not found in paper text: 85268748
+Reference not found in paper text: 81983817
+Reference not found in paper text: 17633843
+Reference not found in paper text: 157059142
+Reference not found in paper text: 217755293
+Reference not found in paper text: 44271218
+Reference not found in paper text: 267652274
+Reference not found in paper text: 254308663
+Reference not found in paper text: 235214126
+Reference not found in paper text: 17162815
+Reference not found in paper text: 276114656
+Reference not found in paper text: 4092217
+Reference not found in paper text: 23956989
+Reference not found in paper text: 41476030
+Reference not found in paper text: 85027849
+Reference not found in paper text: 206745763
+Reference not found in paper text: 195830117
+Reference not found in paper text: 235214126
+Reference not found in paper text: 17162815
+Reference not found in paper text: 3753229
+Reference not found in paper text: 247398032
+Reference not found in paper text: 26433465
+Reference not found in paper text: 51804807
+Reference not found in paper text: 35701838
+Reference not found in paper text: 1674696
+Reference not found in paper text: 55392807
+Reference not found in paper text: 19479814
+Reference not found in paper text: 11604119
+Reference not found in paper text: 55741963
+[retry] empty model reply (attempt 1/3)
+
+Analyzing Sources: 100%|██████████| 8/8 [48:17<00:00, 362.19s/it]
+Reference not found in paper text: 214173427
+Reference not found in paper text: 240198695
+Reference not found in paper text: 202406859
+Reference not found in paper text: 54092
+Reference not found in paper text: 85279781
+Reference not found in paper text: 101979947
+Reference not found in paper text: 42113182
+Reference not found in paper text: 17633843
+Reference not found in paper text: 237945359
+Reference not found in paper text: 41195325
+Reference not found in paper text: 205158039
+Reference not found in paper text: 11826176
+Reference not found in paper text: 271571777
+Reference not found in paper text: 5902562
+Reference not found in paper text: 6695416
+Reference not found in paper text: 275120053
+Reference not found in paper text: 18476587
+Reference not found in paper text: 981626
+Reference not found in paper text: 10036153
+Reference not found in paper text: 2854174
+Reference not found in paper text: 233428551
+Reference not found in paper text: 1121614
+Reference not found in paper text: 713632
+Reference not found in paper text: 49689513
+Reference not found in paper text: 221657079
+Reference not found in paper text: 269881100
+Reference not found in paper text: 45299733
+Reference not found in paper text: 273322233
+Reference not found in paper text: 11215325
+Reference not found in paper text: 9872468
+Reference not found in paper text: 221614324
+Reference not found in paper text: 14590473
+Reference not found in paper text: 10960997
+Reference not found in paper text: 276446709
+Method analysis cost: $0.0000 (Input: 93051, Output: 104311)
+
+=== step 5 (attempt 1) ===
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch; retry 1/11 in 2.3s
+[start related work 1]
+[metadata]
+- in_text_citation: [(Liu et al., 2015-10)](https://www.semanticscholar.org/paper/23ca4aac76c6c47f7de41b4f58f1a58a44e56e51)
+- venue: BMC Genomics
+- citation count: 55
+[method]
+The paper used an RNA-seq-based transcriptomic workflow in Penicillium digitatum. RNA was prepared from fungal samples, libraries were prepared and sequenced, reads were mapped to a reference genome, gene expression levels were quantified, and differential expression analysis was performed to identify differentially expressed genes and isoforms between samples. The paper also included novel transcript prediction, alternative splicing analysis, and SNP analysis. A key validation step was quantitative real-time PCR validation of differential expression of transporter-encoding genes before and after prochloraz treatment. This is methodologically related to the proposed research method because both approaches use RNA extraction, Illumina sequencing, differential expression analysis, and downstream functional interpretation to identify fungicide-responsive genes and pathways, although the paper studies prochloraz in P. digitatum while the proposed plan studies quinofumelin in F. graminearum.
+[results]
+The supplied paper excerpt contains only section headings and no numerical results. It indicates that differentially expressed genes and isoforms were identified between different samples, that the functional distribution of differentially expressed genes was examined, and that real-time PCR validated differential expression of transporter-encoding genes in P. digitatum before and after prochloraz treatment. No fold changes, P values, adjusted P values, gene names, pathway enrichment scores, or statistical comparisons are available in the provided text.
+[context]
+The paper context is Penicillium digitatum exposed to prochloraz, not Fusarium graminearum exposed to quinofumelin. The relevant experimental context is therefore methodological rather than organism- or compound-specific: the paper demonstrates an RNA-seq and qPCR validation strategy for fungicide treatment. The provided excerpt does not specify the fungal strain, growth medium, prochloraz concentration, treatment duration, sequencing platform, read length, number of biological replicates, differential expression software, significance thresholds, or enrichment analysis tools. Consequently, the paper supports the general transcriptomic strategy in the proposed research plan but does not provide reproducible quantitative details for the proposed quinofumelin transcriptomics.
+[end related work 1]
+
+[start related work 2]
+[metadata]
+- in_text_citation: [(Martins et al., 2016-09)](https://www.semanticscholar.org/paper/4175498ce07b5bd73a875316c29994baf43382b8)
+- venue: No Venue
+- citation count: 7
+[method]
+The paper used an EST-based transcriptomic target-discovery workflow for Fusarium graminearum. It assembled 57,282 expressed sequence tags from four wheat-Fusarium interactions at early infection into 34,970 unigenes, separated plant and fungal sequences by BLASTx against wheat and Fusarium reference genomes, and retained 5,094 Fusarium contigs. These expressed sequences were combined with 13,321 genome-predicted proteins, 1,369 secretome proteins, and PHI-base pathogenicity, virulence, and effector sequences. Candidate targets were filtered by early in planta expression, BLAST2GO functional and subcellular localization criteria favoring cytoplasmic or chemically accessible proteins, homology to PDB structures, manual curation of gene copies, protein length under 500 amino acids, and removal of orthologs with over 60 percent sequence identity. The retained targets were then used in structure-based virtual screening: 10,240 compounds were docked into binding sites of the selected targets, ranked by docking score, and the top 15 compounds per target were retained. This relates to the proposed transcriptomic analysis because both use fungal expression data to prioritize candidate genes and biological processes, but the paper used infection-induced ESTs rather than quinofumelin-treated RNA-seq, and its virtual screening is analogous to the plan's molecular docking step rather than a direct quinofumelin binding assay.
+[results]
+The EST filtering reduced 34,970 unigenes to 5,094 Fusarium-related contigs after removing 10,242 wheat-similar contigs and 951 unknown sequences. The integrated target-selection pipeline yielded three representative Fusarium proteins for further analysis: endoglucanase-5, trichodiene synthase, and ERG6-D-(24)-sterol C-methyltransferase. Virtual screening of 10,240 compounds against these targets produced 45 top-scoring ligands, 15 per target, selected as candidates for experimental validation based on docking scores and interactions with polar, aromatic, and hydrophobic residues. No statistical significance values, baseline comparisons, or quinofumelin-specific binding data were reported.
+[context]
+The EST data came from 18 cDNA libraries constructed from Fusarium graminearum-infected wheat varieties Bobwhite, Piko, Sumai-3, and Gottingen-2 at the early infection stage. The target dataset included the F. graminearum PH-1 genome, in planta ESTs, a refined secretome, and PHI-base sequences, with PHI-base reported as 682 proteins in the dataset summary and 795 sequences in the methods text. Computational filters used BLASTx, BLAST2GO, PDB homology search, manual curation, a maximum protein size of 500 amino acids, and an ortholog elimination threshold of greater than 60 percent sequence identity. Virtual screening used major conformer populations and docking-score ranking. No specific computational hardware, software versions, docking parameters, or statistical thresholds for compound ranking were provided. The study did not include quinofumelin treatment, RNA-seq, DESeq2, KEGG enrichment, metabolomics, gene deletion, SPR, or MST, so its findings provide a related target-prioritization and docking framework rather than direct evidence for quinofumelin's mode of action.
+[end related work 2]
+
+[start related work 1]
+[metadata]
+- in_text_citation: [(Lowe et al., 2010-11)](https://www.semanticscholar.org/paper/00f8591b971d660e927ba59073acff4671d6fe65)
+- venue: Molecular Plant-Microbe Interactions
+- citation count: 29
+[method]
+The paper used 1H NMR metabolite profiling and GC-MS analysis of trichothecenes in Fusarium spp. cultures. The workflow included fungal culture and growth conditions, metabolite extraction, NMR data collection, spectral data reduction, GC-MS analysis for trichothecenes, and statistical analyses with experimental replication. This is related to the proposed LC-MS widely targeted metabolome analysis because both approaches profile metabolites in Fusarium to infer metabolic composition, but the paper's method is NMR/GC-MS based and does not describe the proposed LC-MS extraction, PLS-DA screening, or KEGG pathway enrichment for quinofumelin-treated versus control samples.
+[results]
+No quantitative metabolite concentrations, fold changes, P-values, pathway enrichment scores, or statistical comparisons are provided in the supplied text. The only outcome indicated by the available section heading is that 1H NMR revealed a carbohydrate-rich composition in Fusarium spp., and the GC-MS section indicates trichothecenes were analyzed, but no numerical values, baselines, or significance levels are available.
+[context]
+The available context is limited to section headings: Fusarium spp. cultures and growth conditions, metabolite extraction, NMR data collection and spectral reduction, GC-MS for trichothecenes analysis, and experimental replication/statistical analyses. No sample sizes, strain identities, growth media, instrument models, NMR field strengths, GC-MS parameters, extraction solvent ratios, calibration standards, or statistical thresholds are provided in the supplied text.
+[end related work 1]
+
+[start related work 2]
+[metadata]
+- in_text_citation: [(Genga et al., 2011-09)](https://www.semanticscholar.org/paper/6185c631b6b043ed076b59058825721c24230441)
+- venue: No Venue
+- citation count: 35
+[method]
+The paper describes a metabolomics workflow based on hyphenated LC-MS, especially LC-DAD-MS and HPLC-MS, for broad metabolite profiling, combined with multivariate statistical analysis such as PCA, HCA, and, in the data-treatment discussion, PLS-DA and OPLS-DA for class separation and variable selection. In the most detailed LC-MS example, root extracts from Salvia miltiorrhiza were prepared using four solvent-based extraction methods and analyzed by 1H-NMR and LC-DAD-MS after water depletion and different drying treatments; PCA score plots were used to discriminate samples, and detected metabolites were compared across treatments. This is methodologically related to the proposed widely targeted LC-MS metabolome analysis of quinofumelin-treated Fusarium graminearum, which also uses differential accumulation between treated and control groups and supervised PLS-DA with P<0.05 and fold change at least 1.5 to select candidate metabolites for KEGG pathway enrichment.
+[results]
+LC-DAD-MS detected 44 secondary metabolites in Salvia roots, including 5 polyphenolic acids, genipin, umbelliferone, and tormentic acid that had not previously been described in this plant. 1H-NMR identified 28 primary metabolites, described as sugars, amino acids, and carboxylic acids, and 4 secondary metabolites, described as polyphenols. PCA score plots from both NMR and LC-DAD-MS separated freeze-dried, air-dried, and sun-dried samples. Air-drying increased proline, alanine, and succinate and decreased n-butanol and lactate; air-drying also increased sucrose and glutamine, while sun-drying increased leucine, melibiose, and raffinose. LC-DAD-MS showed that air-drying enhanced oligomeric caffeic acids and tanshinones, whereas sun-drying promoted tanshinones but inhibited polyphenolic acids.
+[context]
+The samples were roots of Salvia miltiorrhiza Bunge subjected to water depletion and then air-dried, sun-dried, or freeze-dried, with freeze-drying used as the control; four extraction methods based on different solvents were compared. The study was a plant metabolomic comparison, not a fungicide-treated fungal system, and the reported statistical separation was based on PCA rather than PLS-DA with P<0.05 and fold change at least 1.5; KEGG pathway enrichment was not reported for this specific LC-DAD-MS example. The paper does not specify the exact LC-MS instrument model, chromatographic conditions, or statistical software used for this example. The relevance to the research plan is that it demonstrates LC-MS can detect broad primary and secondary metabolite changes and that multivariate plots can separate treatment groups, supporting the proposed use of LC-MS and supervised multivariate screening to identify quinofumelin-affected pathways and candidate metabolites for recovery experiments and target validation.
+[end related work 2]
+
+[start related work 3]
+[metadata]
+- in_text_citation: [(Gunnaiah et al., 2012-07)](https://www.semanticscholar.org/paper/cd51931de84e7111db422558231f9387563a43cc)
+- venue: PLoS ONE
+- citation count: 260
+[method]
+The paper used LC-hybrid MS metabolomics to compare wheat near-isogenic lines (NILs) carrying resistant or susceptible Fhb1 alleles. Spike samples were collected from untreated plants and from plants inoculated with Fusarium graminearum, metabolites were extracted, and the extracts were analyzed by LC-hybrid MS. The data were processed with XCMS for peak detection, alignment, normalization, and statistical comparison, and resistance-related metabolites were categorized as constitutive or induced based on genotype and inoculation contrasts. This method is directly analogous to the proposed LC-MS metabolomic analysis of quinofumelin-treated F. graminearum in that both use LC-MS-based differential metabolite profiling to identify affected metabolites and pathways; the difference is that the paper profiled host wheat metabolites in an Fhb1 resistance/inoculation system, whereas the proposed plan profiles fungal metabolites after fungicide treatment and uses PLS-DA with P<0.05 and fold change ≥1.5.
+[results]
+The supplied paper text is empty, so no numeric fold changes, p-values, VIP scores, pathway enrichment metrics, or exact metabolite lists can be reported. The available section headings indicate that the LC-hybrid MS analysis produced differential metabolic profiles between resistant and susceptible Fhb1 NILs, identified resistance-related constitutive and induced metabolites, and supported histochemical localization of hydroxycinnamic acid amides and flavonoids in cell walls. These outcomes are qualitative in the supplied metadata; quantitative results are not available in the provided excerpt.
+[context]
+Key context from the available section headings: wheat NILs with contrasting Fhb1 alleles, Fusarium graminearum inoculation, disease severity assessment, metabolite extraction, LC-hybrid MS analysis, XCMS data processing, and statistical identification of resistance-related metabolites. The exact LC-MS instrument, ionization mode, chromatographic column, extraction solvent composition, number of biological replicates, exact statistical thresholds, and pathway enrichment parameters are not provided in the supplied text, so those reproducibility details cannot be confirmed.
+[end related work 3]
+
+[start related work 4]
+[metadata]
+- in_text_citation: [(Oiram et al., 2019-07)](https://www.semanticscholar.org/paper/f8e580cbb4cfbaf7e66fa8ace25aedd98d00780a)
+- venue: bioRxiv
+- citation count: 29
+[method]
+The paper used UPLC-QTOF-MS E for chromatographic metabolite profiling of samples associated with plant material, fruit inoculation, and PL treatment, followed by chemometric analysis to compare treatment groups and identify putative metabolites. This is related to the proposed LC-MS widely targeted metabolome analysis because both use liquid chromatography coupled to mass spectrometry to profile metabolites and use multivariate statistics to distinguish treatment conditions; however, the supplied text does not specify whether PLS-DA, P<0.05, fold-change ≥1.5, or KEGG pathway enrichment were used.
+[results]
+The supplied excerpt does not contain quantitative results. It only indicates that putative metabolites were identified by UPLC-QTOF-MS and that chemometric analysis was performed; no metabolite numbers, fold changes, P-values, loadings, or disease-control metrics are available to report.
+[context]
+The experimental context was a plant-based PL treatment against F. pallidoroseum, involving fruit inoculation, disease control assays, extract preparation, and UPLC-QTOF-MS E. The study is not about quinofumelin or F. graminearum, and no instrument model, chromatographic conditions, extraction solvent, replicate size, or statistical parameters are provided in the supplied text.
+[end related work 4]
+
+[start related work 5]
+[metadata]
+- in_text_citation: [(Polturak et al., 2023-11)](https://www.semanticscholar.org/paper/fa5a9f7db16c86313fec88cf88de039cee2c159f)
+- venue: Nature Communications
+- citation count: 45
+[method]
+The paper used LC-MS-based metabolite analysis of wheat tissues to profile flavonoids and quantify triticein. Samples included MeJA-treated detached wheat leaves, MeJA-treated whole wheat plants, wheat grains and flour, and wheat TILLING lines genotyped by KASP. The workflow involved metabolite extraction, LC-MS analysis of flavonoids, and relative or absolute quantification of triticein, with comparisons between treated and control or genotyped lines. This is related to the proposed widely targeted LC-MS metabolomic analysis because both use LC-MS to detect treatment-associated metabolite changes, but the paper method appears targeted or semi-targeted for flavonoids and triticein rather than a broad PLS-DA and KEGG enrichment workflow.
+[results]
+The provided sections report that triticein was detected and quantified in wheat, that its biosynthesis is linked to a pathogen-induced biosynthetic gene cluster, and that triticein inhibited Fusarium culmorum spore germination and bacterial growth in vitro. The sections do not provide numerical fold changes, P-values, PLS-DA scores, KEGG enrichment statistics, or absolute concentration values, so quantitative outcomes cannot be specified beyond relative or absolute quantification and bioactivity.
+[context]
+Experimental context was wheat germplasm and TILLING lines, MeJA treatment of detached leaves and whole plants, grain and flour samples, and KASP genotyping. The provided metadata does not specify LC-MS instrument model, extraction solvent composition, chromatographic conditions, number of biological replicates, statistical thresholds, or whether PLS-DA or KEGG enrichment was performed. Therefore, the paper supports the feasibility of LC-MS metabolite profiling in treated versus control plant tissues but does not directly demonstrate the proposed P<0.05 and fold change ≥1.5 PLS-DA/KEGG screening.
+[end related work 5]
+
+
+
+[start related work 1]
+[metadata]
+- in_text_citation: [(Li et al., 2019-10)](https://www.semanticscholar.org/paper/74f9c1b579ff2eac7825af94b8513e54767128cd)
+- venue: Plant Pathology Journal
+- citation count: 7
+[method]
+The paper reports construction of targeted FgSvf1 deletion, overexpression, and complementation strains in Fusarium graminearum. This is directly related to the proposed gene deletion studies because it uses targeted genetic manipulation to test candidate gene function in the same fungal system. The paper’s workflow included strain construction, molecular verification by PCR, expression analysis by quantitative real-time PCR with normalized fold expression, and phenotypic characterization under defined conditions: conidial germination, sexual reproduction/fertility, FHB disease progression on wheat heads, vegetative growth under salt and carbon-source conditions, and glycolysis-related assays measuring PEP and intracellular ROS. This parallels the proposed plan’s use of deletion mutants to validate candidate quinofumelin target genes, although the paper did not test quinofumelin or metabolite rescue.
+[results]
+The supplied excerpt contains only section headings and does not provide numerical fold changes, growth measurements, disease severity scores, PEP or ROS values, or statistical significance. It qualitatively indicates that FgSvf1 manipulation altered normalized expression and that FgSvf1 is responsible for normal conidia germination and sexual reproduction, required for FHB disease progression on wheat heads and resistance to various stresses, and involved in glycolysis, with PEP and intracellular ROS quantified as associated readouts.
+[context]
+Experimental system: Fusarium graminearum; target gene: FgSvf1. Conditions included vegetative growth assays with salt and carbon-source variation, wheat-head FHB assays, fertility/sexual reproduction tests, and biochemical quantitation of PEP and intracellular ROS. The excerpt does not specify the transformation method, selection markers, PCR verification details, qRT-PCR reference gene, media formulations, stress concentrations, replicate numbers, or statistical tests, so those reproducibility details are unavailable.
+[end related work 1]
+
+[start related work 2]
+[metadata]
+- in_text_citation: [(Lee et al., 2022-06)](https://www.semanticscholar.org/paper/1a680a3d1713d5febdf92c001b765251e05008ca)
+- venue: PLoS ONE
+- citation count: 10
+[method]
+The paper describes a CRISPR/Cas9 ribonucleoprotein (RNP)-mediated gene deletion approach in Fusarium graminearum. The workflow included sgRNA design, an in vitro cleavage assay to test RNP nuclease activity, nuclear localization analysis of a commercial Cas9 protein, fungal transformation using preassembled Cas9 RNPs, and construction of PKS12 deletion mutants. Deletion was achieved through short-homology-mediated integration rather than through a conventional selection-marker-based homologous recombination construct, and deletion events were confirmed by DNA extraction and Southern blotting. This relates to the proposed gene deletion studies because both approaches aim to generate and verify gene deletions in F. graminearum for functional validation, but the paper method uses RNP-mediated short-homology integration and targets PKS12 as a proof-of-concept gene, whereas the proposed plan targets candidate quinofumelin-related genes using protoplast transformation, homologous recombination, selection markers, PCR verification, and metabolite-supplementation phenotyping.
+[results]
+The paper reports that PKS12 deletion mutants were constructed via RNP-mediated transformation and that short-homology-mediated integration was confirmed as an efficient gene deletion strategy. The provided excerpt does not include numerical deletion frequencies, Southern blot band sizes, PCR verification statistics, transformation efficiencies, or phenotype measurements, so no quantitative outcomes can be reported from the available text.
+[context]
+The experimental system was F. graminearum, and the targeted gene was PKS12. The method involved Cas9 RNP components, sgRNA design, in vitro nuclease activity testing, nuclear localization of Cas9, fungal transformation, and Southern blotting for deletion confirmation. The excerpt does not specify the fungal strain, culture conditions, selection markers, transformation protocol details, metabolite supplementation, or statistical analyses, which limits direct comparison with the proposed protoplast transformation and metabolite-rescue gene deletion plan.
+[end related work 2]
+
+[start related work 3]
+[metadata]
+- in_text_citation: [(Wang et al., 2023-04)](https://www.semanticscholar.org/paper/69e2e73cb03a1faa61b26d3c046a41bdcf6f7429)
+- venue: Phytopathology Research
+- citation count: 13
+[method]
+The paper's Methods section includes 'Gene deletion and complementation,' indicating a genetic validation strategy analogous to the proposed gene deletion studies. In the paper, the approach was applied to Fg62 in F. graminearum: an Fg62 deletion mutant and a complemented strain were generated, transformants were verified by PCR, and mutant versus complemented or wild-type phenotypes were assessed in functional and pathogenicity assays. The provided excerpt does not specify the selection marker, protoplast transformation protocol, homologous recombination design, or media conditions, and it does not indicate metabolite supplementation recovery assays.
+[results]
+The excerpt provides only qualitative outcomes: Fg62 contributes to F. graminearum virulence, Fg62 expression is upregulated during early infection, and the signal peptide is required for Fg62-induced cell death. No quantitative values, fold changes, disease severity scores, colony diameters, or statistical significance are provided.
+[context]
+The work was performed in F. graminearum and plant systems, including N. benthamiana and soybean, with related assays such as qRT-PCR, agroinfiltration, pathogenicity, and DON production. Because the supplied paper excerpt contains section headings only, strain identity, medium composition, selection conditions, PCR verification details, and statistical tests are not available.
+[end related work 3]
+
+[start related work 4]
+[metadata]
+- in_text_citation: [(Wang et al., 2024-01)](https://www.semanticscholar.org/paper/c825b35e476e9f1a2d424115887c5cfd63259fde)
+- venue: PLoS Pathogens
+- citation count: 11
+[method]
+The paper includes a 'Construction of gene deletion mutants' method in F. graminearum, which is directly analogous to the proposed protoplast transformation and homologous recombination strategy for validating quinofumelin target genes. The supplied excerpt does not specify the exact deletion constructs, selection markers, PCR verification, or phenotype assays, but the Results headings indicate that genetic manipulation of TRI-cluster positive regulators and UPR/HOG pathway components was used to test their roles in Tri4-marked toxisome-shaped structure formation and DON biosynthesis.
+[results]
+No quantitative values, statistical tests, or mutant phenotype measurements are provided in the supplied excerpt. Qualitative outcomes indicated by the section headings are that Tri4-marked toxisome-shaped structure formation is regulated by positive regulators in the TRI cluster, the UPR signaling pathway is not involved, the HOG signaling pathway is important, and the chemical ZJU212 blocks toxisome formation and DON biosynthesis. These results are relevant to the proposed plan's goal of genetically validating target genes and pathway involvement, but they do not provide the specific deletion-mutant phenotypes or metabolite-rescue data requested.
+[context]
+The paper context is F. graminearum toxisome formation and DON biosynthesis, with methods for fungal strains, gene deletion mutants, and microscopic observations. The proposed research plan uses F. graminearum PH-1 treated with quinofumelin at 1 μg/mL, followed by transcriptomic and metabolomic candidate discovery, recovery experiments, and deletion mutants characterized with and without metabolite supplementation. The paper's deletion-mutant framework is relevant for genetic validation of quinofumelin targets, but the excerpt lacks strain, medium, selection, microscopy, and statistical details needed for direct reproducibility.
+[end related work 4]
+
+[start related work 1]
+[metadata]
+- in_text_citation: [(Jacob et al., 2012-05)](https://www.semanticscholar.org/paper/4ac9b3c8e7c6ce6c116316212f21772a57cb893f)
+- venue: PLoS Comput. Biol.
+- citation count: 57
+[method]
+The paper text supplied contains only section headings indicating molecular docking experiments using DOCK or HTVS programs, including WinDock on standalone computer systems. This is conceptually related to the proposed AutoDockTools molecular docking step for predicting quinofumelin binding to candidate target proteins, but the excerpt does not describe a concrete docking workflow, target proteins, ligand preparation, grid generation, scoring function, or validation metrics.
+[results]
+No quantitative docking outcomes are reported in the supplied text, such as binding energies, predicted binding conformations, hit rates, comparisons with experimental data, or statistical significance.
+[context]
+No experimental or computational conditions are provided, including protein/ligand datasets, number of targets or ligands, hardware/system specifications, software versions, docking parameters, or reproducibility details; only the section titles are available.
+[end related work 1]
+
+[start related work 2]
+[metadata]
+- in_text_citation: [(Asano et al., 2013-08)](https://www.semanticscholar.org/paper/572a46345f7ee51626c67228e6d189beb664d17c)
+- venue: PLoS Pathogens
+- citation count: 51
+[method]
+The closest related method in the paper is recombinant protein preparation combined with yeast two-hybrid and MALDI-TOF/TOF interaction screening to identify F. graminearum proteins that interact with the Arabidopsis antifungal protein Thi2.4. Thi2.4, GST-thionin, and FFBL proteins were prepared for downstream biochemical assays, and candidate F. graminearum interactors were identified through yeast two-hybrid analysis and mass spectrometry. This relates to the proposed Molecular Interaction Studies because both approaches aim to identify and validate protein targets or interactors in F. graminearum, but the paper tests protein-protein interaction rather than direct quinofumelin binding by AutoDockTools docking, Biacore T200 SPR, or MST.
+[results]
+The supplied paper excerpt does not report quantitative binding constants, docking scores, SPR kinetics, or MST Kd values. It reports the qualitative identification of FFBL as an F. graminearum protein associated with Thi2.4 interaction and its use in recombinant protein assays; no statistical significance, control comparisons, or affinity values are provided in the available text.
+[context]
+The interaction work was performed using yeast two-hybrid analysis and MALDI-TOF/TOF protein identification, with recombinant protein preparation supporting downstream biochemical assays. The available section titles do not specify yeast strains, library size, expression host, purification yields, instrument models, or statistical thresholds, so those reproducibility details are not available.
+[end related work 2]
+
+[start related work 3]
+[metadata]
+- in_text_citation: [(Martins et al., 2016-09)](https://www.semanticscholar.org/paper/4175498ce07b5bd73a875316c29994baf43382b8)
+- venue: No Venue
+- citation count: 7
+[method]
+The paper used a target-selection and virtual-screening workflow for Fusarium graminearum. It assembled 57,282 ESTs from four wheat-Fusarium interactions into 34,970 unigenes, then used BLASTx against wheat and Fusarium genomes to retain 5,094 Fusarium-like contigs. Candidate targets were filtered from 13,321 PH-1 genome proteins, 5,094 in planta ESTs, 1,369 secretome proteins, and 682 PHI-base proteins using early-infection expression, redundancy removal, BLAST2GO functional and cellular localization criteria favoring cytoplasmic and chemically accessible proteins, BLAST against PDB, manual curation for one or two gene copies and protein size under 500 amino acids, and removal of orthologs with above 60 percent sequence identity in other species. Three targets were retained: endoglucanase-5, trichodiene synthase, and ERG6-D-(24)-sterol C-methyltransferase. For interaction assessment, 10,240 compounds were docked into the binding sites of these targets for major conformer populations and ranked by docking score. This relates to the proposed Molecular Interaction Studies because both use docking to evaluate ligand-target binding, but the paper's docking was a virtual screening of many compounds rather than direct docking, SPR, or MST validation of quinofumelin to purified targets; it also parallels the research plan's need to identify and prioritize candidate F. graminearum targets before biochemical validation.
+[results]
+The EST filtering retained 5,094 Fusarium-like contigs after removing 10,242 wheat-like contigs and 951 unknowns from 34,970 unigenes. The target-selection pipeline produced a final set of three candidate F. graminearum proteins. In virtual screening, docking scores were used to select the best 15 compounds per target, yielding 45 ligand candidates retained for further experimental validation. The paper reports that selected compounds formed stable protein-ligand complexes through polar, aromatic, and hydrophobic interactions, but it does not provide numerical docking energies, affinity constants, kinetic parameters, or experimental binding confirmation.
+[context]
+Experimental and computational context included four infected wheat varieties, Bobwhite, Piko, Sumai-3, and Gottingen-2, 18 cDNA libraries, early-stage infection ESTs, the PH-1 genome, refined secretome, PHI-base version 3.4, and wheat reference proteins. Protein candidates were limited to 500 amino acids and required low ortholog conservation, with orthologs above 60 percent sequence identity in other species eliminated. Docking was performed on major conformer populations and ranked by docking score; no AutoDockTools, Biacore T200, MST instrument, E. coli expression, purification, or statistical binding metrics were reported. The method therefore provides a computational target-prioritization and ligand-ranking precedent for the proposed quinofumelin mechanism-of-action study, but it does not demonstrate direct protein-ligand binding.
+[end related work 3]
+
+[start related work 4]
+[metadata]
+- in_text_citation: [(Kim et al., 2020-03)](https://www.semanticscholar.org/paper/81007a2745133f1e6e4cd8682f2463a71e641860)
+- venue: Scientific Reports
+- citation count: 14
+[method]
+The paper used protein binding microarray (PBM) analysis and affinity purification coupled with mass spectrometry as biochemical interaction assays. PBM was used to assess binding of CCAAT-binding factors to DNA probes, while affinity purification and mass spectrometry were used to identify protein partners of candidate CCAAT-binding factors. This is methodologically related to the proposed Molecular Interaction Studies because both approaches use purified or immobilized proteins and binding/interaction assays to validate molecular targets, but the paper assays protein-DNA or protein-protein interactions rather than direct binding of the small molecule quinofumelin to a purified target protein.
+[results]
+The provided results headings indicate that CCAAT-binding factors were identified and localized and that Fct2 interacts with Fct1. No quantitative PBM signal values, mass spectrometry peptide counts, binding affinities, docking scores, SPR/MST metrics, or statistical significance values are included in the supplied excerpt.
+[context]
+The paper concerns CCAAT-binding factors in a fungal pathogen and does not mention quinofumelin, E. coli expression/purification, AutoDockTools docking, Biacore T200 SPR, or MST. The excerpt lacks instrument specifications, probe sequences, protein constructs, concentration gradients, incubation conditions, and statistical tests, so it provides only a methodological precedent for biochemical interaction validation rather than direct evidence for the proposed quinofumelin target-binding experiments.
+[end related work 4]
+
+[start related work 5]
+[metadata]
+- in_text_citation: [(Naimuzzaman et al., 2025-01)](https://www.semanticscholar.org/paper/316c2fe21afe4fbc0a4ac5345dae701cdb46edb0)
+- venue: PLoS ONE
+- citation count: 9
+[method]
+The paper used computational molecular docking to evaluate ligand-protein binding, specifically reporting docking performed with PyRx, an AutoDock-based tool, and with Glide from the Schrödinger suite. The workflow included ligand optimization and preparation, protein preparation and collection, generation of docking poses, visualization of protein-ligand interactions, and a comparative study of docking results between the two docking approaches. This relates to the proposed Molecular Interaction Studies because both use molecular docking to predict binding conformations and assess potential direct binding of a ligand to candidate target proteins; however, the paper does not report the proposed SPR or MST biochemical validation.
+[results]
+No quantitative docking outcomes, binding energies, affinity constants, kinetic parameters, or statistical comparisons are available in the supplied paper text. The section headings indicate that docking poses and protein-ligand interactions were generated and compared between AutoDock/PyRx and Glide, but specific numerical results are not provided.
+[context]
+The available paper metadata does not specify the exact protein target, ligand identity, receptor preparation details, grid box dimensions, docking parameters, software versions, hardware, or experimental conditions. Therefore, the method can be identified as computational docking, but reproducibility details and quantitative experimental outcomes cannot be extracted from the provided information.
+[end related work 5]
+
+
+[start related work 1]
+[metadata]
+- in_text_citation: [(Kanchiswamy et al., 2010-05)](https://www.semanticscholar.org/paper/e8f6e93d4ce4907a313ed35395837e5c9231b7ac)
+- venue: BMC Plant Biology
+- citation count: 154
+[method]
+The paper includes a data and statistical analysis method, which is directly analogous to the proposed plan's use of biological replicates and ANOVA with Fisher's PLSD for mean comparisons. The available text does not specify whether ANOVA, Fisher's PLSD, the number of biological replicates, the software, or the exact data inputs were used, so the method can only be identified as a statistical analysis section rather than a fully specified statistical workflow.
+[results]
+No quantitative statistical outcomes, P-values, effect sizes, or mean comparisons are provided in the available text.
+[context]
+The paper's headings indicate that the statistical analysis would have been applied to quantitative plant biology data from CPK3/CPK13 T-DNA insertion mutants, herbivore and mechanical damage treatments, intracellular Ca2+ measurements, GFP fusion protein expression, and cell-free protein synthesis, but no sample sizes, instruments, or statistical parameters are provided to map it to the proposed ANOVA/Fisher PLSD workflow.
+[end related work 1]
+
+Processing method: To identify affected biological processes and candidate target genes, Transcriptomic Analysis: We will culture F. graminearum PH-1 in YEPD medium and treat with quinofumelin at EC90 concentration (1 μg/mL) for 48 hours, using DMSO as control. RNA will be extracted from treated and control mycelia for Illumina sequencing. We will perform quality control, principal component analysis, and differential expression analysis using DESeq2 with thresholds of P<0.05 and fold change ≥1.5. Gene Ontology and KEGG pathway enrichment analyses will identify affected biological processes.
+Processing method: To demonstrate direct binding of quinofumelin to candidate target proteins, Molecular Interaction Studies: For biochemical validation, we will express and purify candidate target proteins in E. coli systems. Molecular docking will be performed using AutoDockTools to predict binding conformations and calculate binding energies. SPR analysis using Biacore T200 will measure real-time binding kinetics and affinity constants between purified proteins and quinofumelin. MST analysis will provide additional validation of protein-ligand interactions using fluorescently labeled proteins across concentration gradients.
+Processing method: To genetically validate candidate target genes and assess gene essentiality, Gene Deletion Studies: We will generate deletion mutants of candidate target genes using protoplast transformation and homologous recombination. Deletion constructs will be designed with appropriate selection markers, and transformants will be verified by PCR analysis. Mutant phenotypes will be characterized on various media with and without metabolite supplementation to assess gene essentiality and pathway involvement.
+Processing method: To ensure robust quantitative comparisons across all experiments, Statistical Analysis: All experiments will include appropriate biological replicates and statistical analyses using ANOVA and Fisher's PLSD for mean comparisons.
+Processing method: To identify affected metabolic pathways and candidate metabolites, Metabolomic Analysis: Using samples from the same treatment groups as transcriptomic analysis, we will conduct widely targeted metabolome analysis using LC-MS. Metabolites will be extracted using methanol:water solution and analyzed for differential accumulation between treated and control groups. We will apply PLS-DA analysis with screening thresholds of P<0.05 and fold change ≥1.5 to identify significantly affected metabolites and perform KEGG pathway enrichment analysis.
+Response received 
+
+{
+    "support": "The strongest support from [(Kanchiswamy et al., 2010-05)](https://www.semanticscholar.org/paper/e8f6e93d4ce4907a313ed35395837e5c9231b7ac) is that it contains a data and statistical analysis component for quantitative plant-biology measurements, which is conceptually aligned with the proposed plan's requirement for biological replicates and inferential statistics across experiments. A weaker but still relevant point is that the related work involves mutant genotypes, herbivore and mechanical damage treatments, intracellular Ca2+ measurements, GFP fusion expression, and cell-free protein synthesis, all of which are the kind of treatment-by-genotype comparisons that would normally require replicate-based mean comparisons. The weakest support is that the paper appears in BMC Plant Biology, a peer-reviewed plant biology venue, indicating that statistical analysis is an expected part of such biological studies, although the available text does not identify the exact test used.",
+    "contradictions": "The strongest contradiction is that [(Kanchiswamy et al., 2010-05)](https://www.semanticscholar.org/paper/e8f6e93d4ce4907a313ed35395837e5c9231b7ac) does not specify ANOVA, Fisher's PLSD, the number of biological replicates, software, or exact data inputs, so it cannot be used as direct evidence that the proposed generic statistical workflow is appropriate or reproducible. A second contradiction is that the related work reports no quantitative statistical outcomes, P-values, effect sizes, or mean comparisons in the available text, leaving no empirical support for choosing Fisher's PLSD over more conservative post hoc corrections. A third, more contextual contradiction is that the proposed plan applies ANOVA and Fisher's PLSD to all experiments, including transcriptomic DESeq2, metabolomic PLS-DA, molecular docking, SPR, MST, and phylogenetic analysis, whereas the related work only suggests statistical analysis for quantitative phenotypic or biochemical measurements and provides no evidence that a single ANOVA/Fisher PLSD approach is suitable for omics, binding-kinetic, or phylogenetic data.",
+    "suggested_action": "The most important improvement is to replace the blanket statement with an experiment-specific statistical plan: retain DESeq2 with adjusted P<0.05 and fold-change thresholds for transcriptomics, retain PLS-DA with permutation testing and FDR control for metabolomics, use one-way or two-way ANOVA with Dunnett or Tukey post hoc tests for colony-diameter and phenotypic comparisons, use binding-curve fitting with technical and biological replicates plus confidence intervals for SPR/MST, and report docking energies as descriptive computational outputs rather than ANOVA comparisons. The next priority is to define the number of biological and technical replicates, sample sizes, randomization, blinding where feasible, and a power analysis for each quantitative assay, especially recovery experiments across Fusarium species and strains. Then specify the exact ANOVA model, assumptions, normality and homogeneity checks, transformations if needed, multiple-comparison correction, software, and version, and report means, standard deviations or confidence intervals, effect sizes, and exact P-values. Finally, align the reporting with the level of detail expected in plant/fungal biology studies such as [(Kanchiswamy et al., 2010-05)](https://www.semanticscholar.org/paper/e8f6e93d4ce4907a313ed35395837e5c9231b7ac), by documenting inputs, replicates, and statistical parameters rather than only naming a generic test.",
+    "soundness_score": 3
+}
+Response received 
+
+{
+    "support": "The strongest support for the proposed transcriptomic analysis comes from Martins et al. 2016 because it used F. graminearum expression data and the PH-1 genome to prioritize candidate proteins and then performed structure-based virtual screening, which is directly analogous to the plan's use of transcriptomics to nominate targets and AutoDockTools docking. Specifically, Martins et al. assembled 57,282 ESTs from four wheat-Fusarium early-infection interactions into 34,970 unigenes, separated plant and fungal sequences by BLASTx, retained 5,094 Fusarium contigs, and integrated 13,321 genome-predicted proteins, 1,369 secretome proteins, and PHI-base pathogenicity/virulence/effector sequences; after BLAST2GO, PDB homology, manual curation, a <500 amino acid filter, and removal of orthologs with >60% identity, they docked 10,240 compounds and retained the top 15 per target for three proteins, endoglucanase-5, trichodiene synthase, and ERG6-D-(24)-sterol C-methyltransferase. This supports the proposed method's assumption that F. graminearum expression data can be converted into a tractable target list and that molecular docking can be used as a preliminary binding-prioritization step before SPR/MST. As an iterative progression, Martins et al. 2016 extends the older RNA-seq/fungicide transcriptomic logic of Liu et al. 2015 by moving from differential expression to target curation and virtual screening, but it also shows that expression data must be filtered for structural and functional accessibility. The next strongest support is Liu et al. 2015, which used RNA-seq in Penicillium digitatum after prochloraz treatment, mapped reads to a reference genome, quantified expression, performed differential expression and functional interpretation, and validated transporter-encoding genes by qPCR; although the organism and fungicide differ, it supports the proposed RNA extraction, Illumina sequencing, differential expression, and pathway-interpretation workflow for identifying fungicide-responsive genes. However, the Liu et al. evidence is weaker for the proposed method because the excerpt lacks fold changes, P values, adjusted P values, gene names, pathway enrichment scores, replicates, sequencing platform, read length, software, and significance thresholds, so it cannot validate the specific DESeq2 P<0.05 and fold change >=1.5 criteria or the 48-hour EC90 quinofumelin design.",
+    "contradictions": "The most important contradiction is not a direct failure of the proposed transcriptomic method but a limitation in the related evidence: Martins et al. 2016 did not use quinofumelin-treated RNA-seq, DESeq2, KEGG enrichment, metabolomics, gene deletion, SPR, or MST, and its expression data came from infection-induced ESTs rather than fungicide-treated mycelia, so it cannot support the assumption that a single 48-hour EC90 quinofumelin transcriptome will directly reveal the primary molecular target. Its target selection also relied heavily on secretome/pathogenicity annotations, subcellular localization, structural accessibility, PDB homology, manual curation, and docking-score ranking, indicating that differential expression and pathway enrichment alone may prioritize indirect or non-accessible transcripts; the proposed method's DESeq2 P<0.05 and fold change >=1.5 thresholds, without an adjusted P-value/FDR criterion or explicit target-accessibility filter, may therefore be insufficient to identify a druggable primary target. The second contradiction is that Liu et al. 2015 provides only methodological precedent in P. digitatum exposed to prochloraz, not quantitative or organism-specific evidence for F. graminearum PH-1, quinofumelin, YEPD, DMSO control, EC90 1 ug/mL, or 48-hour exposure; because the excerpt omits biological replicates, sequencing depth, read length, alignment software, differential expression software, significance thresholds, and qPCR validation details, it cannot be used to justify the proposed statistical thresholds or to demonstrate that the same workflow will reproduce in the proposed system. Finally, both related works are weaker than the proposed plan's downstream validation because neither reports direct quinofumelin binding, kinetic constants, mutant recovery, or metabolite rescue, so the transcriptomic step remains only a hypothesis-generating component rather than proof of mechanism.",
+    "suggested_action": "The most important improvement is to add a qPCR validation layer for the top differentially expressed genes, following the Liu et al. 2015 RNA-seq-to-qPCR validation strategy, before committing to gene deletion, docking, SPR, or MST; this should include at least three biological replicates, reference genes, and reporting of fold changes and adjusted P values. The next most important action is to adopt the Martins et al. 2016 target-curation framework by intersecting DESeq2/KEGG hits with F. graminearum secretome, PHI-base/pathogenicity, subcellular localization, PDB homology, protein length, ortholog redundancy, and chemical accessibility, and by using docking as a ranking tool rather than a definitive binding assay; include negative-control compounds, known inhibitors, and explicit docking-score or interaction criteria. The proposed statistical analysis should also be strengthened by using DESeq2 with an adjusted P-value/FDR threshold, for example FDR<0.05 or 0.1, in addition to P<0.05 and fold change >=1.5, and by specifying sequencing depth, read length, alignment, batch correction, PCA, and replicate number. Finally, because a 48-hour EC90 time point may capture secondary stress responses, the transcriptomic experiment should be supplemented with an early time course and/or sublethal dose series, and the resulting candidate targets should be prioritized for the plan's metabolomics, recovery, gene deletion, SPR, and MST validation steps.",
+    "soundness_score": 6
+}
+Response received 
+
+```json
+{
+  "support": "Strongest support comes from [(Martins et al., 2016-09)](https://www.semanticscholar.org/paper/4175498ce07b5bd73a875316c29994baf43382b8), which used F. graminearum PH-1 genome data, 57,282 ESTs, 34,970 unigenes, 5,094 Fusarium-like contigs, 13,321 PH-1 proteins, 1,369 secretome proteins, and 682 PHI-base proteins to prioritize candidate targets, then docked 10,240 compounds into endoglucanase-5, trichodiene synthase, and ERG6-D-(24)-sterol C-methyltransferase and retained 15 compounds per target, for 45 candidates total. This directly supports the proposed plan to prioritize F. graminearum targets and use docking before biochemical validation, although it did not test quinofumelin or report numerical binding energies. Next, [(Naimuzzaman et al., 2025-01)](https://www.semanticscholar.org/paper/316c2fe21afe4fbc0a4ac5345dae701cdb46edb0) supports the use of AutoDock-based docking by comparing PyRx and Glide, including ligand and protein preparation and pose generation, but it provides no quantitative energies, grid parameters, or experimental validation. [(Asano et al., 2013-08)](https://www.semanticscholar.org/paper/572a46345f7ee51626c67228e6d189beb664d17c) supports recombinant F. graminearum protein preparation and interaction screening with yeast two-hybrid and MALDI-TOF/TOF, relevant to expressing and validating candidate proteins, but it addresses protein-protein interaction with Thi2.4 rather than direct quinofumelin binding. [(Kim et al., 2020-03)](https://www.semanticscholar.org/paper/81007a2745133f1e6e4cd8682f2463a71e641860) supports biochemical interaction validation using purified or immobilized proteins, PBM, and affinity purification MS, but for protein-DNA or protein-protein interactions, not small-molecule binding. Weakest support is [(Jacob et al., 2012-05)](https://www.semanticscholar.org/paper/4ac9b3c8e7c6ce6c116316212f21772a57cb893f), which only indicates docking with DOCK, HTVS, or WinDock and provides no workflow, targets, scoring function, or metrics.",
+  "contradictions": "No related work directly contradicts the use of SPR or MST, but several lines of evidence contradict treating docking alone or E. coli expression as sufficient. Strongest contradiction is that [(Martins et al., 2016-09)](https://www.semanticscholar.org/paper/4175498ce07b5bd73a875316c29994baf43382b8) docked 10,240 compounds and selected 45 candidates based on docking score, yet reported no numerical docking energies, affinity constants, kinetic parameters, or experimental binding confirmation; this shows docking score ranking is not by itself evidence of direct binding. It also selected targets including ERG6-D-(24)-sterol C-methyltransferase and trichodiene synthase, which are membrane-associated or secreted enzymes, raising feasibility concerns for the proposed blanket E. coli expression, purification, and SPR/MST workflow. Next, [(Naimuzzaman et al., 2025-01)](https://www.semanticscholar.org/paper/316c2fe21afe4fbc0a4ac5345dae701cdb46edb0) used AutoDock-based PyRx and Glide but provided no quantitative docking outcomes, statistical comparisons, grid dimensions, or experimental validation, contradicting the assumption that AutoDockTools docking will automatically produce reliable binding energies for quinofumelin. [(Asano et al., 2013-08)](https://www.semanticscholar.org/paper/572a46345f7ee51626c67228e6d189beb664d17c) identified F. graminearum interactors through yeast two-hybrid and MALDI-TOF/TOF, but this is protein-protein interaction evidence, not direct small-molecule binding, so it contradicts using such interaction screens as proof of quinofumelin target engagement. [(Kim et al., 2020-03)](https://www.semanticscholar.org/paper/81007a2745133f1e6e4cd8682f2463a71e641860) used PBM and affinity purification MS for CCAAT-binding factors, again not small-molecule binding and without quantitative affinity or statistical significance, limiting its support for direct quinofumelin binding. Weakest contradiction is [(Jacob et al., 2012-05)](https://www.semanticscholar.org/paper/4ac9b3c8e7c6ce6c116316212f21772a57cb893f), which lacks any docking workflow, scoring function, validation metrics, or reproducibility details, so it cannot support the proposed quantitative interaction studies.",
+  "suggested_action": "Most important: reposition AutoDockTools docking as a preliminary filter, not proof of direct binding; report ligand preparation, protonation and tautomer states, grid box dimensions, scoring function, number of runs, binding energies, RMSD, enrichment over negative controls, and benchmark against at least one alternative scorer such as Glide or PyRx as in [(Naimuzzaman et al., 2025-01)](https://www.semanticscholar.org/paper/316c2fe21afe4fbc0a4ac5345dae701cdb46edb0). Second: select candidate targets using the Martins criteria and feasibility filters: PH-1 genome, in planta ESTs, secretome, PHI-base, early infection, cytoplasmic or chemically accessible localization, under 500 amino acids, low ortholog conservation, and exclude or separately plan membrane, secreted, or glycosylated proteins because [(Martins et al., 2016-09)](https://www.semanticscholar.org/paper/4175498ce07b5bd73a875316c29994baf43382b8) included ERG6 and trichodiene synthase, which may not be suitable for simple E. coli expression. Third: for E. coli expression, specify constructs, tags, solubility testing, refolding, activity assays, and if targets are membrane or eukaryotic, use yeast, insect, or mammalian expression; validate purified protein by SDS-PAGE, mass spectrometry, CD, or activity assay before SPR or MST. Fourth: design SPR on Biacore T200 with reference subtraction, mass transport checks, ligand immobilization density, quinofumelin concentration series, negative ligand controls, and report ka, kd, Kd with replicates and statistical tests; use MST with fluorescently labeled protein, concentration gradients, labeled and unlabeled controls, and Kd estimates. Fifth: integrate genetic and biochemical evidence by linking docking, SPR, and MST targets to transcriptomic and metabolomic pathways, deletion mutants, and recovery experiments, and use [(Asano et al., 2013-08)](https://www.semanticscholar.org/paper/572a46345f7ee51626c67228e6d189beb664d17c) and [(Kim et al., 2020-03)](https://www.semanticscholar.org/paper/81007a2745133f1e6e4cd8682f2463a71e641860) as precedents for interaction validation only when combined with direct small-molecule binding assays. Least important but still needed: document software versions, hardware, replicates, and statistical methods to improve reproducibility, addressing the missing details in [(Jacob et al., 2012-05)](https://www.semanticscholar.org/paper/4ac9b3c8e7c6ce6c116316212f21772a57cb893f).",
+  "soundness_score": 5
+}
+```
+Response received 
+
+{
+    "support": "Viewed as an iterative sequence, the related work moves from early Fusarium NMR/GC-MS profiling to LC-MS-based differential metabolomics and then to targeted LC-MS validation. The strongest support for the proposed widely targeted LC-MS method comes from [(Genga et al., 2011-09)](https://www.semanticscholar.org/paper/6185c631b6b043ed076b59058825721c24230441), which used LC-DAD-MS/HPLC-MS broad metabolite profiling of Salvia miltiorrhiza roots and combined it with PCA, HCA, and discussion of PLS-DA/OPLS-DA; it detected 44 secondary metabolites and 28 primary metabolites and showed PCA separation of freeze-, air-, and sun-dried samples, with treatment-associated changes such as increased proline, alanine, succinate, sucrose, glutamine, leucine, melibiose, and raffinose. This directly supports the proposed use of LC-MS to detect differential accumulation between quinofumelin-treated and DMSO-control F. graminearum samples and to use multivariate screening to prioritize candidates for recovery experiments. The next strongest support is [(Gunnaiah et al., 2012-07)](https://www.semanticscholar.org/paper/cd51931de84e7111db422558231f9387563a43cc), which used LC-hybrid MS and XCMS to compare wheat Fhb1 NILs inoculated with F. graminearum, identifying differential constitutive and induced metabolites and supporting LC-MS-based differential profiling in a F. graminearum pathosystem, although it profiled host wheat rather than the fungus and did not report PLS-DA thresholds or KEGG enrichment. Newer work by [(Polturak et al., 2023-11)](https://www.semanticscholar.org/paper/fa5a9f7db16c86313fec88cf88de039cee2c159f) builds on this by using LC-MS to quantify triticein and flavonoids in MeJA-treated wheat and linking metabolite detection to bioactivity against Fusarium culmorum, supporting the plan's downstream validation logic, but it is targeted rather than a broad PLS-DA/KEGG workflow. [(Oiram et al., 2019-07)](https://www.semanticscholar.org/paper/f8e580cbb4cfbaf7e66fa8ace25aedd98d00780a) weakly supports the approach by using UPLC-QTOF-MS E and chemometrics for a plant treatment against F. pallidoroseum, but lacks quantitative detail. Finally, [(Lowe et al., 2010-11)](https://www.semanticscholar.org/paper/00f8591b971d660e927ba59073acff4671d6fe65) is the weakest but relevant support because it profiled Fusarium spp. by 1H NMR and GC-MS, indicating carbohydrate-rich composition and trichothecene analysis, confirming that Fusarium metabolite profiling is feasible, but it does not support the proposed LC-MS, PLS-DA, or KEGG enrichment details.",
+    "contradictions": "The most important contradiction is to the proposed statistical assumption that PLS-DA with P<0.05 and fold change >=1.5 is sufficient. [(Genga et al., 2011-09)](https://www.semanticscholar.org/paper/6185c631b6b043ed076b59058825721c24230441) reported PCA-based separation and variable selection rather than validated PLS-DA with those thresholds, and [(Gunnaiah et al., 2012-07)](https://www.semanticscholar.org/paper/cd51931de84e7111db422558231f9387563a43cc) used XCMS contrast-based differential profiling without reporting PLS-DA P-values or fold-change cutoffs; this suggests that the proposed screening may be under-specified and prone to overfitting unless cross-validation, permutation, VIP, and false-discovery correction are added. The second major gap is KEGG pathway enrichment: none of the cited LC-MS examples explicitly demonstrates KEGG enrichment for the treatment comparison, with [(Genga et al., 2011-09)](https://www.semanticscholar.org/paper/6185c631b6b043ed076b59058825721c24230441), [(Gunnaiah et al., 2012-07)](https://www.semanticscholar.org/paper/cd51931de84e7111db422558231f9387563a43cc), [(Oiram et al., 2019-07)](https://www.semanticscholar.org/paper/f8e580cbb4cfbaf7e66fa8ace25aedd98d00780a), and [(Polturak et al., 2023-11)](https://www.semanticscholar.org/paper/fa5a9f7db16c86313fec88cf88de039cee2c159f) lacking reported enrichment statistics, so the proposed KEGG step is not directly evidenced and may be weak for fungal metabolite annotation. Third, the simple methanol:water extraction is not validated; [(Genga et al., 2011-09)](https://www.semanticscholar.org/paper/6185c631b6b043ed076b59058825721c24230441) compared four solvent-based extraction methods and found extraction treatment affected metabolite detection, implying that a single methanol:water protocol may miss metabolite classes in F. graminearum. Fourth, the widely targeted LC-MS plan may overlook Fusarium-specific secondary metabolites; [(Lowe et al., 2010-11)](https://www.semanticscholar.org/paper/00f8591b971d660e927ba59073acff4671d6fe65) used GC-MS specifically for trichothecenes and NMR for carbohydrates, suggesting orthogonal targeted methods may be needed. Finally, the related work generally lacks quantitative fold changes, p-values, instrument parameters, replicate sizes, and statistical thresholds, so the proposed method cannot be assumed reproducible without adding detailed QC, normalization, and validation.",
+    "suggested_action": "The most important improvement is to make the PLS-DA screening statistically rigorous and tied to the transcriptomic design: use the same biological replicates as the EC90 quinofumelin/DMSO 48 h experiment, add QC samples, randomize injection order, perform PLS-DA with cross-validation and permutation testing, report VIP scores, use OPLS-DA for variable selection, and apply univariate tests with FDR or Bonferroni correction alongside fold change >=1.5, then validate candidates in an independent batch or time point. Second, specify and optimize the LC-MS workflow: define instrument, column, ionization mode, methanol:water ratio, internal standards, extraction recovery, normalization, and batch correction, and consider solvent optimization or orthogonal extraction based on [(Genga et al., 2011-09)](https://www.semanticscholar.org/paper/6185c631b6b043ed076b59058825721c24230441). Third, use a reproducible data-processing pipeline such as XCMS or equivalent for peak detection, alignment, and normalization, as in [(Gunnaiah et al., 2012-07)](https://www.semanticscholar.org/paper/cd51931de84e7111db422558231f9387563a43cc), and combine KEGG enrichment with fungal-specific metabolite databases and transcriptomic co-enrichment to prioritize pathways for recovery experiments. Fourth, validate top candidate metabolites quantitatively using targeted LC-MS/MS, standards, or isotope dilution, and include orthogonal GC-MS or NMR for trichothecenes and carbohydrates as suggested by [(Lowe et al., 2010-11)](https://www.semanticscholar.org/paper/00f8591b971d660e927ba59073acff4671d6fe65). Finally, prioritize metabolites that are both statistically robust and biologically linked to quinofumelin's mode of action, then test them in CZA plate recovery assays and gene deletion studies to connect metabolomic changes to target validation.",
+    "soundness_score": 6
+}
+Response received 
+
+{
+  "support": "The strongest support for the proposed Gene Deletion Studies comes from the newest related work, [(Wang et al., 2024-01)](https://www.semanticscholar.org/paper/c825b35e476e9f1a2d424115887c5cfd63259fde), which used construction of gene deletion mutants in F. graminearum to test TRI-cluster positive regulators and UPR/HOG pathway components in toxisome-shaped structure formation and DON biosynthesis, and showed that the chemical ZJU212 blocks toxisome formation and DON biosynthesis. This directly supports the plan's logic of using deletion mutants to validate pathway involvement after chemical treatment of F. graminearum PH-1 with quinofumelin at 1 μg/mL, although it does not provide metabolite-rescue data. The next strongest support is [(Wang et al., 2023-04)](https://www.semanticscholar.org/paper/69e2e73cb03a1faa61b26d3c046a41bdcf6f7429), which generated an Fg62 deletion mutant and complemented strain in F. graminearum, verified transformants by PCR, and connected Fg62 to virulence, early-infection expression, and signal-peptide-dependent cell death in N. benthamiana and soybean; this supports the proposed use of deletion plus complementation and PCR verification for candidate quinofumelin target genes, but it does not specify selection markers, protoplast protocols, or metabolite supplementation. Older work by [(Li et al., 2019-10)](https://www.semanticscholar.org/paper/74f9c1b579ff2eac7825af94b8513e54767128cd) supports the same experimental system and phenotypic logic by constructing FgSvf1 deletion, overexpression, and complementation strains in F. graminearum and characterizing conidial germination, sexual reproduction, wheat-head FHB progression, salt/carbon-source growth, PEP, and intracellular ROS, which parallels the proposed mutant phenotyping on various media, but it did not test quinofumelin or metabolite rescue. Finally, [(Lee et al., 2022-06)](https://www.semanticscholar.org/paper/1a680a3d1713d5febdf92c001b765251e05008ca) supports the feasibility of generating verified F. graminearum deletions, using CRISPR/Cas9 RNP-mediated short-homology integration for PKS12 and confirming deletion by Southern blotting, but this is less direct support for the proposed protoplast transformation and homologous recombination workflow because it uses a different deletion platform and does not report transformation efficiencies, selection markers, or phenotypic measurements. Viewed iteratively, Li 2019 established deletion/complementation phenotyping in F. graminearum, Wang 2023 extended deletion/complementation to virulence and host assays, Lee 2022 introduced a CRISPR/RNP deletion platform, and Wang 2024 integrated deletion with chemical and pathway readouts.",
+  "contradictions": "No related work directly contradicts the feasibility of generating F. graminearum deletion mutants, but the strongest methodological contradiction is that the proposed plan relies on protoplast transformation, homologous recombination, selection markers, and PCR-only verification, whereas newer work by [(Lee et al., 2022-06)](https://www.semanticscholar.org/paper/1a680a3d1713d5febdf92c001b765251e05008ca) demonstrates a CRISPR/Cas9 RNP-mediated short-homology deletion strategy in F. graminearum for PKS12, with in vitro RNP cleavage testing, nuclear localization analysis, and Southern blot confirmation; this suggests the proposed method may be less efficient or less state-of-the-art for difficult targets and that PCR alone may be insufficient to confirm clean homozygous deletions. A second challenge comes from [(Wang et al., 2024-01)](https://www.semanticscholar.org/paper/c825b35e476e9f1a2d424115887c5cfd63259fde), which tied deletion-mutant analysis to specialized readouts such as toxisome-shaped structure formation, DON biosynthesis, and HOG/UPR pathway involvement, and used the chemical ZJU212 to block toxisome formation and DON production; this contradicts the assumption that generic media growth and metabolite supplementation alone will capture quinofumelin's target phenotype, especially if quinofumelin affects subcellular structures, secondary metabolism, or pathogenicity. The weakest but important gap is that the cited works, including [(Li et al., 2019-10)](https://www.semanticscholar.org/paper/74f9c1b579ff2eac7825af94b8513e54767128cd), [(Wang et al., 2023-04)](https://www.semanticscholar.org/paper/69e2e73cb03a1faa61b26d3c046a41bdcf6f7429), [(Lee et al., 2022-06)](https://www.semanticscholar.org/paper/1a680a3d1713d5febdf92c001b765251e05008ca), and [(Wang et al., 2024-01)](https://www.semanticscholar.org/paper/c825b35e476e9f1a2d424115887c5cfd63259fde), lack quantitative deletion frequencies, statistical significance, and metabolite-rescue experiments, so the proposed use of mutant phenotypes with and without metabolite supplementation to infer gene essentiality and pathway involvement is not directly supported by the cited evidence and must be treated as an untested inference rather than an established outcome.",
+  "suggested_action": "The most important improvement is to add a CRISPR/Cas9 RNP short-homology deletion option alongside protoplast transformation and homologous recombination, as demonstrated by [(Lee et al., 2022-06)](https://www.semanticscholar.org/paper/1a680a3d1713d5febdf92c001b765251e05008ca) for PKS12 in F. graminearum, including sgRNA design, in vitro RNP cleavage validation, nuclear localization checks if needed, and confirmation by Southern blot or long-range PCR rather than PCR alone. The next priority is to define a quantitative phenotyping panel that matches the research plan's quinofumelin treatment of F. graminearum PH-1 at 1 μg/mL and the related work's readouts: colony diameter and growth rate on CZA and other media, conidial germination, sexual reproduction/fertility, pathogenicity on wheat or susceptible hosts, DON production, and toxisome microscopy if relevant, with biological replicates, ANOVA, Fisher's PLSD, and pre-specified fold-change or significance thresholds. The third priority is to formalize the metabolite-supplementation rescue design, because none of the cited studies, including [(Li et al., 2019-10)](https://www.semanticscholar.org/paper/74f9c1b579ff2eac7825af94b8513e54767128cd), [(Wang et al., 2023-04)](https://www.semanticscholar.org/paper/69e2e73cb03a1faa61b26d3c046a41bdcf6f7429), or [(Wang et al., 2024-01)](https://www.semanticscholar.org/paper/c825b35e476e9f1a2d424115887c5cfd63259fde), provides direct evidence that exogenous metabolites rescue quinofumelin-induced inhibition; the plan should specify metabolite concentrations, time courses, dose-response curves, rescue criteria, essentiality controls, complementation strains, and quinofumelin sensitivity/resistance assays. Finally, include complementation and, where possible, conditional expression or overexpression for essential candidate genes, as supported by [(Li et al., 2019-10)](https://www.semanticscholar.org/paper/74f9c1b579ff2eac7825af94b8513e54767128cd) and [(Wang et al., 2023-04)](https://www.semanticscholar.org/paper/69e2e73cb03a1faa61b26d3c046a41bdcf6f7429), to distinguish target-specific pathway effects from general growth defects.",
+  "soundness_score": 7
+}
+Meta review cost: $0.0000 (Input: 17164, Output: 34379)
+
+=== step 6 (attempt 1) ===
+LLM cost for tldr_soundness: $0.000000

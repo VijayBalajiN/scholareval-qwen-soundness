@@ -1,0 +1,22 @@
+{
+    "clean_methods": [
+        "We will develop Ukiyo-e-Seq, an integrated approach to generate paired optical and transcriptomic data from individual, uncultured eukaryotic plankton: central proposed system that directly addresses the optical-genomics dichotomy by linking organismal appearance to transcriptomic function.",
+        "We will use microscope-mounted cell pickers to image organisms in brightfield and three epifluorescence channels, then transfer selected organisms using glass capillaries into wells of microtiter plates: core single-organism capture method that creates the paired optical and transcriptomic samples.",
+        "We will prepare libraries for single-well RNA sequencing using Smart-seq2 adapted to 384-well plates: core transcriptomic method enabling single-well RNA-seq from captured plankton.",
+        "Libraries will be sequenced on Illumina NextSeq 500 using reagent v3 kit (2\u00d7300 bases) at approximately 250,000 read pairs per well: sequencing method that generates the transcriptomic reads for each captured organism.",
+        "We will develop a merge-split strategy to address the challenge of reference genome unavailability for most oceanic species: key computational strategy that makes single-well transcriptomes analyzable without species-specific reference genomes.",
+        "We will filter reads using Trimmomatic and remove template switch oligo sequences and sequencing artifacts using custom scripts: bioinformatic quality-control method that prepares raw reads for assembly and expression analysis.",
+        "We will use rnaSpades for de novo assembly and compile read numbers from each sample that align to each contig into a single matrix: implements the merge-split analysis and produces a contig-by-well expression matrix.",
+        "We will perform taxonomic classification using Kraken 2 against large databases of metagenomic and metatranscriptomic data to understand taxonomic identity despite lack of reference genomes: taxonomic method for assigning identities to single-well transcriptomes.",
+        "We will identify open reading frames (ORFs) in contigs using NCBI ORF finder, functionally annotate ORFs, and extract specific pathway components of interest: functional annotation method connecting transcriptomes to biochemical capabilities.",
+        "We will demonstrate our method by collecting 1 liter of ocean water from Wiley's Baths near Coogee, NSW, Australia on two separate occasions using plankton nets: pilot environmental experiment that tests the workflow on real plankton communities.",
+        "We will process samples through tea sieves and filter paper for size selection, with additional centrifugation and sedimentation steps: sample preparation method that isolates the target size range for picking.",
+        "Using the microscope-mounted cell picker, we will image and sequence 66 wells plus 4 negative control wells: experimental scale and control design for validating single-organism capture and sequencing.",
+        "We will confirm successful picking with post-capture brightfield images: quality-control method ensuring that the sequenced well corresponds to the intended organism.",
+        "We will visualize expression patterns of the top five most highly expressed contigs from each well to identify both \"public\" contigs (spanning most samples from single collection days) and \"private\" contigs (highly expressed in single wells only): analysis method for distinguishing shared community transcripts from organism-specific transcripts.",
+        "We will assess taxonomic composition across all four superkingdoms and examine individual well phylogenies for taxonomic clarity and coexistence patterns: ecological analysis method for evaluating taxonomic resolution and community structure.",
+        "We will focus on photosynthetic organisms by identifying ORFs assigned to KEGG photosystem I and II complexes: functional application method linking single-organism transcriptomes to photosynthetic capability.",
+        "We will use AlphaFold 3 to predict three-dimensional structures of protein complexes from individual organisms: structural prediction method that extends functional annotation to protein-complex architecture.",
+        "For developmental analysis, we will examine highly expressed contigs from fish egg/larva samples to identify novel proteins related to cell cycle and embryonic development pathways: developmental application method testing the workflow on non-photosynthetic eukaryotic plankton."
+    ]
+}

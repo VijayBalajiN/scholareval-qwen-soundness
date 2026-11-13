@@ -1,0 +1,1135 @@
+=== ScholarEval soundness pipeline, local vLLM Qwen3.8-27B; GROBID parse gate: pdfs=12 xml=12 ratio=1.0 ===
+
+=== step 1 (attempt 1) ===
+Extract methods tokens: (Input: 1297, Output: 10849)
+
+=== step 2 (attempt 1) ===
+
+Writing Queries:   0%|          | 0/10 [00:00<?, ?it/s]
+Writing Queries:  10%|█         | 1/10 [00:11<01:45, 11.75s/it]
+Writing Queries:  20%|██        | 2/10 [00:28<01:59, 14.93s/it]
+Writing Queries:  30%|███       | 3/10 [00:48<01:59, 17.04s/it]
+Writing Queries:  40%|████      | 4/10 [01:01<01:31, 15.32s/it]
+Writing Queries:  50%|█████     | 5/10 [01:19<01:22, 16.58s/it]
+Writing Queries:  60%|██████    | 6/10 [01:39<01:10, 17.55s/it]
+Writing Queries:  70%|███████   | 7/10 [02:03<00:58, 19.61s/it]
+Writing Queries:  80%|████████  | 8/10 [02:25<00:40, 20.35s/it]
+Writing Queries:  90%|█████████ | 9/10 [02:39<00:18, 18.42s/it]
+Writing Queries: 100%|██████████| 10/10 [02:56<00:00, 18.04s/it]
+Writing Queries: 100%|██████████| 10/10 [02:56<00:00, 17.65s/it]
+Make queries tokens: (Input: 13951, Output: 4879)
+
+=== step 3 (attempt 1) ===
+Using PDF directory: <project>/ScholarEval-results/neuro_18/soundness/pdfs
+GROBID container is already running.
+Starting snippet search for 10 methods...
+
+Finding Snippets for Each Method:   0%|          | 0/10 [00:00<?, ?it/s]
+Finding Snippets for Each Method:  10%|█         | 1/10 [00:03<00:35,  3.94s/it]
+Finding Snippets for Each Method:  20%|██        | 2/10 [00:08<00:34,  4.36s/it]
+Finding Snippets for Each Method:  30%|███       | 3/10 [00:12<00:29,  4.18s/it]Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Extracellular single-unit recordings from macaque area MT neurons during fixation, measuring direction tuning, receptive fields, and speed tuning to single and overlapping two-speed random-dot motion stimuli.', 'limit': 8, 'publicationDateOrYear': ':2024-03-21'}
+Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'Core neural data collection fr...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Neurophysiological recording from macaque visual cortical area MT neurons during fixation, measuring responses to overlapping random-dot motion stimuli moving at two different speeds and to individual single-speed components, with bi-speed and single-speed trials randomly interleaved, to characterize neural encoding of multiple motion speeds.', 'limit': 8, 'publicationDateOrYear': ':2024-03-21'}
+Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'Core neural stimulus testing: ...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Neural encoding of multiple motion speeds in macaque area MT, where responses to bi-speed stimuli are modeled as weighted sums of responses to individual speed components, with population response weights analyzed across stimulus speeds and neurons with different speed preferences.', 'limit': 8, 'publicationDateOrYear': ':2024-03-21'}
+Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'Core encoding-rule analysis: W...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Modified divisive normalization model for macaque area MT neurons encoding multiple motion speeds, where response weights are proportional to population neural responses to individual speed components rather than stimulus strength, to explain bi-speed random-dot stimulus responses and speed preference effects.', 'limit': 8, 'publicationDateOrYear': ':2024-03-21'}
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 1/11 in 2.2s
+
+Finding Snippets for Each Method:  40%|████      | 4/10 [00:19<00:30,  5.14s/it]Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'Core computational modeling: W...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Perceptual discrimination of overlapping random-dot motion stimuli containing two speeds versus a single speed at the logarithmic mean speed, using two-alternative and three-alternative forced-choice tasks with a no-two-speeds option to measure speed segmentation.', 'limit': 8, 'publicationDateOrYear': ':2024-03-21'}
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 1/11 in 2.4s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 2/11 in 5.8s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 3/11 in 8.1s
+
+Finding Snippets for Each Method:  50%|█████     | 5/10 [00:40<00:54, 10.90s/it]
+Finding Snippets for Each Method:  60%|██████    | 6/10 [00:43<00:33,  8.33s/it]
+Finding Snippets for Each Method:  70%|███████   | 7/10 [00:47<00:20,  6.82s/it]Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'Perceptual benchmark for speed...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Psychophysical and neurophysiological studies of overlapping random-dot patches moving at two speeds in stationary apertures, using fixed speed ratios and multiple mean speeds to characterize perceptual segmentation and MT neural encoding of multiple motion speeds', 'limit': 8, 'publicationDateOrYear': ':2024-03-21'}
+Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'Stimulus parameterization for ...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Two-alternative forced-choice training of macaque monkeys to discriminate overlapping random-dot motion stimuli containing one versus two speeds, using identical visual parameters to human psychophysics for cross-species perceptual validation of motion speed segmentation.', 'limit': 8, 'publicationDateOrYear': ':2024-03-21'}
+Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'Cross-species perceptual valid...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'population-level decoding of macaque area MT neuron responses to overlapping two-speed motion stimuli using pooled normalized speed-tuned responses and linear classifiers to discriminate bi-speed from single-speed stimuli', 'limit': 8, 'publicationDateOrYear': ':2024-03-21'}
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 1/11 in 2.2s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 2/11 in 5.1s
+
+Finding Snippets for Each Method:  80%|████████  | 8/10 [00:57<00:16,  8.03s/it]
+Finding Snippets for Each Method:  90%|█████████ | 9/10 [01:01<00:06,  6.54s/it]Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'Population-level decoding anal...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Control experiments in macaque area MT that direct spatial attention away from neuronal receptive fields using a demanding direction discrimination task in the opposite visual field while recording responses to motion stimuli, to rule out attentional biases in neural speed tuning.', 'limit': 8, 'publicationDateOrYear': ':2024-03-21'}
+Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'Attentional confound control: ...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Control experiments in macaque area MT neurons using overlapping random-dot stimuli moving at two speeds in different directions separated by 90 degrees to test whether neural encoding rules for multiple motion speeds generalize across direction combinations.', 'limit': 8, 'publicationDateOrYear': ':2024-03-21'}
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 1/11 in 2.9s
+
+Finding Snippets for Each Method: 100%|██████████| 10/10 [01:09<00:00,  7.01s/it]
+Finding Snippets for Each Method: 100%|██████████| 10/10 [01:09<00:00,  6.93s/it]
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+INFO - Loading configuration file from ./GROBID_config.json
+WARNING - Config key 'batch_size' is deprecated, use 'queue_size' instead
+INFO - Configuration file loaded successfully
+Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'Generalizability control: We w...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+ Snippet search took: 69.29 seconds
+Collecting metadata for 123 unique papers...
+   Processing batch 1/1 (123 papers)...
+   ⏱️  Batch took: 3.67 seconds
+ Paper metadata collection took: 3.67 seconds
+should be 123 pdfs to download
+Could not find url for 20910822 -- 
+ PDF URL preparation took: 0.00 seconds
+Found 122 PDFs with valid URLs to attempt download
+Starting 122 downloads without Unpaywall...
+✗ Failed: 210826487
+✗ Failed: 15007775
+✗ Failed: 9104308
+✗ Failed: 15882396
+✗ Failed: 14574383
+✗ Failed: 15799932
+✗ Failed: 6075538
+✗ Failed: 207221077
+✗ Failed: 18202869
+✗ Failed: 2145246
+✗ Failed: 13423728
+✗ Failed: 131573
+✗ Failed: 10761102
+✗ Failed: 14971196
+✗ Failed: 4011596
+✗ Failed: 248923574
+✗ Failed: 13053459
+✗ Failed: 1105681
+✗ Failed: 8456067
+✗ Failed: 205431006
+✗ Failed: 1467377
+✗ Failed: 201716349
+✗ Failed: 16937159
+✗ Failed: 15433560
+✗ Failed: 6026109
+✗ Failed: 4311846
+✗ Failed: 9240645
+✗ Failed: 3068226
+✗ Failed: 4830438
+✗ Failed: 14122928
+✗ Failed: 40705195
+✗ Failed: 16725871
+✗ Failed: 2151230
+✗ Failed: 8708245
+✗ Failed: 7932916
+✗ Failed: 15935755
+✗ Failed: 16589789
+✗ Failed: 16371643
+✗ Failed: 8993394
+✗ Failed: 2956791
+✗ Failed: 8660764
+✗ Failed: 29077067
+✗ Failed: 79954
+✗ Failed: 8920227
+✗ Failed: 4325804
+✗ Failed: 1477457
+✗ Failed: 6030571
+✓ requests: 92997961
+✓ requests: 12402815
+✓ requests: 32627849
+✗ Failed: 5878945
+✗ Failed: 10691623
+✗ Failed: 14400046
+✗ Failed: 17828347
+✗ Failed: 14986154
+✗ Failed: 853080
+✗ Failed: 14115127
+✗ Failed: 17272884
+✗ Failed: 797919
+✗ Failed: 11627387
+✗ Failed: 4664769
+✗ Failed: 212932604
+✗ Failed: 1914169
+✗ Failed: 5119802
+✗ Failed: 14802103
+✗ Failed: 30183169
+✗ Failed: 9155964
+✗ Failed: 11306059
+✗ Failed: 13459685
+✓ requests: 206661904
+✓ requests: 1166484
+✗ Failed: 7514939
+✗ Failed: 23723940
+✗ Failed: 2025812
+✗ Failed: 17340940
+✗ Failed: 39126412
+✗ Failed: 11924421
+✗ Failed: 258063372
+✗ Failed: 14921214
+✗ Failed: 1368509
+✗ Failed: 29754866
+✗ Failed: 4910130
+✗ Failed: 20484088
+✗ Failed: 14021699
+✗ Failed: 35717021
+✗ Failed: 17307469
+✗ Failed: 16996397
+✗ Failed: 24597129
+✗ Failed: 14290512
+✓ requests: 175595
+✓ requests: 2165073
+✗ Failed: 10471281
+✗ Failed: 27687210
+✗ Failed: 205000162
+✗ Failed: 4319655
+✓ requests: 248245788
+✗ Failed: 1045352
+✓ requests: 13748898
+✓ requests: 1810681
+✓ requests: 259298089
+✗ Failed: 14207173
+✗ Failed: 16338041
+✗ Failed: 6664312
+✗ Failed: 16657893
+✗ Failed: 14724598
+✗ Failed: 5345301
+✗ Failed: 934439
+✗ Failed: 9425253
+✗ Failed: 14709207
+✗ Failed: 232113848
+✗ Failed: 2684225
+✗ Failed: 6873077
+✗ Failed: 17697391
+✗ Failed: 233990535
+✗ Failed: 244447449
+✗ Failed: 251669
+✗ Failed: 10699197
+✗ Failed: 17113795
+✗ Failed: 272332
+✓ requests: 256839195
+✗ Failed: 14389002
+✗ Failed: 2777968
+Completed: 12/122 successful downloads
+ PDF downloads took: 94.50 seconds for 122 PDFs
+Download 1: FAILED - None
+Download 2: FAILED - None
+Download 3: FAILED - None
+Download 4: FAILED - None
+Download 5: FAILED - None
+Download 6: FAILED - None
+Download 7: SUCCESS - <project>/ScholarEval-results/neuro_18/soundness/pdfs/92997961.pdf
+Download 8: FAILED - None
+Download 9: FAILED - None
+Download 10: FAILED - None
+Download 11: FAILED - None
+Download 12: FAILED - None
+Download 13: FAILED - None
+Download 14: FAILED - None
+Download 15: FAILED - None
+Download 16: FAILED - None
+Download 17: FAILED - None
+Download 18: FAILED - None
+Download 19: FAILED - None
+Download 20: FAILED - None
+Download 21: FAILED - None
+Download 22: FAILED - None
+Download 23: FAILED - None
+Download 24: FAILED - None
+Download 25: FAILED - None
+Download 26: FAILED - None
+Download 27: FAILED - None
+Download 28: FAILED - None
+Download 29: FAILED - None
+Download 30: FAILED - None
+Download 31: FAILED - None
+Download 32: FAILED - None
+Download 33: FAILED - None
+Download 34: FAILED - None
+Download 35: SUCCESS - <project>/ScholarEval-results/neuro_18/soundness/pdfs/12402815.pdf
+Download 36: FAILED - None
+Download 37: FAILED - None
+Download 38: FAILED - None
+Download 39: FAILED - None
+Download 40: FAILED - None
+Download 41: FAILED - None
+Download 42: FAILED - None
+Download 43: FAILED - None
+Download 44: FAILED - None
+Download 45: SUCCESS - <project>/ScholarEval-results/neuro_18/soundness/pdfs/32627849.pdf
+Download 46: FAILED - None
+Download 47: FAILED - None
+Download 48: FAILED - None
+Download 49: FAILED - None
+Download 50: FAILED - None
+Download 51: FAILED - None
+Download 52: FAILED - None
+Download 53: SUCCESS - <project>/ScholarEval-results/neuro_18/soundness/pdfs/206661904.pdf
+Download 54: FAILED - None
+Download 55: FAILED - None
+Download 56: FAILED - None
+Download 57: FAILED - None
+Download 58: SUCCESS - <project>/ScholarEval-results/neuro_18/soundness/pdfs/13748898.pdf
+Download 59: FAILED - None
+Download 60: FAILED - None
+Download 61: FAILED - None
+Download 62: FAILED - None
+Download 63: FAILED - None
+Download 64: SUCCESS - <project>/ScholarEval-results/neuro_18/soundness/pdfs/259298089.pdf
+Download 65: FAILED - None
+Download 66: FAILED - None
+Download 67: FAILED - None
+Download 68: FAILED - None
+Download 69: FAILED - None
+Download 70: FAILED - None
+Download 71: SUCCESS - <project>/ScholarEval-results/neuro_18/soundness/pdfs/1166484.pdf
+Download 72: SUCCESS - <project>/ScholarEval-results/neuro_18/soundness/pdfs/175595.pdf
+Download 73: FAILED - None
+Download 74: FAILED - None
+Download 75: FAILED - None
+Download 76: FAILED - None
+Download 77: FAILED - None
+Download 78: FAILED - None
+Download 79: FAILED - None
+Download 80: FAILED - None
+Download 81: FAILED - None
+Download 82: FAILED - None
+Download 83: FAILED - None
+Download 84: SUCCESS - <project>/ScholarEval-results/neuro_18/soundness/pdfs/1810681.pdf
+Download 85: FAILED - None
+Download 86: FAILED - None
+Download 87: SUCCESS - <project>/ScholarEval-results/neuro_18/soundness/pdfs/2165073.pdf
+Download 88: FAILED - None
+Download 89: SUCCESS - <project>/ScholarEval-results/neuro_18/soundness/pdfs/248245788.pdf
+Download 90: FAILED - None
+Download 91: FAILED - None
+Download 92: FAILED - None
+Download 93: FAILED - None
+Download 94: FAILED - None
+Download 95: FAILED - None
+Download 96: FAILED - None
+Download 97: FAILED - None
+Download 98: FAILED - None
+Download 99: FAILED - None
+Download 100: FAILED - None
+Download 101: FAILED - None
+Download 102: FAILED - None
+Download 103: FAILED - None
+Download 104: FAILED - None
+Download 105: FAILED - None
+Download 106: FAILED - None
+Download 107: FAILED - None
+Download 108: FAILED - None
+Download 109: FAILED - None
+Download 110: SUCCESS - <project>/ScholarEval-results/neuro_18/soundness/pdfs/256839195.pdf
+Download 111: FAILED - None
+Download 112: FAILED - None
+Download 113: FAILED - None
+Download 114: FAILED - None
+Download 115: FAILED - None
+Download 116: FAILED - None
+Download 117: FAILED - None
+Download 118: FAILED - None
+Download 119: FAILED - None
+Download 120: FAILED - None
+Download 121: FAILED - None
+Download 122: FAILED - None
+ Download Summary: 12 successful, 110 failed
+Found 12 local file(s) to process
+Processing completed: 12 out of 12 files processed
+Errors: 0 out of 12 files processed
+⏱️  Total runtime: 10.24 seconds
+🚀 Speed: 1.17 documents/second
+ Throughput: 0.85 seconds/document
+ Found 12 XML files to parse...
+Processing XML 1/12: 32627849
+  XML file 32627849 took: 0.00 seconds
+Processing XML 2/12: 12402815
+  XML file 12402815 took: 0.00 seconds
+Processing XML 3/12: 259298089
+  XML file 259298089 took: 0.00 seconds
+Processing XML 4/12: 92997961
+  XML file 92997961 took: 0.00 seconds
+Processing XML 5/12: 256839195
+  XML file 256839195 took: 0.00 seconds
+Processing XML 6/12: 13748898
+  XML file 13748898 took: 0.00 seconds
+Processing XML 7/12: 206661904
+  XML file 206661904 took: 0.00 seconds
+Processing XML 8/12: 2165073
+  XML file 2165073 took: 0.00 seconds
+Processing XML 9/12: 248245788
+  XML file 248245788 took: 0.00 seconds
+Processing XML 10/12: 175595
+  XML file 175595 took: 0.00 seconds
+Processing XML 11/12: 1810681
+  XML file 1810681 took: 0.00 seconds
+Processing XML 12/12: 1166484
+  XML file 1166484 took: 0.00 seconds
+ XML parsing took: 0.03 seconds total (0.00s per file average)
+ Final JSON save took: 0.00 seconds
+
+=== step 4 (attempt 1) ===
+
+Analyzing Sources: 100%|██████████| 10/10 [06:02<00:00, 36.22s/it]
+Reference not found in paper text: 14986154
+Reference not found in paper text: 232113848
+Reference not found in paper text: 9104308
+Reference not found in paper text: 14574383
+Reference not found in paper text: 15882396
+Reference not found in paper text: 6075538
+Reference not found in paper text: 10691623
+Reference not found in paper text: 14400046
+Reference not found in paper text: 11924421
+Reference not found in paper text: 11306059
+Reference not found in paper text: 2151230
+Reference not found in paper text: 2145246
+Reference not found in paper text: 4910130
+Reference not found in paper text: 6873077
+Reference not found in paper text: 6075538
+Reference not found in paper text: 15007775
+Reference not found in paper text: 8660764
+Reference not found in paper text: 2956791
+Reference not found in paper text: 251669
+Reference not found in paper text: 2777968
+Reference not found in paper text: 258063372
+Reference not found in paper text: 8920227
+Reference not found in paper text: 248923574
+Reference not found in paper text: 14709207
+Reference not found in paper text: 5345301
+Reference not found in paper text: 14802103
+Reference not found in paper text: 853080
+Reference not found in paper text: 4325804
+Reference not found in paper text: 210826487
+Reference not found in paper text: 14724598
+Reference not found in paper text: 14971196
+Reference not found in paper text: 8660764
+Reference not found in paper text: 8920227
+Reference not found in paper text: 258063372
+Reference not found in paper text: 14709207
+Reference not found in paper text: 18202869
+Reference not found in paper text: 5345301
+Reference not found in paper text: 5119802
+Reference not found in paper text: 14207173
+Reference not found in paper text: 13053459
+Reference not found in paper text: 17272884
+Reference not found in paper text: 853080
+Reference not found in paper text: 1467377
+Reference not found in paper text: 14290512
+Reference not found in paper text: 14921214
+Reference not found in paper text: 131573
+Reference not found in paper text: 8708245
+Reference not found in paper text: 2777968
+Reference not found in paper text: 4910130
+Reference not found in paper text: 14115127
+Reference not found in paper text: 4830438
+Reference not found in paper text: 934439
+Reference not found in paper text: 14021699
+Reference not found in paper text: 258063372
+Reference not found in paper text: 16657893
+Reference not found in paper text: 1467377
+Reference not found in paper text: 14290512
+Reference not found in paper text: 1105681
+Reference not found in paper text: 210826487
+Reference not found in paper text: 14724598
+Reference not found in paper text: 8708245
+Reference not found in paper text: 8920227
+Reference not found in paper text: 2777968
+Reference not found in paper text: 4910130
+Reference not found in paper text: 18202869
+Reference not found in paper text: 5345301
+Reference not found in paper text: 14207173
+Reference not found in paper text: 14115127
+Reference not found in paper text: 13053459
+Reference not found in paper text: 258063372
+Reference not found in paper text: 9155964
+Reference not found in paper text: 4664769
+Reference not found in paper text: 14207173
+Reference not found in paper text: 16996397
+Reference not found in paper text: 8708245
+Reference not found in paper text: 16371643
+Reference not found in paper text: 6026109
+Reference not found in paper text: 40705195
+Reference not found in paper text: 10471281
+Reference not found in paper text: 15433560
+Reference not found in paper text: 14724598
+Reference not found in paper text: 29077067
+Reference not found in paper text: 4664769
+Reference not found in paper text: 8708245
+Reference not found in paper text: 212932604
+Reference not found in paper text: 8920227
+Reference not found in paper text: 2777968
+Reference not found in paper text: 6026109
+Reference not found in paper text: 4325804
+Reference not found in paper text: 14207173
+Reference not found in paper text: 258063372
+Reference not found in paper text: 14724598
+Reference not found in paper text: 35717021
+Reference not found in paper text: 23723940
+Reference not found in paper text: 258063372
+Reference not found in paper text: 20484088
+Reference not found in paper text: 272332
+Reference not found in paper text: 4664769
+Reference not found in paper text: 17340940
+Reference not found in paper text: 9425253
+Reference not found in paper text: 30183169
+Reference not found in paper text: 27687210
+Reference not found in paper text: 39126412
+Reference not found in paper text: 4011596
+Reference not found in paper text: 1477457
+Reference not found in paper text: 7514939
+Reference not found in paper text: 205431006
+Reference not found in paper text: 17113795
+Reference not found in paper text: 20910822
+Reference not found in paper text: 17307469
+Reference not found in paper text: 5878945
+Reference not found in paper text: 205000162
+Reference not found in paper text: 797919
+Reference not found in paper text: 6030571
+Reference not found in paper text: 3068226
+Reference not found in paper text: 6026109
+Reference not found in paper text: 1045352
+Reference not found in paper text: 15799932
+Reference not found in paper text: 4910130
+Reference not found in paper text: 210826487
+Reference not found in paper text: 14724598
+Reference not found in paper text: 14971196
+Reference not found in paper text: 8660764
+Reference not found in paper text: 8920227
+Reference not found in paper text: 4325804
+Reference not found in paper text: 14709207
+Reference not found in paper text: 5345301
+Reference not found in paper text: 258063372
+Reference not found in paper text: 14207173
+Reference not found in paper text: 18202869
+Reference not found in paper text: 13053459
+Reference not found in paper text: 853080
+Reference not found in paper text: 14921214
+Reference not found in paper text: 1467377
+Reference not found in paper text: 14290512
+Reference not found in paper text: 131573
+Reference not found in paper text: 244447449
+Reference not found in paper text: 8708245
+Reference not found in paper text: 2777968
+Reference not found in paper text: 5119802
+Reference not found in paper text: 4830438
+Reference not found in paper text: 14021699
+Reference not found in paper text: 14115127
+Reference not found in paper text: 934439
+Reference not found in paper text: 201716349
+Reference not found in paper text: 14389002
+Reference not found in paper text: 79954
+Reference not found in paper text: 14122928
+Reference not found in paper text: 1368509
+Reference not found in paper text: 11924421
+Reference not found in paper text: 13423728
+Reference not found in paper text: 1914169
+Reference not found in paper text: 8456067
+Reference not found in paper text: 16589789
+Reference not found in paper text: 9240645
+Reference not found in paper text: 11627387
+Reference not found in paper text: 2025812
+Reference not found in paper text: 4319655
+Reference not found in paper text: 4311846
+Reference not found in paper text: 6664312
+Reference not found in paper text: 17828347
+Reference not found in paper text: 10761102
+Reference not found in paper text: 232113848
+Reference not found in paper text: 233990535
+Reference not found in paper text: 16937159
+Reference not found in paper text: 207221077
+Reference not found in paper text: 258063372
+Reference not found in paper text: 10699197
+Reference not found in paper text: 15935755
+Reference not found in paper text: 16338041
+Reference not found in paper text: 2684225
+Reference not found in paper text: 4325804
+Reference not found in paper text: 14021699
+Reference not found in paper text: 210826487
+Reference not found in paper text: 14724598
+Reference not found in paper text: 14971196
+Reference not found in paper text: 8660764
+Reference not found in paper text: 8920227
+Reference not found in paper text: 258063372
+Reference not found in paper text: 14709207
+Reference not found in paper text: 5345301
+Reference not found in paper text: 24597129
+Reference not found in paper text: 14207173
+Reference not found in paper text: 8993394
+Reference not found in paper text: 13053459
+Reference not found in paper text: 853080
+Reference not found in paper text: 13459685
+Reference not found in paper text: 14921214
+Reference not found in paper text: 4910130
+Reference not found in paper text: 6075538
+Reference not found in paper text: 131573
+Reference not found in paper text: 17697391
+Reference not found in paper text: 29754866
+Reference not found in paper text: 8708245
+Reference not found in paper text: 2145246
+Reference not found in paper text: 7932916
+Reference not found in paper text: 2777968
+Reference not found in paper text: 5119802
+Reference not found in paper text: 934439
+Reference not found in paper text: 4830438
+Reference not found in paper text: 16725871
+Method analysis cost: $0.0000 (Input: 31538, Output: 19471)
+
+=== step 5 (attempt 1) ===
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch; retry 1/11 in 2.1s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch; retry 2/11 in 4.3s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch; retry 3/11 in 8.7s
+[start related work 1]
+[metadata]
+- in_text_citation: [(Pillow, unknown_d)](https://www.semanticscholar.org/paper/371b1a357007fb7c42763c8bd95d8c9ac9f8c512)
+- venue: No Venue
+- citation count: 51
+[method]
+The paper describes likelihood-based cross-validation as a statistical method for evaluating probabilistic neural models after maximum-likelihood fitting. In this approach, competing models pA(y|x, θA) and pB(y|x, θB) are first fit to training data, and then their generalization performance is compared by evaluating the likelihood of independent test data, pA(y*|x*, θA) versus pB(y*|x*, θB). The test data can be obtained by presenting new stimuli x* to the neuron and recording new spike responses y*, or by holding out a portion of the original data. The method is motivated by the need to avoid overfitting: a model with more parameters may assign higher likelihood to the training data but may perform poorly on new data. In the context of the proposed research plan, this method could be used after collecting responses from approximately 100 MT neurons to compare candidate encoding models for bi-speed stimuli, such as averaging, soft-max, slow-speed bias, fast-speed bias, or the proposed modified divisive normalization model. It is not a data-collection technique, but it is relevant to the computational modeling and model-validation components of the overall plan.
+[results]
+The provided sections do not report a quantitative experimental outcome from applying likelihood-based cross-validation to a specific neural dataset. Instead, they provide a conceptual toy example illustrating overfitting. For five data points drawn from a Gaussian distribution, model A is a single Gaussian fitted with the sample mean and standard deviation, while model B is a mixture of five very narrow Gaussians centered on the five sample points. Model B assigns higher likelihood to the training points because it concentrates probability mass near them, but it is expected to assign very low probability to new data points that do not lie near the original samples. No numerical likelihood values, statistical significance tests, or empirical performance comparisons are reported in the provided text.
+[context]
+The method is defined for probabilistic spike-response models p(y|x, θ) fitted by maximum likelihood. It requires a training set for parameter estimation and a separate test set of stimuli and spike responses, either newly generated or held out from the original data. The excerpt does not specify dataset size, species, recording hardware, stimulus parameters, number of parameters, regularization strength, or other implementation details. It is not tied to area MT, macaque monkeys, fixation tasks, direction tuning, receptive-field mapping, speed tuning, or bi-speed stimuli. Its relevance to the proposed method is indirect: it provides a validation framework for models built from the planned MT recordings, rather than a method for collecting the neural data themselves.
+[end related work 1]
+
+[start related work 2]
+[metadata]
+- in_text_citation: [(Wild et al., 2022-04)](https://www.semanticscholar.org/paper/07aa74fcc4bb9da49fdb117f36166988d74769eb)
+- venue: Scientific Data
+- citation count: 3
+[method]
+The paper excerpt lists a macaque neural recording study involving three animals (Sun, IGG, EDG) and a general experimental setup plus Setup A. The relevant methods are a neural recording setup, spatial mapping, tuning, and reverse correlation. Spatial mapping is consistent with receptive-field mapping, tuning is consistent with direction tuning (the excerpt includes 'Direction in degrees'), and reverse correlation is a stimulus-response characterization method. Data records include firing rates, interspike intervals, eye data, raster firing-rate plots, trial histograms, and example spatial-mapping and tuning analyses. This relates to the proposed method because the proposed plan also records from isolated macaque neurons during fixation and first characterizes receptive fields and direction tuning before bi-speed testing; however, the paper excerpt does not explicitly mention area MT, speed tuning, or bi-speed stimuli.
+[results]
+No quantitative experimental outcomes, statistical tests, or comparisons to baselines are provided in the supplied excerpt. The available content indicates that the paper provides example data and validation analyses rather than reported results: firing-rate and ISI records, eye data, raster plots, trial histograms, and example spatial-mapping and tuning analyses. The only quantitative variable named is direction in degrees, but no values, tuning indices, or significance levels are given.
+[context]
+Contextual details are limited to section headings: three macaque subjects, a general experimental setup and Setup A, three experiment types (spatial mapping, tuning, reverse correlation), and data organized as firing rates, interspike intervals, eye data, and example analyses. No information is provided in the excerpt on neuron count, electrode type, sampling rate, fixation requirements, stimulus parameters, speed ranges, or bi-speed conditions. Therefore, the paper can be used as a methodological analogue for the proposed preliminary neural characterization, but it does not supply the specific conditions needed to reproduce the proposed 100-neuron MT bi-speed experiment.
+[end related work 2]
+
+
+
+
+
+
+
+
+Processing method: Core neural data collection from approximately 100 MT neurons: We will record extracellularly from isolated neurons in area MT of macaque monkeys while they perform fixation tasks. For each neuron, we will characterize direction tuning, map receptive fields, and measure speed tuning to single speeds before testing responses to bi-speed stimuli.
+
+
+Response received 
+
+{
+    "support": "The strongest support for the proposed core data-collection method comes from the newer macaque recording study [(Wild et al., 2022-04)](https://www.semanticscholar.org/paper/07aa74fcc4bb9da49fdb117f36166988d74769eb), which documents extracellular neural recordings from three macaque animals using a general setup, spatial mapping, tuning, and reverse correlation, and provides firing-rate, interspike-interval, eye-data, raster-plot, trial-histogram, and example spatial-mapping/tuning analyses. This directly parallels the proposed plan to record isolated macaque neurons during fixation, first map receptive fields, characterize direction tuning, and then proceed to bi-speed testing, because it shows that the same preliminary characterization pipeline is feasible in macaques and that eye data and trial-level firing-rate summaries are appropriate for fixation-based single-neuron work. The next strongest support is from [(Pillow, unknown_d)](https://www.semanticscholar.org/paper/371b1a357007fb7c42763c8bd95d8c9ac9f8c512), which provides a likelihood-based cross-validation framework for probabilistic spike-response models p(y|x,theta) fitted by maximum likelihood, comparing pA(y*|x*,thetaA) and pB(y*|x*,thetaB) on independent test data or held-out data. This supports the downstream computational modeling and model-selection components of the plan, especially after collecting approximately 100 MT neurons, because it gives a principled way to compare candidate bi-speed encoding rules such as averaging, soft-max, slow-speed bias, fast-speed bias, and the modified divisive normalization model without relying on training-set fit alone. The weakest support is that both works are indirect for the specific proposed method: [(Wild et al., 2022-04)](https://www.semanticscholar.org/paper/07aa74fcc4bb9da49fdb117f36166988d74769eb) does not explicitly report area MT, speed tuning, bi-speed stimuli, or a 100-neuron target, and [(Pillow, unknown_d)](https://www.semanticscholar.org/paper/371b1a357007fb7c42763c8bd95d8c9ac9f8c512) is a conceptual validation method with a toy Gaussian/mixture example rather than an empirical MT dataset, so neither provides direct quantitative evidence that the proposed 100-neuron MT speed-tuning and bi-speed protocol will succeed.",
+    "contradictions": "The strongest contradiction, or more precisely the strongest limitation that undermines the proposed method as stated, is that the newer macaque recording study [(Wild et al., 2022-04)](https://www.semanticscholar.org/paper/07aa74fcc4bb9da49fdb117f36166988d74769eb) does not provide evidence for the critical MT-specific and speed-specific steps in the plan. It reports spatial mapping, direction tuning, reverse correlation, firing rates, ISIs, eye data, raster plots, and trial histograms, but it does not report area MT, speed tuning to single speeds, bi-speed stimuli, speed ratios, fixation-task performance, electrode type, sampling rate, neuron count, or statistical outcomes; therefore it cannot be used to validate the assumption that preliminary direction and receptive-field characterization is sufficient before testing bi-speed encoding in MT. The next strongest contradiction is the overfitting warning in [(Pillow, unknown_d)](https://www.semanticscholar.org/paper/371b1a357007fb7c42763c8bd95d8c9ac9f8c512): its toy example shows that a more parameterized model can obtain higher training likelihood while assigning very low probability to new data, which contradicts any analysis of the proposed weighted-sum or modified normalization models that relies only on fit to the same 100-neuron dataset without independent held-out or newly generated bi-speed test trials. This is especially relevant because the plan compares several candidate encoding rules and a modified divisive normalization model, all of which can be overfitted if model selection is not based on independent likelihood evaluation. The weakest contradiction is the absence of quantitative reproducibility details in both works: [(Wild et al., 2022-04)](https://www.semanticscholar.org/paper/07aa74fcc4bb9da49fdb117f36166988d74769eb) gives no neuron count, hardware/system specs, hyperparameters, or statistical significance, and [(Pillow, unknown_d)](https://www.semanticscholar.org/paper/371b1a357007fb7c42763c8bd95d8c9ac9f8c512) gives no dataset size, species, recording hardware, stimulus parameters, regularization strength, or empirical performance comparison, so neither provides direct evidence that the proposed approximately 100 MT neuron experiment can be reproduced with the stated precision.",
+    "suggested_action": "The most important improvement is to add an explicit likelihood-based cross-validation protocol, motivated by [(Pillow, unknown_d)](https://www.semanticscholar.org/paper/371b1a357007fb7c42763c8bd95d8c9ac9f8c512), for every candidate encoding model tested on the approximately 100 MT neurons. The plan should fit averaging, soft-max, slow-speed bias, fast-speed bias, and modified divisive normalization models on a training subset of single-speed and bi-speed trials, then compare their log-likelihoods on independent held-out trials or newly presented bi-speed stimuli, reporting parameter counts, confidence intervals, and significance tests such as likelihood-ratio tests, permutation tests, or AIC/BIC where appropriate. The second most important action is to operationalize the macaque recording and preliminary characterization pipeline using the methodological details implied by the newer empirical work [(Wild et al., 2022-04)](https://www.semanticscholar.org/paper/07aa74fcc4bb9da49fdb117f36166988d74769eb), but extended to MT and speed tuning: specify electrode type, sampling rate, spike-sorting criteria, fixation thresholds, eye-data quality control, receptive-field mapping metrics, direction-tuning indices, speed-tuning curves, and inclusion criteria for the 100 neurons. The third action is to align the speed-tuning and bi-speed stimulus design with the psychophysical speed pairs, using the stated 4:1 and 2:1 ratios and speed ranges from 1.25 to 80 deg/s, with single-speed and bi-speed trials randomly interleaved and sufficient trial counts to estimate response weights. The fourth action is to add the proposed control conditions, including 90-degree direction-separation controls and attention-control trials in the opposite visual field, and to evaluate population-level encoding with cross-validated linear classifiers and pseudo-population analyses. The least important but still useful action is to report full reproducibility details, including hardware/system specs, number of monkeys, neuron count per monkey, trial numbers, stimulus parameters, fixation requirements, and data availability, so that the method can be compared with the macaque recording precedent in [(Wild et al., 2022-04)](https://www.semanticscholar.org/paper/07aa74fcc4bb9da49fdb117f36166988d74769eb) and the model-validation standard in [(Pillow, unknown_d)](https://www.semanticscholar.org/paper/371b1a357007fb7c42763c8bd95d8c9ac9f8c512).",
+    "soundness_score": 6
+}
+Meta review cost: $0.0000 (Input: 2825, Output: 5631)
+
+=== step 6 (attempt 1) ===
+LLM cost for tldr_soundness: $0.000000

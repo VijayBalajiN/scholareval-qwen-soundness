@@ -1,0 +1,910 @@
+=== ScholarEval soundness pipeline, local vLLM Qwen3.8-27B; GROBID parse gate: pdfs=13 xml=13 ratio=1.0 ===
+
+=== step 1 (attempt 1) ===
+Extract methods tokens: (Input: 1316, Output: 12796)
+
+=== step 2 (attempt 1) ===
+
+Writing Queries:   0%|          | 0/9 [00:00<?, ?it/s]
+Writing Queries:  11%|█         | 1/9 [00:18<02:27, 18.44s/it]
+Writing Queries:  22%|██▏       | 2/9 [00:36<02:08, 18.32s/it]
+Writing Queries:  33%|███▎      | 3/9 [01:51<04:25, 44.19s/it]
+Writing Queries:  44%|████▍     | 4/9 [02:33<03:37, 43.42s/it]
+Writing Queries:  56%|█████▌    | 5/9 [03:02<02:32, 38.02s/it]
+Writing Queries:  67%|██████▋   | 6/9 [04:15<02:29, 49.87s/it]
+Writing Queries:  78%|███████▊  | 7/9 [04:41<01:24, 42.04s/it]
+Writing Queries:  89%|████████▉ | 8/9 [04:58<00:34, 34.04s/it]
+Writing Queries: 100%|██████████| 9/9 [05:15<00:00, 28.86s/it]
+Writing Queries: 100%|██████████| 9/9 [05:15<00:00, 35.06s/it]
+Make queries tokens: (Input: 12914, Output: 8790)
+
+=== step 3 (attempt 1) ===
+Using PDF directory: <project>/ScholarEval-results/biochem_12/soundness/pdfs
+GROBID container is already running.
+Starting snippet search for 9 methods...
+
+Finding Snippets for Each Method:   0%|          | 0/9 [00:00<?, ?it/s]Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'solution-state NMR spectroscopy to determine substrate specificity and cleavage sites of Staphylococcus aureus lysostaphin and LytM peptidoglycan hydrolases using isotopically labeled pentaglycine synthetic peptides and real-time kinetic monitoring of hydrolysis products', 'limit': 8, 'publicationDateOrYear': ':2024-01-23'}
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 1/11 in 2.5s
+
+Finding Snippets for Each Method:  11%|█         | 1/9 [00:07<01:01,  7.66s/it]Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'Primary analytical strategy fo...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Synthetic peptidoglycan peptide substrates with pentaglycine cross-bridge scaffolds for determining cleavage specificity of Staphylococcus aureus lysostaphin and LytM metalloendopeptidases', 'limit': 8, 'publicationDateOrYear': ':2024-01-23'}
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 1/11 in 2.8s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 2/11 in 4.5s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 3/11 in 8.7s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 4/11 in 18.4s
+
+Finding Snippets for Each Method:  22%|██▏       | 2/9 [00:47<03:07, 26.78s/it]Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'Substrate panel design for tes...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Selective 13C 15N labeling of Gly2 C-alpha CO carbons in pentaglycine for NMR cleavage-site assignment using glycine-optimized 2D HA(CA)CO experiments to distinguish C-terminal non-terminal carbonyl resonances in Staphylococcus aureus lysostaphin LytM peptidoglycan hydrolase substrate specificity studies', 'limit': 8, 'publicationDateOrYear': ':2024-01-23'}
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 1/11 in 2.4s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 2/11 in 5.4s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 3/11 in 10.0s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 4/11 in 16.9s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 5/11 in 35.1s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 6/11 in 66.4s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 7/11 in 133.0s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 8/11 in 186.9s
+
+Finding Snippets for Each Method:  33%|███▎      | 3/9 [08:34<22:45, 227.53s/it]Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'Isotopic symmetry-breaking and...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'quantitative real-time 1H NMR kinetic monitoring of lysostaphin and LytM peptidoglycan hydrolysis of 13C-labeled pentaglycine substrates with multidimensional NMR product identification using HSQC HMBC and glycine-optimized 2D HA(CA)CO experiments', 'limit': 8, 'publicationDateOrYear': ':2024-01-23'}
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 1/11 in 2.0s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 2/11 in 5.9s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 3/11 in 10.9s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 4/11 in 16.9s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 5/11 in 32.2s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 6/11 in 64.1s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 7/11 in 129.7s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 8/11 in 183.7s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 9/11 in 182.9s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 10/11 in 185.4s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 11/11 in 182.6s
+
+Finding Snippets for Each Method:  44%|████▍     | 4/9 [25:21<44:37, 535.45s/it]
+Finding Snippets for Each Method:  56%|█████▌    | 5/9 [25:24<22:53, 343.41s/it]
+Finding Snippets for Each Method:  67%|██████▋   | 6/9 [25:28<11:23, 227.80s/it]Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'Real-time NMR kinetic monitori...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Systematic kinetic comparison of peptidoglycan fragment hydrolysis by Staphylococcus aureus lysostaphin and LytM using synthetic pentaglycine and cross-linked stem peptide substrates, quantitative NMR monitoring, substrate specificity and cleavage site determination', 'limit': 8, 'publicationDateOrYear': ':2024-01-23'}
+Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'Systematic kinetic comparison ...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'NMR analysis of native Staphylococcus aureus USA300 sacculus muropeptides extracted using SDS, DNase, Pronase, HCl, mutanolysin protocols, before and after lysostaphin LytM digestion, to confirm pentaglycine cross-bridge cleavage sites', 'limit': 8, 'publicationDateOrYear': ':2024-01-23'}
+Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'Native sacculus validation by ...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Turbidity reduction assay measuring optical density at 600 nm over 16 hours for Staphylococcus aureus USA300 late stationary phase cells treated with lysostaphin-like peptidoglycan hydrolase at 50 micrograms per milliliter to validate living-cell enzyme activity', 'limit': 8, 'publicationDateOrYear': ':2024-01-23'}
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 1/11 in 2.3s
+
+Finding Snippets for Each Method:  78%|███████▊  | 7/9 [25:35<05:11, 155.82s/it]Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'Living-cell validation of enzy...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'Effects of cross-bridge length variations and serine substitutions in synthetic Staphylococcus aureus peptidoglycan peptides on lysostaphin and LytM hydrolysis and resistance mutant phenotypes', 'limit': 8, 'publicationDateOrYear': ':2024-01-23'}
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 1/11 in 2.4s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 2/11 in 5.0s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 3/11 in 9.2s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 4/11 in 19.6s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 5/11 in 33.8s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 6/11 in 67.1s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 7/11 in 132.8s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 8/11 in 186.4s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 9/11 in 187.7s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 10/11 in 186.6s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 11/11 in 185.5s
+
+Finding Snippets for Each Method:  89%|████████▉ | 8/9 [42:40<07:12, 432.47s/it]
+Error: 429 - {"message": "Too Many Requests. Please wait and try again or apply for a key for higher rate limits. https://www.semanticscholar.org/product/api#api-key-form", "code": "429"}
+Right after search_snippets, got: <class 'NoneType'>
+Warning: search_snippets returned None
+🔍 Method 'Resistance-relevant substrate ...': Retrieved snippets response: <class 'dict'>
+   No snippets returned (None/empty)
+Warning: No snippets found for method Resistance-relevant substrate variation testing: We will also test the effects of cross-bridge length variations and serine substitutions using additional synthetic peptides to understand resistance mechanisms and validate our findings against known S. aureus mutant phenotypes..
+Right before search_snippets
+preparing params
+setting year
+Searching snippets with params: {'query': 'NMR kinetic analysis of peptidoglycan hydrolase activity using 800 MHz quantitative 1H NMR at 25°C, initial rate linear regression and Michaelis-Menten fitting for Staphylococcus aureus lysostaphin and LytM pentaglycine substrate hydrolysis', 'limit': 8, 'publicationDateOrYear': ':2024-01-23'}
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 1/11 in 2.8s
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/snippet/search; retry 2/11 in 5.1s
+
+Finding Snippets for Each Method: 100%|██████████| 9/9 [42:53<00:00, 301.50s/it]
+Finding Snippets for Each Method: 100%|██████████| 9/9 [42:53<00:00, 286.00s/it]
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+<project>/venv-se/lib/python3.12/site-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host 'proxy62.iitd.ac.in'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+INFO - Loading configuration file from ./GROBID_config.json
+WARNING - Config key 'batch_size' is deprecated, use 'queue_size' instead
+INFO - Configuration file loaded successfully
+Successful response from snippet search
+Right after search_snippets, got: <class 'dict'>
+🔍 Method 'Standardized experimental cond...': Retrieved snippets response: <class 'dict'>
+  Snippets keys: dict_keys(['data', 'retrievalVersion'])
+   Found 8 snippet items in data
+ Snippet search took: 2574.00 seconds
+Collecting metadata for 73 unique papers...
+   Processing batch 1/1 (73 papers)...
+   ⏱️  Batch took: 2.61 seconds
+ Paper metadata collection took: 2.61 seconds
+should be 73 pdfs to download
+ PDF URL preparation took: 0.00 seconds
+Found 73 PDFs with valid URLs to attempt download
+Starting 73 downloads without Unpaywall...
+✗ Failed: 233425514
+✗ Failed: 231804244
+✗ Failed: 17790684
+✗ Failed: 29733447
+✗ Failed: 5070010
+✗ Failed: 239467615
+✗ Failed: 36825802
+✗ Failed: 39616152
+✗ Failed: 5598859
+✗ Failed: 10373178
+✗ Failed: 8595800
+✗ Failed: 6956619
+✗ Failed: 261080424
+✗ Failed: 46324135
+✗ Failed: 21223627
+✗ Failed: 27114289
+✗ Failed: 25480459
+✗ Failed: 9040218
+✗ Failed: 19606089
+✗ Failed: 13768297
+✗ Failed: 10527931
+✗ Failed: 7294675
+✗ Failed: 13122072
+✗ Failed: 22057326
+✗ Failed: 13181723
+✓ requests: 232234361
+✗ Failed: 23303916
+✗ Failed: 4940602
+✗ Failed: 248375703
+✓ requests: 1310602
+✗ Failed: 4970988
+✗ Failed: 29325532
+✗ Failed: 30358289
+✗ Failed: 3603672
+✗ Failed: 25031595
+✗ Failed: 28567141
+✗ Failed: 33548697
+✓ requests: 14678171
+✗ Failed: 12534280
+✓ requests: 8049028
+✗ Failed: 44335239
+✗ Failed: 16776699
+✗ Failed: 20037190
+✓ requests: 49557838
+✓ requests: 58014009
+✓ requests: 255812681
+✓ requests: 226448
+✓ requests: 232087845
+✓ requests: 17204748
+✓ requests: 109940866
+✗ Failed: 229353583
+✗ Failed: 22490347
+✗ Failed: 2566141
+✗ Failed: 196624598
+✗ Failed: 260401044
+✗ Failed: 9791755
+✗ Failed: 207167613
+✗ Failed: 46436018
+✗ Failed: 31983909
+✗ Failed: 4702970
+✗ Failed: 39955069
+✗ Failed: 32286293
+✗ Failed: 8841966
+✓ requests: 237610627
+✗ Failed: 95345058
+✗ Failed: 30630339
+✗ Failed: 41446771
+✗ Failed: 7965618
+✗ Failed: 4943720
+✗ Failed: 94889118
+✗ Failed: 27705550
+✗ Failed: 35028283
+✓ requests: 3325841
+Completed: 13/73 successful downloads
+ PDF downloads took: 49.09 seconds for 73 PDFs
+Download 1: SUCCESS - <project>/ScholarEval-results/biochem_12/soundness/pdfs/14678171.pdf
+Download 2: SUCCESS - <project>/ScholarEval-results/biochem_12/soundness/pdfs/226448.pdf
+Download 3: FAILED - None
+Download 4: FAILED - None
+Download 5: FAILED - None
+Download 6: FAILED - None
+Download 7: FAILED - None
+Download 8: FAILED - None
+Download 9: FAILED - None
+Download 10: FAILED - None
+Download 11: FAILED - None
+Download 12: FAILED - None
+Download 13: FAILED - None
+Download 14: SUCCESS - <project>/ScholarEval-results/biochem_12/soundness/pdfs/232087845.pdf
+Download 15: FAILED - None
+Download 16: FAILED - None
+Download 17: FAILED - None
+Download 18: FAILED - None
+Download 19: FAILED - None
+Download 20: SUCCESS - <project>/ScholarEval-results/biochem_12/soundness/pdfs/255812681.pdf
+Download 21: FAILED - None
+Download 22: FAILED - None
+Download 23: SUCCESS - <project>/ScholarEval-results/biochem_12/soundness/pdfs/17204748.pdf
+Download 24: FAILED - None
+Download 25: SUCCESS - <project>/ScholarEval-results/biochem_12/soundness/pdfs/109940866.pdf
+Download 26: FAILED - None
+Download 27: FAILED - None
+Download 28: FAILED - None
+Download 29: SUCCESS - <project>/ScholarEval-results/biochem_12/soundness/pdfs/1310602.pdf
+Download 30: FAILED - None
+Download 31: FAILED - None
+Download 32: FAILED - None
+Download 33: FAILED - None
+Download 34: FAILED - None
+Download 35: SUCCESS - <project>/ScholarEval-results/biochem_12/soundness/pdfs/8049028.pdf
+Download 36: FAILED - None
+Download 37: FAILED - None
+Download 38: FAILED - None
+Download 39: FAILED - None
+Download 40: FAILED - None
+Download 41: FAILED - None
+Download 42: SUCCESS - <project>/ScholarEval-results/biochem_12/soundness/pdfs/58014009.pdf
+Download 43: FAILED - None
+Download 44: FAILED - None
+Download 45: FAILED - None
+Download 46: FAILED - None
+Download 47: SUCCESS - <project>/ScholarEval-results/biochem_12/soundness/pdfs/232234361.pdf
+Download 48: SUCCESS - <project>/ScholarEval-results/biochem_12/soundness/pdfs/49557838.pdf
+Download 49: FAILED - None
+Download 50: FAILED - None
+Download 51: FAILED - None
+Download 52: FAILED - None
+Download 53: FAILED - None
+Download 54: FAILED - None
+Download 55: FAILED - None
+Download 56: SUCCESS - <project>/ScholarEval-results/biochem_12/soundness/pdfs/237610627.pdf
+Download 57: FAILED - None
+Download 58: FAILED - None
+Download 59: FAILED - None
+Download 60: FAILED - None
+Download 61: FAILED - None
+Download 62: FAILED - None
+Download 63: FAILED - None
+Download 64: SUCCESS - <project>/ScholarEval-results/biochem_12/soundness/pdfs/3325841.pdf
+Download 65: FAILED - None
+Download 66: FAILED - None
+Download 67: FAILED - None
+Download 68: FAILED - None
+Download 69: FAILED - None
+Download 70: FAILED - None
+Download 71: FAILED - None
+Download 72: FAILED - None
+Download 73: FAILED - None
+ Download Summary: 13 successful, 60 failed
+Found 13 local file(s) to process
+Processing completed: 13 out of 13 files processed
+Errors: 0 out of 13 files processed
+⏱️  Total runtime: 13.36 seconds
+🚀 Speed: 0.97 documents/second
+ Throughput: 1.03 seconds/document
+ Found 13 XML files to parse...
+Processing XML 1/13: 8049028
+  XML file 8049028 took: 0.00 seconds
+Processing XML 2/13: 226448
+  XML file 226448 took: 0.00 seconds
+Processing XML 3/13: 3325841
+  XML file 3325841 took: 0.00 seconds
+Processing XML 4/13: 232234361
+  XML file 232234361 took: 0.00 seconds
+Processing XML 5/13: 255812681
+  XML file 255812681 took: 0.00 seconds
+Processing XML 6/13: 58014009
+  XML file 58014009 took: 0.00 seconds
+Processing XML 7/13: 17204748
+  XML file 17204748 took: 0.00 seconds
+Processing XML 8/13: 237610627
+  XML file 237610627 took: 0.00 seconds
+Processing XML 9/13: 1310602
+  XML file 1310602 took: 0.00 seconds
+Processing XML 10/13: 14678171
+  XML file 14678171 took: 0.00 seconds
+Processing XML 11/13: 49557838
+  XML file 49557838 took: 0.00 seconds
+Processing XML 12/13: 109940866
+  XML file 109940866 took: 0.00 seconds
+Processing XML 13/13: 232087845
+  XML file 232087845 took: 0.00 seconds
+ XML parsing took: 0.04 seconds total (0.00s per file average)
+ Final JSON save took: 0.00 seconds
+
+=== step 4 (attempt 1) ===
+
+Analyzing Sources: 100%|██████████| 9/9 [23:07<00:00, 154.15s/it]
+Reference not found in paper text: 36825802
+Reference not found in paper text: 229353583
+Reference not found in paper text: 31983909
+Reference not found in paper text: 13122072
+Reference not found in paper text: 10373178
+Reference not found in paper text: 2566141
+Reference not found in paper text: 7965618
+Reference not found in paper text: 229353583
+Reference not found in paper text: 229353583
+Reference not found in paper text: 46436018
+Reference not found in paper text: 231804244
+Reference not found in paper text: 13181723
+Reference not found in paper text: 10527931
+Reference not found in paper text: 4702970
+Reference not found in paper text: 25031595
+Reference not found in paper text: 2566141
+Reference not found in paper text: 95345058
+Reference not found in paper text: 4940602
+Reference not found in paper text: 13122072
+Reference not found in paper text: 20037190
+Reference not found in paper text: 8841966
+Reference not found in paper text: 44335239
+Reference not found in paper text: 27705550
+Reference not found in paper text: 9791755
+Reference not found in paper text: 36825802
+Reference not found in paper text: 229353583
+Reference not found in paper text: 39955069
+Reference not found in paper text: 29733447
+Reference not found in paper text: 4943720
+Reference not found in paper text: 41446771
+Reference not found in paper text: 7965618
+Reference not found in paper text: 94889118
+Reference not found in paper text: 35028283
+Reference not found in paper text: 31983909
+Reference not found in paper text: 12534280
+Reference not found in paper text: 23303916
+Reference not found in paper text: 10373178
+Reference not found in paper text: 16776699
+Reference not found in paper text: 17790684
+Reference not found in paper text: 13122072
+Reference not found in paper text: 9040218
+Reference not found in paper text: 32286293
+Reference not found in paper text: 33548697
+Reference not found in paper text: 10373178
+Reference not found in paper text: 36825802
+Reference not found in paper text: 2566141
+Reference not found in paper text: 30358289
+Reference not found in paper text: 8595800
+Reference not found in paper text: 21223627
+Reference not found in paper text: 7965618
+Reference not found in paper text: 39616152
+Reference not found in paper text: 4970988
+Reference not found in paper text: 229353583
+Reference not found in paper text: 3603672
+Reference not found in paper text: 31983909
+Reference not found in paper text: 46324135
+Reference not found in paper text: 28567141
+Reference not found in paper text: 207167613
+Reference not found in paper text: 19606089
+Reference not found in paper text: 6956619
+Reference not found in paper text: 248375703
+Reference not found in paper text: 233425514
+Reference not found in paper text: 27114289
+Reference not found in paper text: 7294675
+Reference not found in paper text: 13768297
+Reference not found in paper text: 30630339
+Reference not found in paper text: 5070010
+Reference not found in paper text: 22490347
+Reference not found in paper text: 260401044
+Reference not found in paper text: 239467615
+Reference not found in paper text: 29325532
+Reference not found in paper text: 22057326
+Reference not found in paper text: 261080424
+Reference not found in paper text: 196624598
+Reference not found in paper text: 229353583
+Reference not found in paper text: 25480459
+Reference not found in paper text: 9791755
+Reference not found in paper text: 29733447
+Reference not found in paper text: 5598859
+Reference not found in paper text: 41446771
+Method analysis cost: $0.0000 (Input: 52722, Output: 66590)
+
+=== step 5 (attempt 1) ===
+[backoff] HTTP 429 from https://api.semanticscholar.org/graph/v1/paper/batch; retry 1/11 in 2.9s
+
+
+[start related work 1]
+[metadata]
+- in_text_citation: [(Maya-Martinez et al., 2019-01)](https://www.semanticscholar.org/paper/af8a8dea1a5f980021848949d211de2bf83f567c)
+- venue: Frontiers in Microbiology
+- citation count: 29
+[method]
+The paper used solution-state NMR resonance assignment and NMR titration experiments to examine interactions between S. aureus PBP4 and soluble peptidoglycan fragments or muropeptides. The approach involved assigning NMR resonances of PBP4, monitoring chemical-shift perturbations upon titration with peptidoglycan-derived fragments, and using the resulting NMR data to support a docking-based structural model of a PBP4:muropeptide complex. This is related to the proposed method because both use solution-state NMR to characterize peptidoglycan-derived peptide/muropeptide substrates, but the paper did not use selective 15N/13C labeling of individual pentaglycine glycine residues or glycine-optimized 2D HA(CA)CO experiments to assign hydrolysis cleavage sites.
+[results]
+The NMR titration results indicated that PBP4 did not interact with high-molecular-weight peptidoglycan or synthetic stem peptides, but did interact with larger soluble peptidoglycan fragments or muropeptides. The chemical-shift perturbation data supported a structural model of a PBP4:muropeptide complex. The provided sections do not report quantitative binding constants, kinetic rate constants, or unambiguous cleavage-site assignments for pentaglycine, so the outcome is qualitative rather than a direct validation of the proposed isotopic symmetry-breaking cleavage-site assignment strategy.
+[context]
+The experiments were performed with S. aureus PBP4 and the PBP4(S75C) variant, using soluble peptidoglycan fragments, muropeptides, and synthetic branched lactoyl peptides. NMR resonance assignment and titration were complemented by pull-down experiments, PBP4 activity assays with muropeptides or peptidoglycan from S. aureus SH1000, imipenem/native mass spectrometry assays, and X-ray crystallography of PBP4(S75C). The provided sections do not specify the NMR spectrometer field strength, exact titration concentrations, or detailed pulse sequences, and the NMR context is binding/structural mapping rather than real-time hydrolysis kinetics or isotopic symmetry-breaking in pentaglycine.
+[end related work 1]
+
+[start related work 1]
+[metadata]
+- in_text_citation: [(Raulinaitis et al., 2017-07)](https://www.semanticscholar.org/paper/e54bf104aab72adefcfe58a8e56b2263c19b147f)
+- venue: Scientific Reports
+- citation count: 34
+[method]
+The available section headings indicate that the paper used enzyme activity measurement with pentaglycine, cell lysis assays with S. aureus, GFP-LytU localization, ITC, and protein NMR spectroscopy to characterize LytU, a lysostaphin-family peptidoglycan hydrolase. The NMR component was used for LytU catalytic-domain structures and zinc binding, while the enzymatic component tested pentaglycine hydrolysis. This relates to the proposed real-time quantitative 1H NMR kinetic monitoring and multidimensional hydrolysis-product identification plan because both address pentaglycine cleavage by lysostaphin-family enzymes, although the paper's NMR work is structural rather than real-time substrate hydrolysis kinetics and the paper studies LytU rather than LSS or LytM.
+[results]
+The headings report that LytU is a member of the lysostaphin family, affects cell division, lyses S. aureus cells, cleaves pentaglycine, and that its catalytic domain binds a second zinc ion in a pH-dependent manner that inhibits the enzyme. No numerical kinetic constants, cleavage-site assignments, product ratios, ITC Kd values, or statistical significance are provided in the supplied excerpt.
+[context]
+The headings indicate use of purified recombinant LytU, a GFP-LytU fusion, S. aureus cells, pentaglycine substrate, ITC, and protein NMR spectroscopy. The supplied text does not specify enzyme or substrate concentrations, temperature, buffer, NMR field strength, pulse sequences, isotopic labeling strategy, or lysis assay readout, so those reproducibility-critical conditions cannot be reported.
+[end related work 1]
+
+[start related work 2]
+[metadata]
+- in_text_citation: [(Tossavainen et al., 2018-07)](https://www.semanticscholar.org/paper/f1be5c05128f7f58decad25a91cf6789f6065d13)
+- venue: Frontiers in Molecular Biosciences
+- citation count: 41
+[method]
+The paper used solution-state NMR spectroscopy on purified Lysostaphin (LSS) and its CWT domain, complemented by MD simulations and SAXS, to examine conformational dynamics, domain interactions, zinc binding, and peptide binding. This is related to the proposed research plan because both use NMR to study LSS, but the paper’s NMR approach appears focused on structural and dynamic characterization rather than the proposed real-time quantitative ¹H kinetic monitoring of substrate hydrolysis or product identification by ¹H-¹³C HSQC, HMBC, and glycine-optimized 2D HA(CA)CO experiments.
+[results]
+The reported outcomes were that LSS catalytic groove embracing loops are highly mobile, LSS domains do not interact in vitro, binding of a second zinc by the catalytic histidines reduces LSS catalytic activity, and the CWT domain shows higher affinity toward the stem peptide. No quantitative kinetic rates, hydrolysis product identities, NMR relaxation values, binding constants, or other numerical NMR outcomes are available in the provided excerpt.
+[context]
+The experiments were performed in vitro on purified LSS and its CWT domain, with NMR interpreted alongside MD simulations and SAXS. Specific experimental conditions such as NMR field strength, isotopic labeling, pulse sequences, temperatures, protein or peptide concentrations, buffer composition, and quantitative analysis parameters are not specified in the provided excerpt, so those reproducibility details cannot be reported.
+[end related work 2]
+
+[start related work 3]
+[metadata]
+- in_text_citation: [(Maya-Martinez et al., 2019-01)](https://www.semanticscholar.org/paper/af8a8dea1a5f980021848949d211de2bf83f567c)
+- venue: Frontiers in Microbiology
+- citation count: 29
+[method]
+The paper used solution NMR titration and NMR-data-driven docking to examine how S. aureus PBP4 and PBP4(S75C) recognize soluble peptidoglycan fragments. Soluble PG fragments and muropeptides were generated from S. aureus SH1000 peptidoglycan, and synthetic branched lactoyl peptides were prepared as defined ligands. These fragments were tested in pull-down and NMR titration experiments, and NMR-derived information was used to dock muropeptides into PBP4 and generate a structural model. This is related to the proposed plan because both use NMR to analyze S. aureus peptidoglycan fragments and muropeptides, but the paper's NMR method was an equilibrium binding and structural modeling approach rather than the proposed real-time quantitative 1H NMR kinetic monitoring with 20-second recycle delays, DSS referencing, and 1H-13C HSQC, HMBC, or glycine-optimized HA(CA)CO product identification for LSS/LytM hydrolysis.
+[results]
+The available section headings report qualitative outcomes: PBP4 did not interact with high-molecular-weight PG or synthetic stem peptides, but did interact with larger soluble PG fragments; PBP4 produced cyclic muropeptides by transpeptidase reactions; and an NMR-data-driven structural model of a PBP4:muropeptide complex was obtained. The supplied excerpt does not provide quantitative NMR titration constants, kinetic rate constants, product ratios, or statistical significance, so no numerical comparison to the proposed LSS/LytM kinetic assay is possible.
+[context]
+The context is S. aureus PBP4 and PBP4(S75C) binding and activity studies using soluble PG fragments from S. aureus SH1000, synthetic branched lactoyl peptides, pull-down assays, muropeptide or PG activity assays, imipenem/native mass spectrometry, and crystallography. The NMR work was used to support a binding and structural model, not to measure time-resolved hydrolysis at 0.4 mM substrate with 2 or 50 microM enzyme at 25 degrees Celsius on an 800 MHz instrument as specified in the proposed research plan.
+[end related work 3]
+
+[start related work 1]
+[metadata]
+- in_text_citation: [(Mitkowski et al., 2019-04)](https://www.semanticscholar.org/paper/469b18dd3e5e7eb317e4872a3be7d7e62d7c5c49)
+- venue: Scientific Reports
+- citation count: 87
+[method]
+The paper used biochemical binding and activity assays to examine whether the lysostaphin SH3b domain recognizes pentaglycine and whether that recognition is linked to peptidoglycan hydrolysis. The inputs were purified wild-type SH3b and single-substitution variants N405A and Y472A, a GFP-fused SH3b construct, pentaglycine as the ligand, and S. aureus cells for activity testing. Binding was assessed by microscale thermophoresis with Scatchard analysis and by a fluorescent binding/microscopy assay, while mature lysostaphin activity was assessed by a turbidity reduction assay. This is related to the proposed method because it addresses the same pentaglycine cross-bridge target and the functional relevance of lysostaphin recognition, but it focuses on a single pentaglycine ligand and mutant binding/activity assays rather than the proposed real-time NMR kinetic comparison of seven peptidoglycan fragments at 0.4 mM substrate and 2 or 50 µM enzyme.
+[results]
+The supplied paper excerpt contains only section headings and no numerical data, so specific Kd values, fold-changes in binding, OD600 reductions, or statistical significance values cannot be reported. The headings indicate that wild-type SH3b binds pentaglycine and that the N405A and Y472A substitutions affect SH3b binding and lysostaphin activity, but no quantitative outcomes are available in the provided text.
+[context]
+The available context is limited to the section titles: purified SH3b domain variants N405A and Y472A, a GFP fusion for fluorescent binding and microscopy, pentaglycine as the ligand, and a turbidity reduction assay for mature lysostaphin activity. The supplied text does not specify buffer composition, temperature, substrate or enzyme concentrations, instrument settings, or statistical analysis, so direct comparison to the proposed 25°C NMR kinetic conditions, 0.4 mM substrate concentration, and 2 or 50 µM enzyme concentration is not possible.
+[end related work 1]
+
+
+
+[start related work 1]
+[metadata]
+- in_text_citation: [(Raulinaitis et al., 2017-07)](https://www.semanticscholar.org/paper/e54bf104aab72adefcfe58a8e56b2263c19b147f)
+- venue: Scientific Reports
+- citation count: 34
+[method]
+The paper applied protein NMR spectroscopy to LytU, a Staphylococcus aureus lysostaphin-family peptidoglycan hydrolase, to examine the structure of the catalytic domain and zinc-binding behavior. It also used enzyme activity measurement and cell lysis experiments to assess LytU function. This is related to the proposed plan because both use NMR-based characterization of S. aureus peptidoglycan hydrolases, but the paper’s NMR work is structural rather than the proposed real-time quantitative 1H NMR kinetic monitoring of pentaglycine hydrolysis with Michaelis-Menten fitting.
+[results]
+The reported outcomes were that LytU lyses S. aureus cells, cleaves pentaglycine, and that the LytU catalytic domain binds a second zinc ion that inhibits the enzyme in a pH-dependent manner. The excerpt does not provide quantitative kinetic constants, NMR chemical-shift assignments for cleavage products, reaction rates, or statistical comparisons that would directly parallel the proposed kinetic analysis.
+[context]
+The paper’s experimental context includes purified recombinant LytU proteins, GFP-LytU fusion protein construction, cell lysis assays, enzyme activity assays, isothermal titration calorimetry, and protein NMR spectroscopy. The provided excerpt does not specify the NMR spectrometer frequency, temperature, substrate or enzyme concentrations, time-course window, linear regression approach, or Michaelis-Menten fitting conditions, so it cannot be directly mapped to the proposed 25°C, 800 MHz, 40–60 minute kinetic protocol.
+[end related work 1]
+
+[start related work 2]
+[metadata]
+- in_text_citation: [(Tossavainen et al., 2018-07)](https://www.semanticscholar.org/paper/f1be5c05128f7f58decad25a91cf6789f6065d13)
+- venue: Frontiers in Molecular Biosciences
+- citation count: 41
+[method]
+Based on the provided section headings, the paper uses NMR spectroscopy on purified lysostaphin and its CWT domain, alongside MD simulations and SAXS, to examine domain dynamics, interdomain interactions, zinc binding, and stem-peptide affinity. This relates to the proposed method because both use NMR to study lysostaphin, but the paper's described NMR work appears structural and dynamic rather than a standardized real-time kinetic hydrolysis protocol with Michaelis-Menten analysis.
+[results]
+The reported NMR-related findings are that the catalytic groove embracing loops are highly mobile, the lysostaphin domains do not interact in vitro, a second zinc bound by catalytic histidines reduces catalytic activity, and the CWT domain has higher affinity for the stem peptide. The supplied text does not provide quantitative NMR parameters, rate constants, substrate concentrations, or cleavage-site assignments.
+[context]
+The context includes production and purification of lysostaphin and its CWT domain, NMR spectroscopy, MD simulations, and SAXS. The supplied text does not specify spectrometer frequency, temperature, substrate or enzyme concentrations, time-course duration, regression window, or statistical fitting, so the proposed 25°C, 800 MHz, first 40-60 minute linear regression, and Michaelis-Menten conditions are not directly supported by the paper text.
+[end related work 2]
+
+Processing method: Isotopic symmetry-breaking and cleavage-site assignment in pentaglycine: To break isotopic symmetry and enable unambiguous determination of cleavage sites, we will employ selective ¹⁵N,¹³C-labeling of specific glycine residues in pentaglycine substrates. To determine preferred cleavage sites in pentaglycine, we will use selectively ¹³C-labeled pentaglycine (Gly2 labeled at Cα and CO carbons) and monitor the reaction using glycine-optimized 2D HA(CA)CO NMR experiments. The characteristic chemical shift differences between C-terminal (179.4 ppm) and non-terminal (173.8 ppm) ¹³CO resonances will allow unambiguous identification of cleavage sites.
+Processing method: Systematic kinetic comparison across peptidoglycan fragment complexity: We will conduct systematic kinetic studies using seven different peptidoglycan fragments (peptides 1-7) of varying complexity, from simple pentaglycine to more complex cross-linked structures containing stem peptides. Each experiment will monitor substrate hydrolysis at approximately 0.4 mM substrate concentration with 2 μM or 50 μM enzyme concentration.
+Processing method: Standardized experimental conditions and kinetic data analysis: All experiments will be conducted at 25°C using 800 MHz NMR spectroscopy, and reaction rates will be calculated using linear regression of the first 40-60 minutes of each reaction, with kinetic data fitted to Michaelis-Menten equations where appropriate.
+Processing method: Real-time NMR kinetic monitoring and hydrolysis product identification: Our approach will utilize quantitative ¹H NMR spectroscopy to monitor substrate hydrolysis in real-time, allowing us to measure reaction kinetics while simultaneously identifying hydrolysis products through multi-dimensional NMR experiments including ¹H-¹³C HSQC, HMBC, and glycine-optimized 2D HA(CA)CO correlation experiments. For real-time NMR kinetics, we will acquire quantitative ¹H spectra at regular time intervals using a standard pulse sequence with selective radiofrequency field for residual HDO signal presaturation. We will use 20-second recycle delays to ensure quantitative detection and 0.1 mM DSS as both reference compound and for peak integration.
+Response received 
+
+{
+  "support": "The strongest support for the proposed method is that [(Mitkowski et al., 2019-04)](https://www.semanticscholar.org/paper/469b18dd3e5e7eb317e4872a3be7d7e62d7c5c49) used pentaglycine as the ligand and S. aureus cells for mature lysostaphin activity, which directly supports the proposed inclusion of pentaglycine as the simplest fragment in the seven-peptide panel and the use of living-cell turbidity reduction as an orthogonal validation. A second, weaker but still relevant point is that the paper examined purified wild-type SH3b and N405A/Y472A variants by microscale thermophoresis with Scatchard analysis and a fluorescent binding/microscopy assay, indicating that pentaglycine recognition by lysostaphin-associated domains is biochemically tractable and functionally linked to activity; this supports adding binding assays or mutant controls to the proposed NMR kinetic workflow. The weakest support is that the available excerpt provides only section headings and no quantitative Kd, fold-change, OD600 reduction, or statistical significance, so it cannot quantitatively validate the proposed 25°C, 0.4 mM substrate, 2 or 50 μM enzyme, 800 MHz NMR kinetic conditions.",
+  "contradictions": "The strongest apparent contradiction is that [(Mitkowski et al., 2019-04)](https://www.semanticscholar.org/paper/469b18dd3e5e7eb317e4872a3be7d7e62d7c5c49) focused on the SH3b domain and mature lysostaphin activity, with N405A/Y472A substitutions affecting SH3b binding and lysostaphin activity, whereas the proposed method emphasizes catalytic domains; if SH3b recognition contributes to substrate positioning or apparent activity, catalytic-domain-only NMR kinetics may miss recognition-domain effects on cleavage specificity. Next, the related work tested only a single pentaglycine ligand rather than seven peptidoglycan fragments of increasing complexity, so it does not provide evidence that fragment complexity can be ranked by the proposed real-time NMR kinetic comparison. A further limitation is that the study used MST/Scatchard binding, fluorescent binding/microscopy, and turbidity reduction rather than quantitative 1H NMR, HSQC/HMBC, or glycine-optimized 2D HA(CA)CO, and the excerpt lacks buffer, temperature, concentration, instrument, and statistical details, so it does not directly validate the proposed 25°C, 0.4 mM substrate, 2 or 50 μM enzyme, 800 MHz NMR implementation. Finally, because no numerical outcomes are available, any inference that pentaglycine binding predicts cleavage site or rate remains unsupported.",
+  "suggested_action": "The most important improvement is to include full-length lysostaphin or SH3b-containing constructs, and ideally N405A/Y472A controls, in the NMR and turbidity experiments to test whether non-catalytic pentaglycine recognition alters apparent cleavage site or rate, as suggested by [(Mitkowski et al., 2019-04)](https://www.semanticscholar.org/paper/469b18dd3e5e7eb317e4872a3be7d7e62d7c5c49). Next, the seven-fragment panel should be measured under identical, fully specified conditions—25°C, 0.4 mM substrate, 2 and 50 μM enzyme, 800 MHz, 20-s recycle delays, 0.1 mM DSS, and linear regression over the first 40–60 min—with replicate experiments and statistical significance reported for each fragment and enzyme concentration. Then, complement NMR with MST or fluorescent binding assays for pentaglycine and selected fragments to separate binding from hydrolysis and to benchmark against the Scatchard/fluorescent approach used in [(Mitkowski et al., 2019-04)](https://www.semanticscholar.org/paper/469b18dd3e5e7eb317e4872a3be7d7e62d7c5c49). Finally, report turbidity reduction assays with defined S. aureus USA300 OD600 6–8, 50 μg/mL enzyme, 16-h OD600 time courses, and statistical comparisons to NMR-derived product identification, so that the living-cell validation is directly comparable to the biochemical and NMR evidence.",
+  "soundness_score": 6
+}
+Response received 
+
+```json
+{
+    "support": "The strongest support for the proposed isotopic symmetry-breaking NMR method is that [(Maya-Martinez et al., 2019-01)](https://www.semanticscholar.org/paper/af8a8dea1a5f980021848949d211de2bf83f567c) demonstrated that solution-state NMR resonance assignment and titration with soluble S. aureus peptidoglycan fragments and muropeptides can produce interpretable chemical-shift perturbations and support a structural model of a PBP4:muropeptide complex, indicating that S. aureus peptidoglycan-derived substrates are NMR-observable and that NMR can map substrate features in the context of the proposed LSS/LytM pentaglycine studies. A weaker but relevant support is that the same study combined NMR with pull-down experiments, muropeptide/peptidoglycan activity assays, imipenem/native mass spectrometry, and X-ray crystallography of PBP4(S75C), which aligns with the research plan's multi-modal strategy of using 800 MHz NMR, muropeptides from S. aureus USA300 sacculus, and turbidity reduction assays to validate synthetic peptide findings. The weakest support is indirect because the work examined PBP4 rather than LSS or LytM, focused on binding/structural mapping rather than real-time hydrolysis, and did not use selective 15N/13C labeling or glycine-optimized 2D HA(CA)CO experiments, so it does not directly validate the proposed C-terminal 179.4 ppm versus non-terminal 173.8 ppm 13CO cleavage-site assignment.",
+    "contradictions": "The strongest contradiction or limitation is that [(Maya-Martinez et al., 2019-01)](https://www.semanticscholar.org/paper/af8a8dea1a5f980021848949d211de2bf83f567c) did not use selective 15N/13C labeling of individual pentaglycine glycine residues and did not employ glycine-optimized 2D HA(CA)CO experiments, so it provides no evidence that the proposed isotopic symmetry-breaking strategy or the characteristic C-terminal/non-terminal 13CO chemical-shift difference can unambiguously assign pentaglycine cleavage sites. A less direct contradiction is that the reported NMR outcome was qualitative, with no quantitative binding constants, kinetic rate constants, or unambiguous cleavage-site assignments, suggesting that NMR titration and chemical-shift perturbation alone may be insufficient for the proposed real-time kinetic monitoring at approximately 0.4 mM substrate with 2 or 50 uM enzyme and for determining preferred cleavage sites in LSS or LytM. A further limitation is that the study used S. aureus PBP4 and PBP4(S75C) with soluble fragments, muropeptides, and synthetic branched lactoyl peptides, and found no interaction with high-molecular-weight peptidoglycan or synthetic stem peptides, which may limit direct transferability to the proposed LSS/LytM substrates, especially more complex cross-linked peptides 1-7 and USA300 muropeptides. The weakest contradiction is methodological reproducibility: the provided sections do not specify NMR spectrometer field strength, exact titration concentrations, or detailed pulse sequences, making it difficult to benchmark the proposed 800 MHz quantitative 1H NMR setup, 20-second recycle delays, DSS reference, and 25°C kinetic conditions.",
+    "suggested_action": "The most important action is to validate the core isotopic assignment strategy before applying it to LSS and LytM by preparing selectively 13C-labeled pentaglycine with Gly2 Cα and CO labeling, plus additional labeled positions or synthetic cleavage-product standards, and acquiring glycine-optimized 2D HA(CA)CO spectra to confirm that C-terminal 13CO resonances appear near 179.4 ppm and non-terminal resonances near 173.8 ppm under the planned 800 MHz, 25°C conditions. A second priority is to make the NMR kinetic measurements explicitly quantitative and statistically robust by reporting replicate numbers, 20-second recycle delays, DSS integration, time-course linearity over the first 40-60 minutes, linear regression confidence intervals, Michaelis-Menten fits, and product-ratio statistics for each peptide 1-7. A third priority is to add orthogonal validation, inspired by the use of imipenem/native mass spectrometry and activity assays in [(Maya-Martinez et al., 2019-01)](https://www.semanticscholar.org/paper/af8a8dea1a5f980021848949d211de2bf83f567c), by using LC-MS or native MS to identify hydrolysis products and by including inactive-enzyme, unlabeled-substrate, and non-hydrolytic controls to rule out NMR artifacts. The least critical but useful action is to specify all NMR and biochemical parameters, including isotope purity, labeling positions, substrate/enzyme concentrations, pulse sequences, relaxation delays, and USA300 versus SH1000 muropeptide controls, so that the proposed synthetic peptide, muropeptide, and turbidity reduction assays are reproducible and directly comparable to prior S. aureus peptidoglycan NMR work.",
+    "soundness_score": 4
+}
+```
+Response received 
+
+{
+  "support": "Strongest support for the proposed real-time quantitative ¹H NMR kinetic monitoring and hydrolysis-product identification plan comes from [(Tossavainen et al., 2018-07)](https://www.semanticscholar.org/paper/f1be5c05128f7f58decad25a91cf6789f6065d13), which used solution-state NMR on purified LSS and its CWT domain, complemented by MD simulations and SAXS, to show that LSS catalytic groove embracing loops are highly mobile, that LSS domains do not interact in vitro, that binding of a second zinc by catalytic histidines reduces LSS catalytic activity, and that the CWT domain has higher affinity toward the stem peptide. This directly supports the feasibility of NMR-based study of LSS catalytic-domain conformational states and the need to monitor zinc-dependent activity under controlled in vitro conditions, although it did not use the proposed 20-second recycle quantitative ¹H time course, 0.1 mM DSS referencing, 0.4 mM substrate, 2 or 50 μM enzyme, 25°C, 800 MHz, or ¹H-¹³C HSQC, HMBC, and glycine-optimized HA(CA)CO product assignment. Next, [(Raulinaitis et al., 2017-07)](https://www.semanticscholar.org/paper/e54bf104aab72adefcfe58a8e56b2263c19b147f) supports the chemical premise that a lysostaphin-family enzyme can cleave pentaglycine and that NMR can characterize the catalytic domain and zinc binding; it used pentaglycine hydrolysis, S. aureus lysis, GFP-LytU localization, ITC, and protein NMR to show LytU cleaves pentaglycine and binds a second zinc ion in a pH-dependent inhibitory manner. This is weaker support because it studies LytU rather than LSS or LytM and provides structural rather than real-time quantitative kinetic evidence, with no reported kcat, Km, product ratios, NMR field strength, pulse sequence, concentrations, or statistical significance. Weakest but still relevant support is [(Maya-Martinez et al., 2019-01)](https://www.semanticscholar.org/paper/af8a8dea1a5f980021848949d211de2bf83f567c), which used solution NMR titration and NMR-data-driven docking on S. aureus PBP4 and PBP4(S75C) with soluble PG fragments from S. aureus SH1000 and synthetic branched lactoyl peptides, showing that NMR can resolve S. aureus PG fragment and muropeptide interactions and support structural models. This supports the proposed use of NMR for muropeptide product identification and the value of synthetic PG-like ligands, but it is an equilibrium binding and modeling study of a transpeptidase, not a time-resolved LSS or LytM hydrolysis assay, and it does not validate the proposed 20-second recycle, DSS integration, or glycine-optimized HA(CA)CO cleavage-site assignment.",
+  "contradictions": "Strongest contradiction is that [(Tossavainen et al., 2018-07)](https://www.semanticscholar.org/paper/f1be5c05128f7f58decad25a91cf6789f6065d13) found the LSS CWT domain shows higher affinity toward the stem peptide while LSS domains do not interact in vitro, which challenges the proposed emphasis on LSS and LytM catalytic domains alone for defining substrate specificity across peptides 1-7, especially substrates containing stem peptides. If CWT-mediated stem-peptide recognition contributes to full-length LSS specificity, catalytic-domain-only kinetics at 0.4 mM substrate and 2 or 50 μM enzyme may misassign preferred cleavage sites or underestimate substrate recognition. The same paper also reports that second zinc binding by catalytic histidines reduces LSS catalytic activity, contradicting any assumption that standard buffer conditions will yield a single, stable catalytic state; the proposed 25°C, 800 MHz, 20-second recycle quantitative ¹H time course must therefore explicitly control zinc concentration, pH, and metal chelation, because uncontrolled zinc could shift rates and product ratios. Next, [(Maya-Martinez et al., 2019-01)](https://www.semanticscholar.org/paper/af8a8dea1a5f980021848949d211de2bf83f567c) provides a weaker but important contradiction to the bottom-up synthetic peptide strategy: PBP4 did not interact with high-molecular-weight PG or synthetic stem peptides but did interact with larger soluble PG fragments, suggesting that simple synthetic stem peptides or short pentaglycine-based ligands may not recapitulate native PG recognition. Although this is a PBP4 transpeptidase study rather than an LSS or LytM study, it supports the plan’s inclusion of USA300 sacculus muropeptides and warns that synthetic peptides 1-7 alone may be insufficient to define physiological specificity. Weakest contradiction is that none of the three studies directly validates the proposed real-time quantitative ¹H NMR kinetic protocol: [(Raulinaitis et al., 2017-07)](https://www.semanticscholar.org/paper/e54bf104aab72adefcfe58a8e56b2263c19b147f) used NMR structurally and reported no numerical kinetic constants, [(Tossavainen et al., 2018-07)](https://www.semanticscholar.org/paper/f1be5c05128f7f58decad25a91cf6789f6065d13) used NMR for dynamics and structure without hydrolysis time courses, and [(Maya-Martinez et al., 2019-01)](https://www.semanticscholar.org/paper/af8a8dea1a5f980021848949d211de2bf83f567c) used NMR titration and docking without 20-second recycle, DSS referencing, or ¹H-¹³C HSQC, HMBC, and HA(CA)CO product identification. Thus the proposed method is plausible but not directly supported by prior quantitative kinetic NMR evidence.",
+  "suggested_action": "Most important, add full-length LSS and LytM or CWT-containing constructs alongside catalytic domains, and compare catalytic-domain-only versus full-length kinetics for each peptide 1-7, because [(Tossavainen et al., 2018-07)](https://www.semanticscholar.org/paper/f1be5c05128f7f58decad25a91cf6789f6065d13) shows CWT stem-peptide affinity and domain non-interaction in vitro. This should include 0.4 mM substrate, 2 and 50 μM enzyme, 25°C, 800 MHz, 20-second recycle, 0.1 mM DSS, and replicate biological and technical replicates with statistical significance for kobs, kcat/Km, and product ratios. Second, rigorously control and report zinc, pH, buffer, and metal-chelation conditions for all LSS and LytM reactions, because [(Tossavainen et al., 2018-07)](https://www.semanticscholar.org/paper/f1be5c05128f7f58decad25a91cf6789f6065d13) and [(Raulinaitis et al., 2017-07)](https://www.semanticscholar.org/paper/e54bf104aab72adefcfe58a8e56b2263c19b147f) show second zinc binding can inhibit LSS and LytU in a pH-dependent manner; include zinc-free or zinc-saturated controls, ITC or metal-binding assays if possible, and pH-rate profiles. Third, validate synthetic pentaglycine and stem-peptide findings with native USA300 sacculus muropeptides and, if feasible, larger soluble PG fragments, because [(Maya-Martinez et al., 2019-01)](https://www.semanticscholar.org/paper/af8a8dea1a5f980021848949d211de2bf83f567c) shows larger soluble PG fragments can be recognized when synthetic stem peptides are not; use SDS, DNase, Pronase, HCl, and mutanolysin extraction and compare before and after NMR product patterns. Fourth, prevalidate the quantitative NMR kinetic workflow with a non-hydrolyzing control and a known hydrolysis standard, confirming that 20-second recycle delays, residual HDO presaturation, DSS integration, and linear regression over the first 40-60 minutes yield reproducible rates; include relaxation correction, line-width checks, and Michaelis-Menten fitting only when substrate depletion is appropriate. Finally, use selectively ¹³C-labeled Gly2 pentaglycine and the proposed ¹H-¹³C HSQC, HMBC, and glycine-optimized HA(CA)CO experiments to assign C-terminal 179.4 ppm versus non-terminal 173.8 ppm ¹³CO resonances, but also report peak integration, error estimates, and product ratios for each cleavage site to avoid overinterpreting single-resonance assignments.",
+  "soundness_score": 6
+}
+Response received 
+
+```json
+{
+    "support": "The strongest support for the proposed standardized kinetic NMR method is that NMR-based characterization of S. aureus lysostaphin-family hydrolases is feasible and biologically relevant. [(Raulinaitis et al., 2017-07)](https://www.semanticscholar.org/paper/e54bf104aab72adefcfe58a8e56b2263c19b147f) used purified recombinant LytU, GFP-LytU fusion construction, enzyme activity assays, cell lysis assays, isothermal titration calorimetry, and protein NMR to show that LytU lyses S. aureus and cleaves pentaglycine, directly supporting the plan's focus on pentaglycine hydrolysis and NMR monitoring of S. aureus peptidoglycan hydrolase activity. This is the most relevant support because it connects the proposed substrate, pentaglycine, to a functional S. aureus target, although it does not provide 800 MHz, 25°C, 40-60 minute, or Michaelis-Menten data. A secondary but still relevant support is the newer, iterative extension by [(Tossavainen et al., 2018-07)](https://www.semanticscholar.org/paper/f1be5c05128f7f58decad25a91cf6789f6065d13), which used NMR, MD simulations, and SAXS on purified lysostaphin and its CWT domain to show catalytic groove mobility, lack of in vitro domain interaction, zinc-dependent activity reduction, and CWT stem-peptide affinity. This supports the plan's use of NMR to resolve domain-specific and substrate-binding features of LSS, and it reinforces that NMR can distinguish catalytic-domain behavior from full-length or CWT-associated behavior. However, neither paper supplies the exact kinetic implementation proposed: no 800 MHz field, no 25°C reaction temperature, no 0.4 mM substrate, no 2 or 50 μM enzyme, no 20-second recycle delay, no DSS integration, no first 40-60 minute linear regression, no Michaelis-Menten fitting, no computational resources, and no statistical fitting diagnostics.",
+    "contradictions": "The strongest potential contradiction is not to the use of NMR, but to the assumption that a single standardized 25°C, 800 MHz, 40-60 minute initial-rate window will yield reproducible Michaelis-Menten parameters without controlling zinc and conformational state. The newer [(Tossavainen et al., 2018-07)](https://www.semanticscholar.org/paper/f1be5c05128f7f58decad25a91cf6789f6065d13) reported that a second zinc bound by catalytic histidines reduces lysostaphin catalytic activity and that catalytic groove embracing loops are highly mobile; if zinc contamination, buffer composition, or conformational sampling varies, the apparent rate in the first 40-60 minutes may reflect metal inhibition or domain dynamics rather than intrinsic substrate turnover. This directly threatens the proposed linear regression and Michaelis-Menten fitting because the rate may be non-linear or condition-dependent. A related but slightly weaker contradiction comes from the earlier [(Raulinaitis et al., 2017-07)](https://www.semanticscholar.org/paper/e54bf104aab72adefcfe58a8e56b2263c19b147f), which found that LytU catalytic domain binds a second zinc ion that inhibits the enzyme in a pH-dependent manner; this implies that fixed 25°C alone is insufficient if pH, metal chelation, or zinc concentration are not tightly controlled, and that rates measured at 2 or 50 μM enzyme may be sensitive to metal availability. A further limitation is that [(Tossavainen et al., 2018-07)](https://www.semanticscholar.org/paper/f1be5c05128f7f58decad25a91cf6789f6065d13) showed lysostaphin domains do not interact in vitro and the CWT domain has higher stem-peptide affinity, suggesting that kinetic rates measured with isolated catalytic domains or simple pentaglycine may not capture full-length substrate specificity for complex stem-peptide-containing fragments. Finally, neither paper provides quantitative kinetic constants, statistical comparisons, regression diagnostics, or hardware specifications that would validate the proposed 40-60 minute window, 800 MHz requirement, or Michaelis-Menten model.",
+    "suggested_action": "Most important, the method should add explicit metal and pH controls before kinetic fitting: use metal-free or defined zinc conditions, include a chelator such as EDTA or iminodiacetate where compatible, report buffer, pH, ionic strength, and zinc concentration, and perform pH and zinc titrations for LSS and LytM catalytic domains because [(Raulinaitis et al., 2017-07)](https://www.semanticscholar.org/paper/e54bf104aab72adefcfe58a8e56b2263c19b147f) and the newer [(Tossavainen et al., 2018-07)](https://www.semanticscholar.org/paper/f1be5c05128f7f58decad25a91cf6789f6065d13) both show zinc-dependent inhibition. Second, validate the 40-60 minute linear regression window empirically for each peptide and enzyme concentration by acquiring full time courses, checking linearity, substrate depletion, product inhibition, and enzyme stability, and reporting R^2, residuals, confidence intervals, and the exact time points used; if rates are non-linear, use a shorter initial-rate window or a mechanistic model. Third, apply Michaelis-Menten fitting only when initial rates are measured across a substrate concentration range under conditions where product inhibition and metal inactivation are absent, using nonlinear regression rather than linearized plots, and report Km, kcat or kcat/Km, standard errors, and statistical comparisons between LSS and LytM. Fourth, strengthen the NMR implementation by specifying 800 MHz, 25°C, 20-second recycle delay, DSS reference, presaturation, number of scans, relaxation delays, and replicate number, and by using quantitative 1H integrals plus 1H-13C HSQC, HMBC, and HA(CA)CO to confirm product identity and cleavage site. Fifth, include both catalytic-domain and full-length or CWT-containing constructs where feasible, because [(Tossavainen et al., 2018-07)](https://www.semanticscholar.org/paper/f1be5c05128f7f58decad25a91cf6789f6065d13) indicates domain mobility and CWT stem-peptide affinity may alter apparent kinetics for complex substrates. Finally, connect kinetic NMR results to turbidity reduction assays and muropeptide analysis to ensure that rates measured at 0.4 mM substrate and 2 or 50 μM enzyme are biologically relevant to S. aureus USA300 sacculus and cell lysis.",
+    "soundness_score": 6
+}
+```
+Meta review cost: $0.0000 (Input: 10585, Output: 29153)
+
+=== step 6 (attempt 1) ===
+LLM cost for tldr_soundness: $0.000000

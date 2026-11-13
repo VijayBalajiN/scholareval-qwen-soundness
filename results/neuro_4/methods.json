@@ -1,0 +1,16 @@
+{
+    "clean_methods": [
+        "To assess recognition memory over time and investigate conditions under which a memory can be preserved, retrieved, or forgotten, we will utilize a mouse model of object memory based on an object recognition task that exploits the natural tendency of mice to explore novel stimuli.",
+        "To label and manipulate engram cells within the dentate gyrus, we will employ c-fos-tTA transgenic mice combined with AAV9-TRE viral vectors, using the c-fos promoter to selectively label neurons active during learning and doxycycline control to restrict labeling to specific time windows.",
+        "To quantify engram reactivation and memory performance throughout the experiments, we will measure colocalization of original engram markers (eYFP) with c-Fos expression during memory tests and discrimination indices based on novel versus familiar object exploration times.",
+        "To establish the temporal dynamics of object memory forgetting, we will test mice at 24 hours, 1 week, 2 weeks, and 3 weeks after acquisition training and measure both behavioral performance and engram reactivation patterns.",
+        "To test whether dentate gyrus engrams are necessary and sufficient for memory retrieval, we will use optogenetic approaches with ChR2 for activation and ArchT for inhibition of identified engram cells, inhibiting them during recall tests and activating them after natural forgetting has occurred.",
+        "To investigate experience-dependent modulation of forgetting, we will house mice in enriched environments containing additional objects and stimuli, then assess forgetting rates and engram reactivation patterns compared to standard housing conditions.",
+        "To test whether forgotten memories can be recovered, we will expose mice to brief reminder sessions consisting of the original training environment and objects, then test whether this can restore access to forgotten memories and increase engram reactivation.",
+        "To test whether context-only exposure accelerates forgetting by updating the original memory engram, we will repeatedly expose mice to the training context without objects and test whether optogenetic inhibition of the engram during these exposures prevents the accelerated forgetting.",
+        "To assess the role of Rac1 signaling in active forgetting, we will pharmacologically inhibit or activate Rac1 signaling and assess effects on forgetting rates and engram reactivation patterns.",
+        "To examine structural plasticity associated with memory access, we will perform detailed analysis of dendritic spine density and volume in engram cells following successful recall versus forgetting conditions.",
+        "To formalize the hypothesis that forgetting represents adaptive learning, we will develop a computational model based on error-driven learning principles that incorporates engram relevancy dynamically updated based on prediction errors, where engrams subjectively less relevant for adaptive behavior are more likely to be forgotten.",
+        "To test computational predictions against experimental outcomes, we will fit the model to behavioral data using maximum likelihood approaches to estimate learning rate parameters and test predictions across different experimental conditions."
+    ]
+}

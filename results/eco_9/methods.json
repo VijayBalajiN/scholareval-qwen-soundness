@@ -1,0 +1,18 @@
+{
+    "clean_methods": [
+        "Overall experimental framework: We will conduct two complementary climate manipulation experiments on potted European beech (Fagus sylvatica) saplings to test our hypotheses.",
+        "Experiment 1 developmental timing manipulation to create early-leafing versus late-leafing trees: We will place some trees in climate chambers from April 4 to May 24, cooling them to 2-7\u00b0C with simulated day-night cycles, while others remain under ambient conditions.",
+        "Experiment 1 late-season temperature manipulation: Summer treatments will begin after the solstice: July treatments (June 22 to July 23) and August treatments (July 24 to August 25). Treatment trees will experience either moderate cooling (8-13\u00b0C day/night) or extreme cooling (2-7\u00b0C day/night) in climate chambers with appropriate photoperiods, while controls remain under natural ambient conditions.",
+        "Experiment 2 day/night temperature manipulation: Pre-solstice treatments (May 22 to June 21) and post-solstice treatments (June 22 to July 21) will include four conditions each: chamber control (continuous 20\u00b0C), day cooling (8\u00b0C day/20\u00b0C night), night cooling (20\u00b0C day/8\u00b0C night), and full-day cooling (continuous 8\u00b0C).",
+        "Primary phenological endpoint and measurement: We will use bud set as our primary marker for primary growth cessation and the beginning of autumn phenology, as it represents a key physiological transition point. We will measure terminal buds on primary shoots and lateral stems using digital calipers from July 4 to November 2. Bud set will be defined as the date when each bud reaches 90% of its maximum length, determined through linear interpolation between measurement dates.",
+        "Statistical analysis: We will use linear mixed-effects models with treatment as fixed effects and bud type as random effects to analyze bud set timing, with effect sizes calculated relative to appropriate control treatments.",
+        "Experiment 2 phenological monitoring: We will measure buds weekly from August 25 to November 3 using the same methodology as Experiment 1.",
+        "Developmental timing measurement: We will monitor individual leaf-out dates (defined as >50% leaf unfolding).",
+        "Physiological response measurement: We will measure leaf-level CO2 assimilation rates to assess photosynthetic responses to temperature treatments.",
+        "Experiment 1 population and randomization: We will establish an experimental population of 267 European beech saplings (40-60 cm tall) in 20L pots with standardized soil mixture. Trees will be randomly assigned to 10 treatment groups (n=26-27 each).",
+        "Experiment 2 population and treatment structure: We will use 180 four-year-old Fagus sylvatica trees in 20L pots with the same soil mixture. The ambient control group will consist of 36 trees under natural conditions. The remaining eight treatments will each include 18 trees, with cooling applied in climate chambers simulating ambient day length and light intensity.",
+        "Experiment 1 ambient block phase: From May 24 to June 21, all trees will be maintained under ambient conditions in randomized blocks.",
+        "Experiment 2 post-treatment ambient phase: After treatments, all trees will be placed in randomized blocks under ambient conditions.",
+        "Moisture control: Both experiments will maintain consistent watering to ensure adequate soil moisture throughout."
+    ]
+}

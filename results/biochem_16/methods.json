@@ -1,0 +1,14 @@
+{
+    "clean_methods": [
+        "Overall research design: We will conduct a cross-sectional study examining the relationship between inflammation, Wnt signaling, and bone quality in postmenopausal women.",
+        "Cohort recruitment and grouping: We will enroll 63 postmenopausal women (age >65 years) undergoing hip replacement surgery for osteoarthritis. Participants will be divided into three groups: 19 women with T2D and obesity (target HbA1c ~6.8%; BMI ~30 kg/m\u00b2), 17 women with obesity but normal glucose metabolism (BMI \u226530 kg/m\u00b2), and 27 normal-weight controls (BMI <25 kg/m\u00b2).",
+        "Systemic inflammation measurement: We will collect venous blood samples after an 8-hour fast on the day before surgery. Serum will be isolated and stored at -80\u00b0C for cytokine analysis. We will measure TNF-\u03b1 and IL-6 using the ELLA microfluidic immunoassay system, and adiponectin using ELISA immunoassay.",
+        "Local bone inflammation and Wnt gene expression: During hip replacement surgery, we will obtain femoral head specimens and collect trabecular bone samples. These will be washed in sterile PBS and stored at -80\u00b0C. We will extract total RNA using TRIzol and perform reverse transcription followed by real-time PCR analysis. Target genes will include inflammatory markers (TNF-\u03b1, IL-6, IL-8, IL-10, ADIPOQ, SFRP5) and Wnt signaling components (SOST, WNT10B, LEF-1, WNT5A, GSK3\u03b2), with \u03b2-actin as the housekeeping gene.",
+        "Bone microarchitecture assessment: For bone microarchitecture analysis, we will prepare cylindrical trabecular bone specimens (10 mm diameter, 20 mm length) and analyze them using \u03bcCT to measure bone volume density, connectivity density, trabecular thickness, trabecular number, trabecular separation, tissue mineral density, and volumetric BMD.",
+        "Bone mechanical property assessment: We will then perform compression tests to determine mechanical parameters including Young's modulus, ultimate strength, and yield strength.",
+        "Statistical testing of associations: Statistical analysis will involve group comparisons using appropriate tests for normally and non-normally distributed data. We will perform correlation analyses using Spearman correlation to examine relationships between inflammatory markers, Wnt signaling components, and bone mechanical properties.",
+        "Body composition and BMD assessment: We will also conduct DXA scans to assess body composition, bone mineral density, and visceral adipose tissue measurements.",
+        "Covariate collection: Clinical characteristics including fasting glucose, HbA1c, lipid profiles, and kidney function parameters will be recorded.",
+        "Participant eligibility control: We will exclude participants with diseases affecting bone metabolism, inflammatory conditions, malignancy, or those taking medications that affect bone metabolism."
+    ]
+}
